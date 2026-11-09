@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/983cc392-1b01-4172-bc1d-2df001baeb3d',
@@ -50,6 +51,7 @@ export default defineGkdApp({
       desc: '关闭截屏时app弹出的分享弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
@@ -89,8 +91,13 @@ export default defineGkdApp({
       actionMaximum: 1,
       resetMatch: 'app',
       activityIds: 'com.autonavi.map.activity.NewMapActivity',
-      rules:
-        'ImageView[visibleToUser=true][width<90][height<90] < @ViewGroup -(2) ViewGroup > ViewGroup > View[text*="签到"||text*="成长值"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            'ImageView[visibleToUser=true][width<90][height<90] < @ViewGroup -(2) ViewGroup > ViewGroup > View[text*="签到"||text*="成长值"]',
+        },
+      ],
       snapshotUrls: [
         'https://i.gkd.li/i/12642842',
         'https://i.gkd.li/i/12642845',
@@ -187,6 +194,7 @@ export default defineGkdApp({
       desc: '点击[一键点亮]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
@@ -206,6 +214,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches: '@ImageView[clickable=true] -2 [text="授权蓝牙"]',

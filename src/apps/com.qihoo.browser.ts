@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: '.browser.download.ui.DownloadDetailActivity',
           matches:
             'LinearLayout[childCount=3] > TextView[text!=null] + @FrameLayout[id!=null][clickable=true][childCount=1] > ImageView[childCount=0][visibleToUser=true]',

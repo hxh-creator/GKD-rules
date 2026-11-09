@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.app.dialog.UpdateDialog',
           matches:
             '@[id="com.xmcy.hykb:id/iv_inner_button_close"] - RelativeLayout >n [id="com.xmcy.hykb:id/text_update_tip"]',
@@ -32,6 +33,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xmcy.hykb.app.ui.main.MainActivity',
           matches: '[id="com.xmcy.hykb:id/dialog_home_notice_image_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13259427',

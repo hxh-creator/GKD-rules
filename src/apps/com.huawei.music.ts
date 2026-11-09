@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'clickCenter',
           matches:
@@ -28,6 +29,7 @@ export default defineGkdApp({
       activityIds: 'com.android.mediacenter.MainActivity',
       rules: [
         {
+          key: 0,
           matches:
             'TextView[id="com.huawei.music:id/live_info"] < LinearLayout -2 [id="com.huawei.music:id/close_button"]',
           snapshotUrls: 'https://i.gkd.li/i/13067649',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.android.mediacenter.PageActivity',

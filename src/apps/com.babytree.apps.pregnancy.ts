@@ -34,6 +34,7 @@ export default defineGkdApp({
       activityIds: 'com.babytree.apps.pregnancy.activity.SailfishActivity',
       rules: [
         {
+          key: 0,
           matches:
             'ImageView[id="com.babytree.apps.pregnancy:id/bb_referenced_active_dialog_img_2"] + ImageView[id!=null][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12614834',
@@ -46,6 +47,7 @@ export default defineGkdApp({
       activityIds: 'com.babytree.apps.pregnancy.activity.SailfishActivity',
       rules: [
         {
+          key: 0,
           matches:
             'ImageView[id!=null][clickable=false] + @ImageView[id!=null][clickable=true] + FrameLayout[id=null] > TextView[text=null][id!=null]',
           snapshotUrls: 'https://i.gkd.li/i/12614838',

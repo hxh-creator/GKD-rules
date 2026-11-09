@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.njh.ping.speedup.detail.fragment.LaunchVPNActivity',
           matches: '[vid="iv_listitem_dislike"][visibleToUser=true]',

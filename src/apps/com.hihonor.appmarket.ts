@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[vid="tv_operation_skip"]',
           exampleUrls: 'https://e.gkd.li/549d5fc1-20a2-42aa-b249-4cc8896807e6',
           snapshotUrls: 'https://i.gkd.li/i/16406381',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.hihonor.android.launcher.unihome.UniHomeLauncher',
             'com.hihonor.appmarket.module.main.MainActivity',
@@ -46,6 +48,7 @@ export default defineGkdApp({
       name: '局部广告-悬浮窗小广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.module.main.MainActivity',
           matches: '[id="com.hihonor.appmarket:id/iv_floating_close"]',
@@ -62,6 +65,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: '.module.main.MainActivity',
           matches:
             'TextView[text="接收通知"] < LinearLayout < LinearLayout +n [id="android:id/buttonPanel"] Button[text="否"]',
@@ -78,6 +82,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.module.main.MainActivity',
           matches: [

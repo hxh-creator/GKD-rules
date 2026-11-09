@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baiji.jianshu.ui.splash.SplashScreenActivity',
           matches: '[id="com.jianshu.haruki:id/dialog_lucky_prize_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13327286',
@@ -49,6 +50,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.baiji.jianshu.MainActivity',
           matches: 'ImageView[vid="nativeAdClose"]',

@@ -65,6 +65,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12826382',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点击不感兴趣',
           matches:
@@ -93,6 +94,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.MTMainActivity',

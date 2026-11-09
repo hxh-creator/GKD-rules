@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
           snapshotUrls: [
@@ -32,6 +33,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ct.client.activity.UserGuideActivity',
           matches: '[id="com.ct.client:id/tvSkip"]',
           snapshotUrls: 'https://i.gkd.li/i/12508971',
@@ -47,6 +49,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.activity.MainActivity',
             '.activity.SplashActivity',
@@ -70,6 +73,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.ct.client.common.ConfirmDialogActivity',
             'com.ct.client.activity.MainActivity',
@@ -87,7 +91,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       // fastQuery: true, 实机测试使用无法跳过
       activityIds: 'com.ct.client.common.webview.OnlineBusinessWebkitActivity',
-      rules: 'Image[text="tishi-close"]',
+      rules: [{ key: 0, matches: 'Image[text="tishi-close"]' }],
       snapshotUrls: 'https://i.gkd.li/i/12913804',
     },
     {
@@ -119,6 +123,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ct.client.MainActivity',
           matches: '[id="com.ct.client:id/close"]',
@@ -127,6 +132,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/14133742',
         },
         {
+          key: 1,
           activityIds: 'com.ct.client.activity.MainActivity',
           matches: '[id="com.ct.client:id/ivFloatClose"]',
           exampleUrls:
@@ -143,6 +149,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ct.client.activity.MainActivity',
           matches: '[vid="ivFloatClose"]',
@@ -184,6 +191,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 2,
           // 点击一键登录
           preKeys: [1],
           fastQuery: true,

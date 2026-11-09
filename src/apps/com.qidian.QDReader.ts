@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'clickCenter',
           matches:
@@ -56,6 +57,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.bll.helper.z0',
             '.ui.activity.MainGroupActivity',
@@ -77,6 +79,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.qidian.QDReader.ui.activity.MainGroupActivity',
             'com.tencent.mm.plugin.webview.ui.tools.SDKOAuthUI',
@@ -105,6 +108,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.afollestad.materialdialogs.MaterialDialog',
           matches:
             '@[id="com.qidian.QDReader:id/ivClose"] + [text^="开启推送"]',
@@ -137,6 +141,7 @@ export default defineGkdApp({
       desc: '自动点击"登录"',
       rules: [
         {
+          key: 0,
           activityIds: 'com.qidian.QDReader.ui.activity.QDBrowserActivity',
           matches: '[id="scanLogin"]',
           snapshotUrls: 'https://i.gkd.li/i/12903081',
@@ -149,6 +154,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.qidian.QDReader.flutter.DailyReadingMainPageActivity',
           matches: 'View[desc="更多游戏"] - ImageView[clickable=true]',
@@ -162,6 +168,7 @@ export default defineGkdApp({
       desc: '点击[知道了]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.activity.QDBrowserActivity',
           matches:
@@ -181,6 +188,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.qidian.QDReader.ui.activity.hongbao_square.NewHongBaoSquareActivity',
@@ -195,6 +203,7 @@ export default defineGkdApp({
       name: '功能类-移动网络下自动点击播放视频',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.qidian.QDReader.ui.activity.QDBrowserActivity',
           matches: [
@@ -224,6 +233,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           fastQuery: true,
           activityIds: '.ui.activity.QDBrowserActivity',

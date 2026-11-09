@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-底部卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.lynx.boot.LynxActivity',
           matches: '[id="com.dz.xmbnxj:id/mix_img_close"]',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.TongchengMainActivity',
           matches: '[vid="iv_home_ad_close"][visibleToUser=true]',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.TongchengMainActivity',
           matches: [

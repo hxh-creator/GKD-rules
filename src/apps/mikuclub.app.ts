@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           forcedTime: 10000,
           activityIds: 'com.google.android.gms.ads.AdActivity',
           matches: '[text^="关闭广告"] + View >2 Image[text=""]',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '@[vid^="tv_jump"][visibleToUser=true] - [vid="splash_ad_layout"]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jingdong.app.mall.MainFrameActivity',
           matches:

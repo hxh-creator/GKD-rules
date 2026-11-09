@@ -26,6 +26,7 @@ export default defineGkdApp({
       name: '局部广告-右侧悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xinhang.mobileclient.home.activity.HomeActivity',
           matches:
             '@[id="com.xinhang.mobileclient:id/iv_close"] + [id="com.xinhang.mobileclient:id/iv_advert"]',

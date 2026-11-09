@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告-首页弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf',
           matches:
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '局部广告-首页浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf',
           matches: '[id="com.heytap.reader:id/float_delete"]',
@@ -37,6 +39,7 @@ export default defineGkdApp({
       name: '局部广告-今日推荐',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,

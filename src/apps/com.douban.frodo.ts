@@ -151,6 +151,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/19621152',
         },
         {
+          key: 0,
           preKeys: [1, 2, 3, 4],
           activityIds: [
             '.activity.SplashActivity',
@@ -181,6 +182,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.SplashActivity',
           matches: [
             '[text^="喜欢豆瓣吗"][visibleToUser=true]',
@@ -307,6 +309,7 @@ export default defineGkdApp({
       desc: '点击[取消]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.subject.structure.activity.MovieActivity',
           matches: [

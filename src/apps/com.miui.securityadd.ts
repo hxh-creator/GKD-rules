@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.miui.gamebooster.GameBoosterRichWebActivity',
           matches:
             '[text="活动图片"] +2 @Image[clickable=true][childCount=0][visibleToUser=true] <<n [vid="content_view"]',

@@ -73,6 +73,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.netdisk.ui.MainActivity',
           matches: '[vid="view_score_style"] > [text="以后再说"]',
           exampleUrls:
@@ -90,6 +91,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[vid="dialog_cancel"]',
           exampleUrls:
             'https://m.gkd.li/57941037/06ae328b-f852-407b-83ab-ec295d41baa4',
@@ -103,6 +105,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.baidu.netdisk.filealbum.ui.activity.FileAlbumListActivity',

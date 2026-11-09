@@ -141,6 +141,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.view.main.MainActivity',
             '.view.splash.SplashActivity',
@@ -159,6 +160,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.view.search.SuperSearchResultActivity',
@@ -179,6 +181,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.view.search.SuperSearchResultActivity',
           matches:

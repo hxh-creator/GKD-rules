@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.SplashActivity',
           matches: '@[desc="关闭"] - LinearLayout > [text="立即升级"]',
           snapshotUrls: 'https://i.gkd.li/i/13328430',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.SplashActivity',
           matches: ['[text="开启推送通知"]', '[text="暂不开启"]'],
           snapshotUrls: 'https://i.gkd.li/i/13456568',
@@ -43,6 +45,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.article.video.activity.SplashActivity',
           matches: '@FlattenUIImage[clickable=true] -2 [text="开心收下"]',
           snapshotUrls: 'https://i.gkd.li/i/13620299',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'clickCenter',
           matches:
@@ -27,6 +28,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '@TextView[width<130&&height<130][clickable=true] + * > [text="开会员享专属曲库"]',

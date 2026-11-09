@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.uilauncher.MainActivity',
           matches: '[id="com.xt.retouch:id/market_feedback_dialog_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13062637',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zero.flutter_qq_ads.page.AdSplashActivity',
           matches:

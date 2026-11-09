@@ -75,6 +75,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xuexiaoyi.entrance.main.MainActivity',
           matches: '[text="立即体验"] + [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13203105',

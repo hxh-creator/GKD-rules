@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.pro.subscription.SubscribeActivity',
           matches: ['[text^="解鎖所有功能"]', '[vid="close_button"]'],

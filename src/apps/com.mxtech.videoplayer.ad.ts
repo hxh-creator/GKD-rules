@@ -10,6 +10,7 @@ export default defineGkdApp({
       activityIds: 'com.mxtech.videoplayer.ad.ActivityMediaList',
       rules: [
         {
+          key: 0,
           matches:
             '[desc="Advertisement"] + View >(2) View + Button[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12642204',

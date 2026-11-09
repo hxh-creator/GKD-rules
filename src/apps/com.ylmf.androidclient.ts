@@ -65,6 +65,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ylmf.androidclient.UI.UpdateVersionActivity',
           matches: '@[desc="转到上一层级"] + [text="更新版本"]',
           exampleUrls:

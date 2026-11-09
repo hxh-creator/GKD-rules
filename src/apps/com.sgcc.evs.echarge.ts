@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.evs.echarge.dev.ui.advertisement.SplashActivity',
             'com.evs.echarge.dev.ui.MainActivity',

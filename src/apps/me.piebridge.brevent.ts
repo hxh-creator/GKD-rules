@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'me.piebridge.brevent.ui.BreventActivity',
           matches: ['[text^="黑阈服务权限不足"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/13218439',

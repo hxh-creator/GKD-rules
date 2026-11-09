@@ -45,6 +45,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.shop2.activity.MainActivity',
           matches:
             '[id="com.xiaomi.shop.plugin.homepage:id/home_bottom_float_close_btn"]',
@@ -60,6 +61,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           position: {
             left: 'width * 0.3509',
             top: 'width * 1.4046',
@@ -76,6 +78,7 @@ export default defineGkdApp({
       name: '评价提示-客服',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.miot.store.mirn.RNMainActivity',
           matches:

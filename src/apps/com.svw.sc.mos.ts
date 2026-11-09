@@ -36,6 +36,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,
@@ -53,6 +54,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.ui.MainActivity',
           matches: '[vid="close_contain"][visibleToUser=true]',

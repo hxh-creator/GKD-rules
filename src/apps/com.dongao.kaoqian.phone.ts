@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="tv_welcome_guide"]',
           snapshotUrls: 'https://i.gkd.li/i/14809185',

@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bbk.theme.Theme',
           matches: '[vid="card_close_img"]',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '@[vid="cancel"] + * > [text="智慧桌面"]',
           exampleUrls:

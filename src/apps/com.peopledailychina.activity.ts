@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.peopledailychina.activity.activity.MainActivity',
           matches: '[vid="advert_iv_del"][visibleToUser=true]',

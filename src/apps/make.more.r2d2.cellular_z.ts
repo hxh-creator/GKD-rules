@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MonitorActivity',
           matches: ['[text="发现新版本"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/13608563',

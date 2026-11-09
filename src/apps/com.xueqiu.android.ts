@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-信息流广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.xueqiu.android.mainnesting.view.MainNestingActivity',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '局部广告-评论区广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xueqiu.android.community.StatusDetailActivity',
           matches: '[id="com.xueqiu.android:id/ad_card_close"]',
@@ -42,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.mainnesting.view.MainNestingActivity',
           matches: '[vid="image_cancel"][visibleToUser=true]',

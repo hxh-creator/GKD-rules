@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[text="关闭"]',
           snapshotUrls: 'https://i.gkd.li/i/13725305',
         },
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ruipeng.zipu.ui.main.uniauto.UniautoHomeActivity',
           matches: '[text="今日不再提示"]',
           snapshotUrls: 'https://i.gkd.li/i/13725337',

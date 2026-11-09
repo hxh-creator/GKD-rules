@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.MainActivity',
           matches:
             '[vid="ad_content"] < * - [clickable=true][vid="not_prompt_again"]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.MainActivity',
           matches:
             '@[vid="Agree_and_continue"] <<2 * - [vid="layout_title"] >2 [vid="tv_privacy_content"]',

@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaoe.app.ui.main.XiaoeMainActivity',
           matches: 'FrameLayout[vid="centerPopupContainer"] [text="暂不更新"]',
           snapshotUrls: 'https://i.gkd.li/i/13832282',

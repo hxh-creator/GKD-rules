@@ -12,7 +12,13 @@ export default defineGkdApp({
         'com.jim.qrcode.MainActivity',
         'com.miui.home.launcher.Launcher',
       ],
-      rules: 'TextView[text.length>0] < FrameLayout + FrameLayout > ImageView',
+      rules: [
+        {
+          key: 0,
+          matches:
+            'TextView[text.length>0] < FrameLayout + FrameLayout > ImageView',
+        },
+      ],
       snapshotUrls: [
         'https://i.gkd.li/i/12606861',
         'https://i.gkd.li/i/12606862',

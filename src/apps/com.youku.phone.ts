@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.youku.vip.wrapper.VipHomeActivity',
           matches: '[id="com.youku.phone:id/closeView"][desc="关闭弹层"]',
           snapshotUrls: 'https://i.gkd.li/i/12701029',
@@ -98,6 +99,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/16925043',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="就是不感兴趣"]',
           exampleUrls: 'https://e.gkd.li/be57974c-6656-4619-aed8-c61421f6a748',

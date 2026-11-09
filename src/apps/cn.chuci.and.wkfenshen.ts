@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.chuci.and.wkfenshen.ActMain',
           matches: [
             '[id="cn.chuci.and.wkfenshen:id/dialog_local_buy_btn"]',

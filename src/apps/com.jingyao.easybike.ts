@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
           matches: '@ImageView + [vid="contentContainer"] >2 [text*="新版本"]',
           snapshotUrls: 'https://i.gkd.li/i/16108173',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.yanzhenjie.permission.PermissionActivity',
             'com.hellobike.atlas.business.portal.PortalActivity',
@@ -49,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
           matches: ['[text="系统定位服务已关闭"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/13228677',
@@ -116,8 +119,13 @@ export default defineGkdApp({
       name: '局部广告-右侧悬浮广告',
       fastQuery: true,
       activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
-      rules:
-        '@[id="com.jingyao.easybike:id/closeFloatArea"] + [id="com.jingyao.easybike:id/floatADContainer"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '@[id="com.jingyao.easybike:id/closeFloatArea"] + [id="com.jingyao.easybike:id/floatADContainer"]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12650071',
     },
     {
@@ -127,6 +135,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches:
             '@View[text="跳过"] <2 View <2 View <<n FrameLayout[id="com.jingyao.easybike:id/h5_pc_container"]',

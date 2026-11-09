@@ -10,6 +10,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           actionDelay: 500,
           fastQuery: true,
           activityIds: '.InCallActivity',

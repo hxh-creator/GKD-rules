@@ -14,6 +14,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds:
             'com.aster.comic.app.view.bookdetails.BookdetailsActivity',
           matches: '[id="com.paokeji.yiqu:id/btnCancel"]',
@@ -160,6 +161,7 @@ export default defineGkdApp({
       actionMaximum: 3,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.aster.comic.app.view.reader.ReaderActivity',
           matches: '@[clickable=true] > [text="点我重试"]',

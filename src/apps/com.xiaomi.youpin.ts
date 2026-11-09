@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.xiaomi.youpin.globalpopwindow.popwindow.PopWindowActivity',
           matches:
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.globalpopwindow.popwindow.PopWindowActivity',
           matches: '[id="com.xiaomi.youpin:id/ypd_alert_close_image"]',
           snapshotUrls: 'https://i.gkd.li/i/12836775',
@@ -39,6 +41,7 @@ export default defineGkdApp({
       name: '局部广告-主页贴片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.youpin.activity.YouPinMainTabActivity',
           matches: '[vid="iv_float_close"]',

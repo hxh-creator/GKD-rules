@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[播放]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.weico.international.activity.MainFragmentActivity',
           matches: '[id="com.sina.weibocare:id/ed_btn_positive"][text="播放"]',

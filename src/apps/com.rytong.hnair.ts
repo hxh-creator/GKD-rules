@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.hnair.airlines.ui.main.MainActivity',
           matches: 'ImageView[id*="com.rytong.hnair:id/iv_cloes"]',
           snapshotUrls: 'https://i.gkd.li/i/12846381',

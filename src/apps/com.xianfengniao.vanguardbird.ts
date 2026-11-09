@@ -17,6 +17,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/24839618',
         },
         {
+          key: 0,
           preKeys: [1],
           matches: '[vid="tv_cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/24839655',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       desc: '个人页点击签到',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.common.activity.MainActivity',
           matches: '@[clickable=true] > [text="点击签到"][visibleToUser=true]',

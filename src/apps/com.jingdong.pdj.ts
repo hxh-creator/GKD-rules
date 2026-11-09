@@ -35,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.plunginupdate.update.UpdateDialogActivity',
           matches: 'Button[text="暂不安装"]',
           snapshotUrls: 'https://i.gkd.li/i/13217634',

@@ -14,6 +14,7 @@ export default defineGkdApp({
       activityIds: 'com.example.flutter3_frame.MainActivity',
       rules: [
         {
+          key: 0,
           action: 'back',
           matches:
             'FrameLayout > View > View > View[index=0] > View > ImageView[childCount=1] + View[clickable=true && desc=null]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       activityIds: 'com.example.flutter3_frame.MainActivity',
       rules: [
         {
+          key: 0,
           action: 'back',
           matches: '[desc="公告"] +2 [desc="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12836854',

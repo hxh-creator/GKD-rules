@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '[desc*="跳过"][desc.length<10][width<500 && height<200][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/882f36c1-d172-436f-a43e-194d75940886',

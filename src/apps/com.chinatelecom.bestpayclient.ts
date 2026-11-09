@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.MainActivity',
           matches:
             '[id="com.chinatelecom.bestpayclient:id/bupdate_tv_bottom_tip"]',
@@ -124,6 +125,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches:
             'View[childCount=2] > @View[index=1][clickable=true][childCount=1] > Image[childCount=0] <<n [id="com.chinatelecom.bestpayclient:id/h5_pc_container"]',

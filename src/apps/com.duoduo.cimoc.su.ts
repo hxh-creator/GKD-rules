@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.duoduo.cimoc.su.MainActivity',
           matches:
@@ -27,6 +28,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.duoduo.cimoc.su.MainActivity',
           matches:
@@ -41,6 +43,7 @@ export default defineGkdApp({
       desc: '关闭视频播放页、搜索页广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.duoduo.cimoc.su.MainActivity',
           matches:

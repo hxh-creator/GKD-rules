@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           excludeActivityIds:
             'com.baicizhan.client.business.webview.ui.BczWebActivity',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baicizhan.main.activity.MainTabActivity',
           matches:
             '@ImageView[clickable=true][visibleToUser=true] -2 [text="反馈"]',
@@ -49,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baicizhan.main.activity.MainTabActivity',
           matches: '[text="抢先体验"] - [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13488652',
@@ -60,6 +63,7 @@ export default defineGkdApp({
       name: '通知提示-关闭顶栏提醒',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baicizhan.main.activity.MainTabActivity',
           matches:
             '[desc="word_plan_tab"] > FrameLayout[index=2] >2 TextView[text!=null] + ImageView[clickable=true][childCount=0][index=parent.childCount.minus(1)]',

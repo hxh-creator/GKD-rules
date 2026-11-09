@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jd.jxj.modules.main.SlidingTabActivity',
           matches: '[vid="popup_close_imgid"]',

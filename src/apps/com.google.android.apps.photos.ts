@@ -14,6 +14,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: [
             '.update.treatment.UpdateAppTreatmentPromoPageActivity',
             '.home.HomeActivity',

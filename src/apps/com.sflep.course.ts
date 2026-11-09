@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击确定',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.ClassActivity',
           matchTime: 10000,
@@ -26,6 +27,7 @@ export default defineGkdApp({
       name: '更新提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: ['[text^="最新版本"]', '[text="以后再说"]'],
           snapshotUrls: [
@@ -41,6 +43,7 @@ export default defineGkdApp({
       desc: '点击确定',
       rules: [
         {
+          key: 0,
           activityIds: 'com.sflep.course.activity.ClassActivity',
           matches:
             '@[text="确认"][clickable=true] <n * - [text="系统将自动保存已答题记录，确认中断本次考试？"] <<n Dialog',

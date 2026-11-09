@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.xiaomi.mitv.phone.remotecontroller.HoriWidgetMainActivityV2',
           matches:
@@ -26,6 +27,7 @@ export default defineGkdApp({
       name: '局部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.xiaomi.mitv.phone.remotecontroller.HoriWidgetMainActivityV2',

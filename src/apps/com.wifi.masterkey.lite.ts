@@ -18,6 +18,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/22801665',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="不感兴趣"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/1b66dbd9-85b7-4287-bf3c-7d6723b8afe8',

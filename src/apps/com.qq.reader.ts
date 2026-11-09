@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.qq.reader.activity.MainActivity',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.upgrade.ui.UpgradeDialogActivity',
           matches: '[vid="upgrade_dialog_close_btn"][clickable=true]',
           exampleUrls:

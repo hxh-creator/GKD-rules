@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text^="开启通知"] +2 [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/14622639',
         },

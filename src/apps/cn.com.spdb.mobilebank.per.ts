@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.web.stage.StageCommonWebActivity',
           matches: '[text="去开启"] + View > Image[text.length=0]',
           snapshotUrls: 'https://i.gkd.li/i/13458535',

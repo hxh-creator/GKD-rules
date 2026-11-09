@@ -58,6 +58,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12791122',
         },
         {
+          key: 0,
           preKeys: [1, 2, 3, 4, 5],
           name: '点击不感兴趣',
           matches:
@@ -134,6 +135,7 @@ export default defineGkdApp({
       activityIds: 'com.mygolbs.mybus.RTimeActivity',
       rules: [
         {
+          key: 0,
           name: '点击右侧x关闭按钮',
           matches: '[id="com.mygolbs.mybus:id/ad_close2"]',
           snapshotUrls: 'https://i.gkd.li/i/12790841',
@@ -149,6 +151,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.defines.CustomDialog',
           matches: ['[text$="请开启通知权限"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/12715980',
@@ -161,6 +164,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mygolbs.mybus.guligold.SignSuccessActivity',
           matches:
             '@[id="com.mygolbs.mybus:id/iv_close"] < RelativeLayout - LinearLayout >n [text="签到成功"]',

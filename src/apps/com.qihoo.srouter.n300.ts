@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ifenglian.superapp.ui.firewall.SAMainActivity',
           matches: '[vid="app_update_later_button"]',
           snapshotUrls: 'https://i.gkd.li/i/13800011',

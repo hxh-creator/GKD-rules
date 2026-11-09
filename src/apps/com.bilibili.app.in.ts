@@ -30,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'tv.danmaku.bili.MainActivityV2',
           matches: ['[text="鼓励一下"]', '[text="下次再说"]'],
           snapshotUrls: 'https://i.gkd.li/i/13180746',
@@ -45,6 +46,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.bilibili.bplus.im.communication.HomeCommunicationActivity',
           matches: ['[text="订阅感兴趣的通知"]', '[text="暂不开启"]'],
@@ -82,6 +84,7 @@ export default defineGkdApp({
       name: '功能类-自动领取会员经验',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bilibili.vip.web.VipWebActivity',
           matches:
@@ -101,6 +104,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bilibili.video.story.StoryVideoActivity',
           matches: '[vid="story_ctrl_router"][visibleToUser=true]',

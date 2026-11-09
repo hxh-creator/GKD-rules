@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.cn21.ecloud.activity.MainPageActivity',
           matches:
             'FrameLayout > View[childCount=1] > View[childCount=1] >(1,4) View[childCount=2][desc=null] > @ImageView[clickable=true][visibleToUser=true] <<n [vid="content_frame"]',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainPageActivity',
           matches: '[id="com.cn21.ecloud:id/ivCancel"]',
           snapshotUrls: 'https://i.gkd.li/i/13399488',

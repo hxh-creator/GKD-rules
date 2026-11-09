@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.tmri.app.ui.activity.main.MainTabHostNewActivity',
             'com.tmri.app.ui.activity.main.TmriNewActivity',
@@ -48,6 +50,7 @@ export default defineGkdApp({
       desc: '点击[确认]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tmri.app.ui.activity.main.MainTabHostNewActivity',
           matches: ['[text="是否确认退出?"]', '[text="确认"]'],
@@ -64,6 +67,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tmri.app.ui.activity.main.MainTabHostNewActivity',
           matches: ['[text="立即更新"]', '[text="以后再说"]'],
           snapshotUrls: 'https://i.gkd.li/i/15751656',

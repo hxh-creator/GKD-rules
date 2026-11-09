@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.modules.main.MainActivity',
             '.modules.h5service.H5WebActivity',
@@ -35,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.modules.main.MainActivity',
           matches: 'TextView[id="com.hd.smartVillage:id/tv_upgrade_cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/13223642',

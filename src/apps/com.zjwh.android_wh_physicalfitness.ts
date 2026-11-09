@@ -219,6 +219,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 2,
           preKeys: [0, 1],
           fastQuery: true,
           matches:
@@ -284,6 +285,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.mvi.home.HomeActivity',
           matches: [

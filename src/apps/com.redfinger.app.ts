@@ -13,6 +13,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches:
             '[id="com.redfinger.app:id/btn_update"] + [id="com.redfinger.app:id/iv_close"]',

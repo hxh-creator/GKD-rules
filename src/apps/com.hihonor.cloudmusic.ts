@@ -34,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches: '[vid="dsl_dialog_root"]',

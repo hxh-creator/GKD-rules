@@ -30,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[text="朋友推荐"] +2 [id="com.ss.android.ugc.aweme.lite:id/close"][clickable=true]',
@@ -47,6 +48,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '[text="及时获得消息提醒"] +2 [text="暂不开启"]',
           snapshotUrls: 'https://i.gkd.li/i/13888485',
@@ -58,6 +60,7 @@ export default defineGkdApp({
       name: '功能类-选择图片时自动勾选原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.ss.android.ugc.aweme.im.sdk.media.choose.MediaChooseActivity',
@@ -97,6 +100,7 @@ export default defineGkdApp({
       desc: 'x掉',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '@ImageView[clickable=true] - [text$="桌面小组件"]',

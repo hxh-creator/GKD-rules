@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.component.about.FindAppUpgradeActivity',
           matches: [
             '[text="发现新版本"][visibleToUser=true]',
@@ -35,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.component.detail.DeviceDetailActivity',
           matches: [
             '[text="耳机固件更新"][visibleToUser=true]',

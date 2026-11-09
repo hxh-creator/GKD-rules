@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jovision.saas.multiplay.ui.JVMultiPlayActivity',
           matches:
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jovision.saas.ui.activity.main.MainActivity',
           matches:

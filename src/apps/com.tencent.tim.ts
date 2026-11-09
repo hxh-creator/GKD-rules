@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-自动点击查看原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.tencent.mobileqq.richmediabrowser.AIOGalleryActivity',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.tencent.mobileqq.activity.SplashActivity',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: [
             '[text="更新 Telegram"]',
             '@View[clickable=true] + [text="请稍后提醒我"]',

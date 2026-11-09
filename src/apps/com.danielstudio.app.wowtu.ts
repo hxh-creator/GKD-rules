@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击图片左下角[HD]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.ImageGalleryActivity',
           matches: '[vid="hd_image"][visibleToUser=true]',

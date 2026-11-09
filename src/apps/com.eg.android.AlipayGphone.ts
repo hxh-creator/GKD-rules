@@ -202,6 +202,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
           matches:
@@ -216,6 +217,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.alipay.android.msp.ui.views.MspContainerActivity',
             'com.alipay.android.phone.businesscommon.ucdp.nfc.activity.NResPageActivity',
@@ -288,6 +290,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.alipay.android.msp.ui.views.MspContainerActivity',
           matches: [
@@ -459,6 +462,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverTransActivity$Main',
@@ -476,6 +480,7 @@ export default defineGkdApp({
       desc: '点击[放弃升级，直接付款]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
@@ -495,6 +500,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$XRiverLite1',
@@ -510,6 +516,7 @@ export default defineGkdApp({
       name: '功能类-自动授权登录',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionMaximum: 1,
           action: 'clickCenter', // clickNode可能无效
@@ -558,6 +565,7 @@ export default defineGkdApp({
       resetMatch: 'activity',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
           matches: [
@@ -578,6 +586,7 @@ export default defineGkdApp({
       desc: '点击[全部领取]',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
           matches:
@@ -596,6 +605,7 @@ export default defineGkdApp({
       name: '功能类-无法访问时点击[返回]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
@@ -623,6 +633,7 @@ export default defineGkdApp({
       name: '其他-滑动验证时返回',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'back',
           activityIds:
@@ -640,6 +651,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.alipay.android.msp.ui.views.MspContainerActivity',
           matches: [
@@ -655,6 +667,7 @@ export default defineGkdApp({
       name: '功能类-确认清理已选中的缓存',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',

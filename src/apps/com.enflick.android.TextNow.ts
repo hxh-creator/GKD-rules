@@ -20,6 +20,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13630460',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[id="android:id/button2"][text="SKIP"]',
           snapshotUrls: 'https://i.gkd.li/i/13630463',
@@ -34,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.enflick.android.TextNow.activities.MainActivity',
           matches:
             '@ImageView[clickable=true] <2 [id="com.enflick.android.TextNow:id/calling_banner"]',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.vmos.pro.activities.main.MainActivity',
           matches: '[text="不再显示本活动"]',
           snapshotUrls: 'https://i.gkd.li/i/13536416',

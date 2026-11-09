@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver',
           matches: [

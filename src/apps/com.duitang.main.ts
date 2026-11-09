@@ -38,6 +38,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.business.main.NAMainActivity',
           matches: '[vid="scoreDuitangCancel"]',
           snapshotUrls: 'https://i.gkd.li/i/14273094',
@@ -50,6 +51,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.duitang.main.business.display.ImageActivity',
@@ -73,6 +75,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.business.main.NAMainActivity',
           matches: '@[vid="dialogNegative"] +2 [text="打开通知"]',
           snapshotUrls: 'https://i.gkd.li/i/14273121',

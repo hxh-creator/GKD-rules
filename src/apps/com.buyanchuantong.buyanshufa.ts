@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.buyanchuantong.buyanshufa.SplashActivity',
           matches: '[text^="点击跳过"]',
           snapshotUrls: 'https://i.gkd.li/i/13425296',

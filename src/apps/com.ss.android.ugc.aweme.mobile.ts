@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '@[text="暂时不要"] +2 [text="发现好友"]',
           exampleUrls:
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '[text^="你还没有开启位置权限"] +2 * > [text="以后再说"]',

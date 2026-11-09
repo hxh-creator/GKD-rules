@@ -172,6 +172,7 @@ export default defineGkdApp({
       activityIds: 'com.copymanga.app.MainActivity',
       rules: [
         {
+          key: 0,
           matches: '@[desc="就这样吧"] + [desc^="赞助免广告"]',
           snapshotUrls: 'https://i.gkd.li/i/12851627',
         },
@@ -185,6 +186,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="进入拷贝漫画"]',
           snapshotUrls: 'https://i.gkd.li/i/13233179',
@@ -199,6 +201,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="系统提示"] +2 [desc="确定"]',
           exampleUrls:

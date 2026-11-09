@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击右侧x',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.wps.yun.ui.IndexActivity',
           matches:
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.IndexActivity',
           matches: '[text="发现新版本"] +3 [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/14333103',
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.IndexActivity',
           matches: '[text="开启推送通知"] +2 * > [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/14333362',

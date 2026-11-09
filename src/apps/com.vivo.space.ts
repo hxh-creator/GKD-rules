@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[vid="timer" || vid="jump_over"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/e531ea4e-874f-4da4-bcf1-f585887f753c',
           snapshotUrls: [
@@ -32,6 +33,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.vivo.space.ui.VivoSpaceTabActivity',
           matches:
             'View[childCount=2] > @[index=1][clickable=true][visibleToUser=true][childCount=0] <<n [id="com.vivo.space:id/floating_window_web"]',
@@ -52,6 +54,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.VivoSpaceTabActivity',
           matches: 'Button[id="com.vivo.space:id/vbutton_title"][text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13771581',

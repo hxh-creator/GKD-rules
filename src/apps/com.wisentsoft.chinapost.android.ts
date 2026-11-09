@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '@ImageView[clickable=true] <2 LinearLayout <3 ViewGroup < [vid="ll_main"]',
           snapshotUrls: 'https://i.gkd.li/i/15914347',

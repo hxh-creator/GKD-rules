@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '权限提示-通知提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.remote.app.ui.activity.MainActivity',
           matches: [

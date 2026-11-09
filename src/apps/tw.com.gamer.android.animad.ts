@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击同意',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'tw.com.gamer.android.animad.VideoActivity',
           matches:

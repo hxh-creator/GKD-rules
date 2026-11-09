@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-首页顶部横幅广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'chuxin.shimo.shimowendang.MainActivity',
           matches:

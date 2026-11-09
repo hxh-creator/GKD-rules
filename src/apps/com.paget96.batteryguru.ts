@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[移除广告]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'activities.MainActivity',
           matches: '[vid="remove_ads"][visibleToUser=true]',

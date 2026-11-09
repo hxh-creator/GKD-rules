@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.pmph.main.ad.AdActivity',
           matches: '[id="com.pmph.irenwei:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13897421',

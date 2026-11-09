@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="账号注册说明"] +2 [desc="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/13379070',

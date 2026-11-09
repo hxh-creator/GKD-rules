@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtc.widget.phone.popup.activity.CustomActivity14',
           matches: [
             '[text="App功能更新了"]',

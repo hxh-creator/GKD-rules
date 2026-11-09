@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.MainActivity',
           matches: '[vid="update_check_cancel_btn"][visibleToUser=true]',

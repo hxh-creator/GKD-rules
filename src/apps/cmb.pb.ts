@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cmb.pb.app.mainframe.container.PBMainActivity',
           matches: '[vid="float_window"] > [vid="ivCancle"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/14208669',
@@ -47,6 +48,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.app.h5container.webviewcontainer.PBWebContainerActivity',
             '.app.search.PBSearchWebActivity',

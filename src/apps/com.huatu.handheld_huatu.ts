@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.huatu.handheld_huatu.view.MainPopDialog',
             'com.huatu.handheld_huatu.business.main.MainTabActivity',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.business.main.MainTabActivity',
           matches: '[text*="开启通知提示"] +2 LinearLayout > [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/12715719',

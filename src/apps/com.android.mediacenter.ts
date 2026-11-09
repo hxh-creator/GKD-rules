@@ -30,7 +30,9 @@ export default defineGkdApp({
       desc: '点击底部圆形x图标关闭弹窗',
       activityIds: 'com.android.mediacenter.MainActivity',
       fastQuery: true,
-      rules: '[id="com.android.mediacenter:id/iv_close"]',
+      rules: [
+        { key: 0, matches: '[id="com.android.mediacenter:id/iv_close"]' },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12914026',
     },
     {

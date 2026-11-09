@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="rl_skip"][visibleToUser=true]', // 需点击 clickable=true 的节点才有效
           exampleUrls: 'https://e.gkd.li/b7adf229-631c-4c27-a07b-eb6e0e1854af',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[text="开启推送通知"] + [vid="tv_close"]',
           exampleUrls:

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'clickCenter',
           matches:
@@ -105,6 +106,7 @@ export default defineGkdApp({
       desc: '注意：会关闭年度报告邀请函弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tencent.qqmusiclite.activity.MainActivity',
           matches: '[id="com.miui.player:id/iv_close_dialog_button"]',
@@ -118,6 +120,7 @@ export default defineGkdApp({
       desc: '等待15s自动点击"退出"',
       rules: [
         {
+          key: 0,
           actionDelay: 15000,
           fastQuery: true,
           activityIds: 'com.tencentmusic.ad.tmead.reward.TMERewardActivity',

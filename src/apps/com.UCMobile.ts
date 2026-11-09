@@ -66,6 +66,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.uc.browser.InnerUCMobile',
           matches: '@ImageView - LinearLayout >n [text="开启消息通知"]',
           snapshotUrls: 'https://i.gkd.li/i/12880812',
@@ -78,6 +79,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.uc.browser.InnerUCMobile',
           matches: '@ImageView + [text^="添加"][text$="到桌面"]',
           snapshotUrls: 'https://i.gkd.li/i/12880983',

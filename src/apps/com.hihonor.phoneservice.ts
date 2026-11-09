@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.hihonor.phoneservice.main.MainActivity',
           matches: '[vid="ads_cancel"]',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.hihonor.phoneservice.main.MainActivity',
           matches:
             '[text^="开启定位权限"] + [id="com.hihonor.phoneservice:id/iv_close"]',

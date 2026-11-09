@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity',
           matches:
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.maincontainer.activity.MainActivity',
           matches: ['[text*="手机信息权限"]', '[text="取消"]'],
           exampleUrls: 'https://e.gkd.li/81e3e4d8-f297-4476-b22c-73f0b97879ee',
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.maincontainer.activity.MainActivity',
           matches: '[text="立即升级"] -2 [text="暂不升级"]',
           snapshotUrls: 'https://i.gkd.li/i/13832272',
@@ -142,6 +145,7 @@ export default defineGkdApp({
       name: '功能类-自动点击[查看原图]',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity',
           matches: '[desc="查看原图"][visibleToUser=true]',
@@ -156,6 +160,7 @@ export default defineGkdApp({
       name: '功能类-关闭小额免密支付',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.alipay.android.msp.ui.views.MspContainerActivity',
           matches:

@@ -1,23 +1,22 @@
 {
-  "name": "@hxh-creator/gkd_subscription",
+  "name": "@hxh-creator/gkd-rules",
   "version": "0.0.0",
   "type": "module",
-  "description": "hxh-creator 的 GKD 订阅规则",
+  "description": "GKD 订阅规则",
   "author": "hxh-creator",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hxh-creator/GKD_subscription.git"
+    "url": "git+https://github.com/hxh-creator/GKD-rules.git"
   },
   "bugs": {
-    "url": "https://github.com/hxh-creator/GKD_subscription/issues"
+    "url": "https://github.com/hxh-creator/GKD-rules/issues"
   },
-  "homepage": "https://github.com/hxh-creator/GKD_subscription#readme",
+  "homepage": "https://github.com/hxh-creator/GKD-rules#readme",
   "gkd": {
     "outDir": "dist",
     "file": "hxh-creator_gkd.json5",
     "versionFile": "hxh-creator_gkd.version.json5",
-    "changelog": "CHANGELOG.md",
-    "README.md": "README.md"
+    "changelog": "CHANGELOG.md"
   },
   "scripts": {
     "postinstall": "simple-git-hooks",

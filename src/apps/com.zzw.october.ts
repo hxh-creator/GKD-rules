@@ -60,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: ['.MainActivity', '.LaunchActivity'],
           anyMatches: [
@@ -83,6 +84,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '[text="暂不领取"][visibleToUser=true]',
@@ -96,6 +98,7 @@ export default defineGkdApp({
       name: '局部广告-浮标广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zzw.october.MainActivity',
           matches: '[vid="channel_banner_close_iv"]',

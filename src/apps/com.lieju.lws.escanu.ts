@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.jooan.qiaoanzhilian.ali.view.main_page.NewMainDeviceListActivity',
@@ -70,6 +71,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/17930498',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '@[clickable=true] > [text="不感兴趣"]',
           exampleUrls: 'https://e.gkd.li/a8a4aeb9-ee6a-4fde-80be-0e78e346f673',

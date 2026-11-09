@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="tv_jump_start_ad"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/6a6a6c4f-4a16-4a10-bb5c-2ce53ebe5e81',

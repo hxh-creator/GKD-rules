@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '@[clickable=true] >2 [text="关闭"]',
           snapshotUrls: 'https://i.gkd.li/i/13797162',
         },

@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '通知提示-各种提示弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'world.letsgo.booster.android.pages.home.HomeActivity',

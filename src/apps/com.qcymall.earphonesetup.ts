@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.qcymall.earphonesetup.v2ui.activity.V2MainActivity',
           matches: '[vid="close_img_banner"]',
           snapshotUrls: 'https://i.gkd.li/i/13874219',

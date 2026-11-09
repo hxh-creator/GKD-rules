@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -54,6 +55,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           forcedTime: 10000,
           matchTime: 10000,
@@ -74,6 +76,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tencent.videolite.android.ui.HomeActivity',
           matches: [
@@ -91,6 +94,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.videolite.android.business.videolive.VideoLiveActivity',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: ['.MainActivity', '.UpdateActivity'],
           matches: [
             '[vid="alertTitle"][text="开启智能更新" || text="Install automatically?"]',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       name: '功能类-流量更新点击继续下载',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.android.updater.UpdateActivity',
           matches: [
@@ -46,6 +48,7 @@ export default defineGkdApp({
       name: '功能类-不开启流量自动更新',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.android.updater.UpdateActivity',
           matches: ['[text="开启数据网络自动下载"]', '[text="不开启"]'],

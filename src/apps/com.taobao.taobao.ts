@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '@[vid*="close"] > [text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
           snapshotUrls: [
@@ -103,6 +104,7 @@ export default defineGkdApp({
       name: '局部广告-消息页面热门活动卡片',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.taobao.tao.welcome.Welcome',
@@ -157,6 +159,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.taobao.android.tbabilitykit.pop.StdPopContainerActivity',
             'com.taobao.tao.TBMainActivity',
@@ -180,6 +183,7 @@ export default defineGkdApp({
       desc: '点击退出',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.taobao.themis.container.app.TMSActivity',
@@ -201,6 +205,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.taobao.android.detail.wrapper.activity.DetailActivity',
             'com.taobao.android.order.bundle.TBOrderListActivity',
@@ -254,6 +259,7 @@ export default defineGkdApp({
       activityIds: 'com.alibaba.triver.container.TriverMainActivity',
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches: 'View[text="立即添加"] + View[text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13598578',
@@ -269,6 +275,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.taobao.android.detail2.core.framework.floatwindow.permission.PermissionActivity',
             'com.taobao.taolive.sdk.permisson.PermissionActivity',
@@ -311,6 +318,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds:
             'com.taobao.android.detail.wrapper.activity.DetailActivity',
           matches: '[vid="view_close"]',
@@ -324,6 +332,7 @@ export default defineGkdApp({
       desc: '点击[确认授权]',
       rules: [
         {
+          key: 0,
           activityIds: 'com.taobao.browser.BrowserActivity',
           matches: '[text="确认授权"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/e6250a9c-3fee-4470-8c7c-1d28ea63d2a5',

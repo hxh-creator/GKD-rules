@@ -33,6 +33,7 @@ export default defineGkdApp({
       desc: '点击[确认退出]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sh.gj.MainActivity',
           matches: '[text="确认退出"]',

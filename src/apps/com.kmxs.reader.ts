@@ -16,6 +16,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/17355000',
         },
         {
+          key: 1,
           preKeys: [0],
           activityIds: 'org.geometerplus.android.fbreader.FBReader',
           matches: '[text="直接关闭"]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       activityIds: 'org.geometerplus.android.fbreader.FBReader',
       rules: [
         {
+          key: 0,
           matches: '[id="com.kmxs.reader:id/ad_direct_close"]',
           snapshotUrls: [
             'https://i.gkd.li/i/12640303',
@@ -43,19 +45,27 @@ export default defineGkdApp({
       key: 4,
       name: '全屏广告-签到弹窗',
       activityIds: 'org.geometerplus.android.fbreader.FBReader',
-      rules:
-        '@TextView[id=null] < View +(2) TextView[text^="已连签"&&text*="天"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '@TextView[id=null] < View +(2) TextView[text^="已连签"&&text*="天"]',
+        },
+      ],
       snapshotUrls: ['https://i.gkd.li/i/12640320'],
     },
     {
       key: 99,
       name: '局部广告-右侧悬浮红包',
       activityIds: 'com.kmxs.reader.home.ui.HomeActivity',
-      rules: {
-        matches:
-          '[id="com.kmxs.reader:id/red_packet_img"] + [id="com.kmxs.reader:id/close_red_packet"]',
-        action: 'clickCenter',
-      },
+      rules: [
+        {
+          key: 0,
+          matches:
+            '[id="com.kmxs.reader:id/red_packet_img"] + [id="com.kmxs.reader:id/close_red_packet"]',
+          action: 'clickCenter',
+        },
+      ],
       snapshotUrls: ['https://i.gkd.li/i/12640287'],
     },
     {
@@ -132,6 +142,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[id="com.kmxs.reader:id/close"]',
           snapshotUrls: 'https://i.gkd.li/i/13941276',

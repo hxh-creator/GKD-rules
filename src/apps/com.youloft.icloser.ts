@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告-购买会员弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.youloft.icloser.view.dialog.VipRetainPacketDialog',
           matches: '[id="com.youloft.icloser:id/tv_later_buy"]',
@@ -21,6 +22,7 @@ export default defineGkdApp({
       name: '局部广告-右下角悬浮窗小广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.youloft.icloser.activity.MainActivity',
           matches: '[id="com.youloft.icloser:id/iv_close"]',

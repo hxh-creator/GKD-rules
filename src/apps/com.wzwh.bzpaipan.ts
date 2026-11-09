@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.qq.e.ads.PortraitADActivity',
           matches:

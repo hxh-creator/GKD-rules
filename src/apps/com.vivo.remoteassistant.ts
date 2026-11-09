@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '发来远程协助请求，点击同意',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.InviteeActivity',
           matches: [

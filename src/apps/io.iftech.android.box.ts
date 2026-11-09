@@ -53,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'io.iftech.android.box.main.HomeActivity',
           matches:
             '@[id="io.iftech.android.box:id/ivClose"] + [text^="限时"][text$="特惠"]',

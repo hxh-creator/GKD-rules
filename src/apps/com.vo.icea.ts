@@ -20,6 +20,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13510973',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '原因选"不感兴趣"',
           fastQuery: true,

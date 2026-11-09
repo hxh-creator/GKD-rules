@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '保存成功后点击完成',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.MainActivity',
           matches: '@[text="完成"][clickable=true] - * > [text^="保存成功"]',

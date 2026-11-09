@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[vid="splash_adv_ship"]',
           snapshotUrls: 'https://i.gkd.li/i/13806892',
         },

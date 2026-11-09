@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.cnki.view.core.navigator.main.HomeActivity',
             'com.cnki.view.core.tramp.main.SplashActivity',

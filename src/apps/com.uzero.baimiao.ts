@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-自动点击截取全屏',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.screen.ScreenCaptureActivity',
           matches: '[text="截取全屏"]',

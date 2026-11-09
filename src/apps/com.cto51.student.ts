@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.foundation.activities.MainActivity',
           matches: '@[vid="iv_close"] - [vid="rl_ad"][visibleToUser=true]',

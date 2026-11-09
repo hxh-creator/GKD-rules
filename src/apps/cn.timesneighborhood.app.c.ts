@@ -11,6 +11,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.zkty.modules.engine.activity.XEngineWebActivity',
           matches: '[text="立即签到"]',
           exampleUrls:

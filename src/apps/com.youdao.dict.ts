@@ -136,6 +136,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.activity.MainActivity',
             '.activity.DictQueryActivity',
@@ -157,6 +158,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches:
             '[id="com.youdao.dict:id/tv_version"] + [id="com.youdao.dict:id/iv_close"]',
@@ -171,6 +173,7 @@ export default defineGkdApp({
         'com.youdao.dict_flutter_android_bridge.WordBookFlutterActivity',
       rules: [
         {
+          key: 0,
           matches: '[desc="点击显示释义"] > View[index=3][visibleToUser=true]',
           snapshotUrls: [
             'https://i.gkd.li/i/14292588', // 点击显示释义前
@@ -213,6 +216,7 @@ export default defineGkdApp({
       desc: '通过点击提示框以外的其他地方关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           position: {
             left: 'width * 0.7231',

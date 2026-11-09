@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: '.ui.MainActivityGroupNew',
           matches: 'ImageView[vid="notice_dia"]',

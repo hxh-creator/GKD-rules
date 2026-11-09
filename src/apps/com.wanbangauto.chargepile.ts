@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.newhome.MainActivity',
           matches: '@[vid="image_close"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/ce4838fb-0f0d-4b20-bab3-565bd80bbc93',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.newhome.MainActivity',
           matches: [
             '[text^="小星提醒您"][visibleToUser=true]',

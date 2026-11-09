@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ucpro.BrowserActivity',
           matches: '@Button[text="取消"] + Button[text="去设置"]',
           snapshotUrls: 'https://i.gkd.li/i/13249469',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ucpro.BrowserActivity',
           matches: [
@@ -47,6 +49,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionMaximum: 1,
           activityIds: 'com.ucpro.BrowserActivity',

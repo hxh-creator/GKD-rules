@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.dtk.plat_home_lib.index.activity.IndexActivity',
             'com.dtk.plat_web_lib.X5WebViewActivity',
@@ -35,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.dtk.plat_web_lib.X5WebViewActivity',
           matches: '[vid="img_close"][visibleToUser=true]',

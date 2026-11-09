@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '[vid="tv_ok"][visibleToUser=true]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '[vid="iv_nps_close"][visibleToUser=true]',

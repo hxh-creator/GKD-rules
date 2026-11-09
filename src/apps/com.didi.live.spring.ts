@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.qennnsad.aknkaksd.presentation.ui.MainContainerActivity',
           matches: '[vid="dialog_hall_iv_close"]',

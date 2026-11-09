@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivity',
           matches: '[id="com.cheersedu.app:id/iv_version_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13315712',

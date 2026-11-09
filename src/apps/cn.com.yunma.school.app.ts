@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.yunma.app.ui.main.MainActivity',
           matches: '[vid="fl_scan"][visibleToUser=true]',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '功能类-用水自动点击开始',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchRoot: true, // 背景动画会持续产生无障碍事件
           activityIds: 'com.yunma.baseextend.ui.WebActivity',
@@ -39,6 +41,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.anythink.basead.ui.ATPortraitTranslucentActivity',
           matches: '[vid="anythink_myoffer_btn_close_id"][visibleToUser=true]',
@@ -52,6 +55,7 @@ export default defineGkdApp({
       name: '更新提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.yunma.baseextend.appupdate.view.UpdateDialogActivity',

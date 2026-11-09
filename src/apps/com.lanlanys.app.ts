@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.view.BaseActivity',
           matches:
             '@ImageView[index=3][childCount=0][clickable=true][visibleToUser=true][text=null][id=null] <4 RelativeLayout[childCount>7] < RelativeLayout[childCount=1] < [parent=null]',

@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '@[text="取消"] + [text="立即升级"]',
           snapshotUrls: 'https://i.gkd.li/i/13989147',
         },

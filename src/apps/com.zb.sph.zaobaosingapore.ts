@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           activityIds: 'com.google.android.gms.ads.AdActivity',
           matches:
             '[id="mys-content"] > View[childCount=2] > View[index=1][childCount=1] > Button[clickable=true][childCount=0][visibleToUser=true][text=""]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'sg.com.sph.app.views.bnavigation.MainActivity',
           matches:

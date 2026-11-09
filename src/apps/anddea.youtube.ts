@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-评论区自动点击[翻译成中文]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',

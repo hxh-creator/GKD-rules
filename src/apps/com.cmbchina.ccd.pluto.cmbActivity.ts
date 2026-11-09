@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.CMBRootActivityV2',
             '.secplugin.activity.login.fingerprint.cmbR6VH0R',
@@ -34,8 +35,13 @@ export default defineGkdApp({
       actionMaximum: 1,
       resetMatch: 'app',
       activityIds: ['com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2'],
-      rules:
-        '[id="com.cmbchina.ccd.pluto.cmbActivity:id/lly_pop_shell"] > [id="com.cmbchina.ccd.pluto.cmbActivity:id/img_cf_view_close"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '[id="com.cmbchina.ccd.pluto.cmbActivity:id/lly_pop_shell"] > [id="com.cmbchina.ccd.pluto.cmbActivity:id/img_cf_view_close"]',
+        },
+      ],
       snapshotUrls: [
         'https://i.gkd.li/i/12647000',
         'https://i.gkd.li/i/13360282',
@@ -50,6 +56,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           name: '信用卡、我的页面',
           activityIds: [
             'com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2',
@@ -63,6 +70,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           name: '查账页面',
           activityIds: [
             'com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2',
@@ -77,6 +85,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 2,
           name: '发现页',
           activityIds: 'com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2',
           matches:
@@ -93,8 +102,13 @@ export default defineGkdApp({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules:
-        '[id="com.cmbchina.ccd.pluto.cmbActivity:id/btn_open_notify"] + [id="com.cmbchina.ccd.pluto.cmbActivity:id/iv_delete"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '[id="com.cmbchina.ccd.pluto.cmbActivity:id/btn_open_notify"] + [id="com.cmbchina.ccd.pluto.cmbActivity:id/iv_delete"]',
+        },
+      ],
       snapshotUrls: ['https://i.gkd.li/i/12647068'],
     },
     {
@@ -103,7 +117,7 @@ export default defineGkdApp({
       fastQuery: true,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '[text="定位服务"] +n * > [text="取消"]',
+      rules: [{ key: 0, matches: '[text="定位服务"] +n * > [text="取消"]' }],
       snapshotUrls: 'https://i.gkd.li/i/14209071',
     },
   ],

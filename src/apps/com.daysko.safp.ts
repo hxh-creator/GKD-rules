@@ -77,6 +77,7 @@ export default defineGkdApp({
       activityIds: 'com.daysko.safp.MainActivity',
       rules: [
         {
+          key: 0,
           matches:
             '[!(id="why_this_ad_btn")] -2 View[id="mys-wrapper"] + View >2 Button[clickable=true]',
           snapshotUrls: [
@@ -85,6 +86,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           matches: 'View[desc="Advertisement"] + View >(2) Button',
           snapshotUrls: ['https://i.gkd.li/i/12643001'],
         },

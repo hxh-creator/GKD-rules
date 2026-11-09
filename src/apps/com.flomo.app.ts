@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '评价提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.activity.MainActivity',
           matches: [

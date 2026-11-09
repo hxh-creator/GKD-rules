@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: 'ImageView[id="com.eco.global.app:id/adview_jump"]',
           snapshotUrls: 'https://i.gkd.li/i/13538616',
         },

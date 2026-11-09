@@ -70,6 +70,7 @@ export default defineGkdApp({
       activityIds: ['com.hexin.plat.android'],
       rules: [
         {
+          key: 0,
           matches:
             '[id="com.hexin.plat.android:id/prod_ad"] + [id="com.hexin.plat.android:id/prod_close_image"]',
           snapshotUrls: ['https://i.gkd.li/i/12662656'],

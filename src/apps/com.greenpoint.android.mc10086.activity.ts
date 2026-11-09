@@ -44,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mc10086.cmcc.view.tabs.AppTabFragment',
           matches: '[text="暂不更新"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/130e0c2e-f568-4a96-9c06-9876a21e0466',
@@ -59,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mc10086.cmcc.view.tabs.AppTabFragment',
           matches:
             '[id="com.greenpoint.android.mc10086.activity:id/ad_image"] < RelativeLayout + [id="com.greenpoint.android.mc10086.activity:id/close_btn"]',
@@ -101,6 +103,7 @@ export default defineGkdApp({
       ],
       rules: [
         {
+          key: 0,
           matches:
             '[text*="获取您的"] < LinearLayout +(2) LinearLayout >(2) [text="不允许"]',
           snapshotUrls: [
@@ -151,6 +154,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mc10086.cmcc.view.tabs.AppTabFragment',
           matches:
             '@[id="com.greenpoint.android.mc10086.activity:id/close_img"][desc="关闭"] - RelativeLayout >(2) [text$="好评"]',
@@ -168,6 +172,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.cmccit.paycenter.PayCenterActivity',
           matches: ['[text="通讯录权限申请"]', '[text="取消"]'],
           exampleUrls: 'https://e.gkd.li/7d332325-497f-47a4-a322-729ffa5dd121',
@@ -182,6 +187,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mc10086.cmcc.view.tabs.AppTabFragment',
           matches: [

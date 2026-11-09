@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jxedt.ui.activitys.exercise.OrderExerciseActivity',
           matches: '[id="com.jxedt:id/img_question_banner_close"]',

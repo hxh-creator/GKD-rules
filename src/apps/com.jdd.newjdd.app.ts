@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="jump"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/10dd2d8b-e48a-4554-a748-c9e156b003d9',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.MainActivity',
           matches: '[vid="iv_close"][visibleToUser=true]',
@@ -53,6 +55,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/23295736',
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '@View[clickable=true] >2 [childCount=0][text=""][visibleToUser=true] <<n [vid="webviewschool"]',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.home.page.MainActivity',
           matches: '[id="com.ctm:id/iv_close"]',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       name: '局部广告-底部横幅广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ctm.home.page.MainActivity',
           matches:

@@ -52,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: ['.ui.MainActivity', '.ui.cloudp2p.RichMediaActivity'],
           matches: '[text="立即更新"] -2 [text="下次再说"]', //使用ID会导致误触（例如删除确认https://i.gkd.li/i/13069049）
           snapshotUrls: [
@@ -71,6 +72,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.MainActivity',
           matches: 'ImageView[id="com.baidu.netdisk:id/dialog_cancel"]', //单独使用ID会导致误触（例如删除确认https://i.gkd.li/i/13069049）
           snapshotUrls: 'https://i.gkd.li/i/12923936',
@@ -86,6 +88,7 @@ export default defineGkdApp({
       activityIds: '.ui.MainActivity',
       rules: [
         {
+          key: 0,
           matches: '[vid="view_score_style"] > [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/14317054',
         },
@@ -97,6 +100,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.netdisk.ui.MainActivity',
           matches:
             '[vid="float_btn_close"][clickable=true][visibleToUser=true]',
@@ -122,6 +126,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/22401064',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="暂不开启"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/aa9782d4-304f-401b-89f6-4fae703b8280',

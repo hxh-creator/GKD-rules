@@ -35,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dubox.drive.ui.MainActivity',
           matches: 'ImageView[id="com.dubox.drive:id/ivClose"]',
           snapshotUrls: 'https://i.gkd.li/i/13200577',
@@ -50,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.permission.view.PermissionDialogActivity',
           matches:
             '[text="Authorize"] - [id="com.dubox.drive:id/dialog_button_cancel"]',

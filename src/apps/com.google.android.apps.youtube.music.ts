@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-播放界面广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.music.activities.MusicActivity',
@@ -54,6 +55,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activities.MusicActivity',
           matches: [

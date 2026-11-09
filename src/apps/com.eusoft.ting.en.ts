@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.eusoft.ting.ui.v2.TabActivityV2',
           matches: '[text="我的优惠券"] +2 * > [text="暂不需要"]',

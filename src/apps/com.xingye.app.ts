@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.weaver.app.MainSplashActivity',
           matches: '[vid="settingUpdateCancelTv"]',
           snapshotUrls: 'https://i.gkd.li/i/14137987',

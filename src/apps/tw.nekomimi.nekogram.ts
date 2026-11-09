@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'org.telegram.ui.LaunchActivity',
           matches:
             '@Button[desc$="稍后提醒我"] - [desc="立即下载"] <3 FrameLayout < FrameLayout < [id="android:id/content"]',

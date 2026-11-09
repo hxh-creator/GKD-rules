@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zdyl.mfood.ui.home.MainActivity',
           matches: '[id="com.m.mfood:id/close"]',

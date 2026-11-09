@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           excludeActivityIds: '.search.activity.SearchResultActivity',
           matches:
@@ -28,6 +29,7 @@ export default defineGkdApp({
       name: '局部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.live.LivePlayActivity',
           matches:
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivity',
           matches: ['[text*="立即升级"]', '[text="以后再说"]'],
           snapshotUrls: [
@@ -92,6 +95,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             '.ecommerce.im.choosemedia.ECommerceIMMediaChooseActivity',
@@ -206,6 +210,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches: ['[text*="通讯录"]', '[text="拒绝"]'],
@@ -300,6 +305,7 @@ export default defineGkdApp({
       desc: '点击[稍后再说]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches: [
@@ -432,6 +438,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.shortvideo.ui.scan.ScanNewActivity',
           matches: ['[text*="相机权限"]', '[text="以后再说"][clickable=true]'],

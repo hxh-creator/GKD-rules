@@ -77,6 +77,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             'TextView[text="恭喜您获得以下成就"] - @TextView[clickable=true][text=""] <<n [vid="browser_fragment_container"]',

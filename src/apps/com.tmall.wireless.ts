@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.splash.TMSplashActivity',
             '.maintab.module.TMMainTabActivity',
@@ -34,6 +35,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.tmall.wireless.maintab.module.TMMainTabActivity',
             'com.tmall.wireless.turboweb.container.TurboWebViewActivity',
@@ -57,6 +59,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.messagebox.activity.TMMsgboxMainActivity',
           matches: 'View[text="开启系统通知"] - View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13258215',

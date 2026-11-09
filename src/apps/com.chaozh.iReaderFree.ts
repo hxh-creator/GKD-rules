@@ -44,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf',
           matches: '[vid="dialog_public_top_bar_title_close"]',
           snapshotUrls: 'https://i.gkd.li/i/16549332',

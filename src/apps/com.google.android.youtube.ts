@@ -36,6 +36,7 @@ export default defineGkdApp({
       ],
       rules: [
         {
+          key: 0,
           matches:
             '@[desc="关闭广告面板" || desc="Close ad panel"] <<n [vid="panel_header"]',
           snapshotUrls: [
@@ -51,6 +52,7 @@ export default defineGkdApp({
       name: '全屏广告-会员广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',
@@ -74,6 +76,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',
           matches: ['[text="开启通知"]', '[text="不用了"]'],
@@ -87,6 +90,7 @@ export default defineGkdApp({
       desc: '评论区自动点击[翻译成中文]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionCd: 500,
           activityIds:
@@ -108,6 +112,7 @@ export default defineGkdApp({
       desc: '点击[Dismiss]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',
@@ -122,6 +127,7 @@ export default defineGkdApp({
       name: '功能类-关闭视频播放结束后的推荐视频',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',
@@ -142,6 +148,7 @@ export default defineGkdApp({
       name: '局部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.apps.youtube.app.watchwhile.MainActivity',

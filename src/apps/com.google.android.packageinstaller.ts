@@ -60,6 +60,7 @@ export default defineGkdApp({
       desc: '点击[设置]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.android.packageinstaller.PackageInstallerActivity',
           matches: ['[text^="出于安全考虑"]', '[text="设置"]'],

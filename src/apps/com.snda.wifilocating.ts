@@ -63,6 +63,7 @@ export default defineGkdApp({
       name: '功能类-加速成功后自动点击返回',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.wifitutu.ui.tools.SpeedUpActivity',
           matches: '[vid="success_desc"] + [vid="back_layout"]',

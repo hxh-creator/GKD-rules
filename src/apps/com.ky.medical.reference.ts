@@ -12,7 +12,12 @@ export default defineGkdApp({
       actionMaximum: 1,
       resetMatch: 'app',
       priorityTime: 10000,
-      rules: '[id="com.ky.medical.reference:id/btn_go"][text^="关闭"]',
+      rules: [
+        {
+          key: 0,
+          matches: '[id="com.ky.medical.reference:id/btn_go"][text^="关闭"]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12918049',
     },
     {
@@ -23,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ky.medical.reference.promotion.AdDialogActivity',
           matches: '[id="com.ky.medical.reference:id/icClose"]',
           snapshotUrls: 'https://i.gkd.li/i/12840924',

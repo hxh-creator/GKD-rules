@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           excludeActivityIds: [
             '.activity.ChatActivity', // 在聊天界面禁用
             '.search.activity.UniteSearchActivity', // 在搜索页面禁用
@@ -116,6 +117,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/24381585',
         },
         {
+          key: 2,
           preKeys: [0, 1],
           activityIds: [
             'com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity',
@@ -168,6 +170,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.activity.SplashActivity',
@@ -190,6 +193,7 @@ export default defineGkdApp({
       desc: '查看图片时自动点击原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tencent.richframework.gallery.QQGalleryActivity',
           anyMatches: [
@@ -212,6 +216,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           activityIds: [
             '.mini.appbrand.ui.AppBrandUI',
             '.activity.miniaio.MiniChatActivity',
@@ -375,6 +380,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.QQBrowserActivity',
           matches: [
@@ -390,6 +396,7 @@ export default defineGkdApp({
       name: '功能类-授权登录时关闭获取QQ好友关系',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.open.agent.PublicFragmentActivityForOpenSDK',
@@ -406,6 +413,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.SplashActivity',
           matches:
@@ -423,6 +431,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds:
             'com.tencent.biz.qrcode.activity.UnlockPCQuickVerifyActivity',
           matches: '[text="解锁"]',
@@ -436,6 +445,7 @@ export default defineGkdApp({
       desc: '点击[我知道了]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.QPublicFragmentActivity',
           matches: [
@@ -452,6 +462,7 @@ export default defineGkdApp({
       desc: '点击[允许]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.QQBrowserActivity',
           matches: [

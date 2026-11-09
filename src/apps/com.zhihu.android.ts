@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           excludeActivityIds: [
             '.app.SearchActivity',
@@ -362,6 +363,7 @@ export default defineGkdApp({
       name: '功能类-热榜页自动点击[展开更多]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
           matches: '@[clickable=true] >2 [text="展开更多"]',
@@ -377,6 +379,7 @@ export default defineGkdApp({
       desc: '自动点击展开',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.zhihu.android.mixshortcontainer.MixShortContainerActivity',
@@ -398,6 +401,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.comment.ui.activity.CommentListActivity',
           matches:

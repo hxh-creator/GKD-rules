@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.session.fragment.UploadSessionResultActivity',
           matches:
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.session.fragment.UploadSessionResultActivity',
           matches: '[vid="iv_guide_share_close"][visibleToUser=true]',

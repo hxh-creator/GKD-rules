@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[id="com.qingdaonews.bus:id/iv_native_dislike"]',
           snapshotUrls: 'https://i.gkd.li/i/13467193',
         },

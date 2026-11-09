@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '其他-提示[切换高清]时点击[取消]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.uzmap.pkg.EntranceActivity',
           matches: [

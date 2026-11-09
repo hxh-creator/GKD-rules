@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="tev_countdown"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/0b7ec3a5-d601-489a-a50c-32c876f38edf',

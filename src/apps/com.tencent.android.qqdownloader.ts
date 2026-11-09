@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.assistantv2.activity.MainActivity',
           matches: '@Button[clickable=true] - [text="欢迎登录应用宝"]',
           exampleUrls:

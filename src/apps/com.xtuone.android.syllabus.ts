@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-首页卡片广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtuone.android.friday.MainFragmentActivity',
           matches:
             '[id="com.xtuone.android.syllabus:id/treehole_banner_close"]',
@@ -21,6 +22,7 @@ export default defineGkdApp({
       name: '局部广告-课程表界面广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtuone.android.friday.MainFragmentActivity',
           matches: '[id="com.xtuone.android.syllabus:id/imgv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12999642',
@@ -36,6 +38,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtuone.android.friday.MainFragmentActivity',
           matches: '[id="com.xtuone.android.syllabus:id/dialog_ad_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13166501',
@@ -50,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtuone.android.friday.UpdateActivity',
           matches: '@[vid="update_cancel"] + [vid="go_to_update"]',
           snapshotUrls: 'https://i.gkd.li/i/14292875',

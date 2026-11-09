@@ -29,6 +29,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.meituan.banma.usercenter.activity.UserGradeUpgradeKNBActivity',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[id="com.shanghaionstar:id/jump_view"]',
           snapshotUrls: 'https://i.gkd.li/i/13071523',
         },

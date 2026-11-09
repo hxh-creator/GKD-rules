@@ -17,6 +17,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12842757',
         },
         {
+          key: 4,
           name: '英文版邮箱广告-点击Not interested',
           preKeys: [0],
           matches: '@FrameLayout > TextView[text="Not interested"]',
@@ -65,6 +66,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.qqmail.fragment.base.MailFragmentActivity',
           matches: '[text="立刻开启"] - [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13043069',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.home.FrActivity',
           matches: '[vid="ad_close"][visibleToUser=true]',

@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '评价提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches: '@[vid="close_iv"] + [text="喜欢“小米耳机”吗？"]',

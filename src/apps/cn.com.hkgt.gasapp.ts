@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.com.hkgt.gasapp.dialog.BannerDialog',
           matches: 'ImageView[id="cn.com.hkgt.gasapp:id/exit"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12744270',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.main.HkMainActivity',
           matches:

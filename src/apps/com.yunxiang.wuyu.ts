@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/13455634',

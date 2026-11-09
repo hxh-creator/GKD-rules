@@ -70,6 +70,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches: 'ImageView[id="com.baidu.BaiduMap:id/cancel_update"]',
           snapshotUrls: 'https://i.gkd.li/i/12909385',
@@ -86,6 +87,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches: '[vid="push_close"]',
           snapshotUrls: 'https://i.gkd.li/i/15284736',
@@ -100,6 +102,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches: ['[text="添加至桌面"]', '[text="取消"]'],
           snapshotUrls: [
@@ -114,6 +117,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches: '[vid="img_close"][visibleToUser=true]',

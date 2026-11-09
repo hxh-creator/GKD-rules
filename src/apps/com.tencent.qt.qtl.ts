@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.tencent.qt.module_appupdate.soft_update.impl.SoftUpdateConfirmActivity',
           matches: '[id="com.tencent.qt.qtl:id/btn_update_cancel"]',
@@ -47,6 +49,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tencent.zone.main.MainZoneHomeActivity',
           matches: '[vid="notice_close_pic"]',

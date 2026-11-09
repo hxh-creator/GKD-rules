@@ -58,6 +58,7 @@ export default defineGkdApp({
       name: '功能类-关闭[开通免密支付]弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mcd.order.activity.OrderDetailActivity',
           matches: '@[vid="iv_close"] - * >2 [text*="免密支付"]',
@@ -76,6 +77,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: 'com.mcdonalds.gma.cn.activity.LaunchActivity',
           matches: '[text$="获取您的设备信息"] + * > [text="不允许"]',
           exampleUrls:

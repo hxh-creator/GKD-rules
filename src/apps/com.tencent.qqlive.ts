@@ -30,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ona.update.trunk.client.TrunkUpdateActivity',
           matches: '[text="暂不升级"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/19666787',
@@ -173,6 +174,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 12,
           preKeys: [50],
           fastQuery: true,
           anyMatches: [
@@ -333,6 +335,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ona.activity.SplashHomeActivity',
           matches: '@[clickable=true] - [text*="开启通知"]',
@@ -444,6 +447,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           actionDelay: 1000,
           fastQuery: true,
           activityIds: '.ona.activity.VideoDetailActivity',

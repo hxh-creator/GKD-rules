@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-桌面端登录确认',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.ss.lark.android.passport.biz.feature.sso.suite.SuiteConfirmActivity',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       desc: '查看图片时自动点击"查看原图"',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.ss.android.lark.widget.photo.preview.PhotoPagerActivity',
           fastQuery: true,
@@ -39,6 +41,7 @@ export default defineGkdApp({
       actionMaximum: 1, // 勾选节点 checkable=false，无法区分勾选前后 https://i.gkd.li/i/17711293
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.chatwindow.ChatWindowActivity',
           matches: '[vid="layout_original_photo"][visibleToUser=true]',

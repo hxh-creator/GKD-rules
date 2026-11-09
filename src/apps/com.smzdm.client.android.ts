@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.smzdm.client.android.app.HomeActivity',
           matches: '[id="com.smzdm.client.android:id/dialog_home_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12695751',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.app.HomeActivity',
           matches:
             '[id="com.smzdm.client.android:id/tv_version"] +2 [id="com.smzdm.client.android:id/iv_close"]',
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.smzdm.client.android.app.HomeActivity',
           matches: '@[text="暂不允许"] + [text="允许"]',
           snapshotUrls: 'https://i.gkd.li/i/13198020',
@@ -60,6 +63,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.module.haojia.detail.HaojiaDetailActivity',
             '.module.community.module.bask.BaskDetailActivity',

@@ -47,6 +47,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13496049',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点击"以后再说"',
           matches: '[id="com.bilibili.studio:id/update_btn_cancel"]',

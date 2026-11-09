@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '[id="com.example.maintenancemaster:id/advertisement_countdown_ccd"]',
           snapshotUrls: 'https://i.gkd.li/i/12903877',

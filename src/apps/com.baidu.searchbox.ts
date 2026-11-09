@@ -11,18 +11,21 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.searchbox.MainActivity',
           matches:
             '@View[vid="obfuscated"][clickable=true][visibleToUser=false] +3 [text="看视频，领现金"]',
           snapshotUrls: 'https://i.gkd.li/i/13806848',
         },
         {
+          key: 1,
           activityIds: 'com.baidu.searchbox.MainActivity',
           matches:
             '@ImageView[vid="obfuscated"][text=null][childCount=0][clickable=true][visibleToUser=true][index=1] <2 LinearLayout[childCount=2] < FrameLayout[childCount=1] < [id="android:id/content"]',
           snapshotUrls: 'https://i.gkd.li/i/13988536',
         },
         {
+          key: 2,
           activityIds: 'com.baidu.searchbox.MainActivity',
           matches:
             '@ImageView[vid="obfuscated"][text=null][childCount=0][clickable=true][visibleToUser=true] +4 [text^="继续看视频"]',
@@ -40,6 +43,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.update.UpdateDialogActivity',
           matches:
             '@ImageView[desc="关闭"] <2 RelativeLayout < [id="android:id/content"]',

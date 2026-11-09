@@ -42,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.luna.biz.ad.AdActivity',
             'com.luna.biz.main.main.MainActivity',
@@ -126,6 +127,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/24522627',
         },
         {
+          key: 2,
           preKeys: [0, 1],
           fastQuery: true,
           actionDelay: 500,
@@ -158,6 +160,7 @@ export default defineGkdApp({
       name: '功能类-关闭广告的声音',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text="开启声音"][visibleToUser=true]',
@@ -174,6 +177,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'back',
           matches: '[text="为汽水音乐评分"]',
@@ -189,6 +193,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.luna.biz.main.main.MainActivity',
           matches:
@@ -205,6 +210,7 @@ export default defineGkdApp({
       desc: '直播间出现[更多直播]时点击右上角关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.luna.biz.live.plugin.LunaDefaultLivePlayerActivity',
           matches:

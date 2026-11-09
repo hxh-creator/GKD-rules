@@ -37,6 +37,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.bm.mainbox.main.MainActivity',
           matches:
             '@ImageButton[id="com.jd.jrapp:id/ib_close"] + RelativeLayout [text^="发现新版本"]',
@@ -53,6 +54,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.dy.api.JRDynamicPickerActivity',
           matches: '@ImageView[clickable=true] - [text$="满意度打几分？"]',
           snapshotUrls: 'https://i.gkd.li/i/13804561',

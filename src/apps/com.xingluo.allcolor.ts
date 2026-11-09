@@ -38,6 +38,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12640406',
         },
         {
+          key: 0,
           preKeys: [1, 2, 3, 4],
           name: '穿山甲广告-反馈理由',
           matches: '[id="com.byted.pangle:id/tt_item_tv"][text="不感兴趣"]',

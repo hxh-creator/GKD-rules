@@ -15,6 +15,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           actionCd: 500,
           matches: '[vid="count_down" || vid="skip"][visibleToUser=true]', // [text*="跳过"] 可能会误触搜索框
           snapshotUrls: [
@@ -29,6 +30,7 @@ export default defineGkdApp({
       name: '局部广告-评论区顶部公告横幅',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           excludeActivityIds: [
             'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3',
@@ -56,6 +58,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12700222',
         },
         {
+          key: 0,
           preKeys: [1],
           // 新版菜单出现[不想看该视频]等选项
           matches:
@@ -86,6 +89,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 0,
           preKeys: [1],
           matches: '[id="tv.danmaku.bili:id/update_btn_cancel"]',
           snapshotUrls: [
@@ -179,6 +183,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.MainActivityV2',
             'com.bilibili.video.story.StoryTransparentActivity',
@@ -270,6 +275,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'tv.danmaku.bili.MainActivityV2',
           matches:
             '[text="开启个性化内容推荐"] +3 [id="tv.danmaku.bili:id/close_button"]',
@@ -339,6 +345,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'tv.danmaku.bili.ui.splash.ad.page.HotSplashActivity',
           matches: '[vid="poster_share_cancel"][visibleToUser=true]',
@@ -366,6 +373,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 0,
           preKeys: [1],
           matches: '@[clickable=true] > [text$="不感兴趣" || text*="不想看"]',
           exampleUrls: 'https://e.gkd.li/5e6e4b69-ba97-473d-9f62-631c296da589',
@@ -451,6 +459,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.bilibili.video.story.StoryVideoActivity',
@@ -470,6 +479,7 @@ export default defineGkdApp({
       name: '功能类-自动点击评论区的[展开更多评论]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.bilibili.video.story.StoryVideoActivity',
@@ -493,6 +503,7 @@ export default defineGkdApp({
       name: '功能类-自动领取会员经验',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bilibili.vip.web.VipWebActivity',
           matches:
@@ -510,6 +521,7 @@ export default defineGkdApp({
       name: '功能类-自动点击查看原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.bilibili.video.story.StoryVideoActivity', // 视频：竖屏模式1
@@ -539,6 +551,7 @@ export default defineGkdApp({
       name: '评价提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bilibili.search2.main.BiliMainSearchActivity',
           matches: '[vid="rating_dialog_close"][clickable=true]',
@@ -552,6 +565,7 @@ export default defineGkdApp({
       desc: '左下角提示-点击',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3',
@@ -568,6 +582,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3',

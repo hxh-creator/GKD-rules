@@ -51,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.anythink.basead.ui.ATPortraitTranslucentActivity',
           matches: '[desc="我知道了"]',
           exampleUrls: 'https://e.gkd.li/327ea04c-acda-4913-a0a9-fdda9cd83dd7',

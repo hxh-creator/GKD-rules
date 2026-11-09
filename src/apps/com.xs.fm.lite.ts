@@ -68,6 +68,7 @@ export default defineGkdApp({
       name: '功能类-自动展开回复',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xs.fm.karaoke.impl.cover.KaraokeCoverActivity',
           matches:

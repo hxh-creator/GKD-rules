@@ -123,6 +123,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: [
             '.plugin.webwx.ui.ExtDeviceWXLoginUI',
             '.ui.LauncherUI',
@@ -167,6 +168,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           activityIds: '.plugin.webview.ui.tools.SDKOAuthOtherUI',
           matches: [
@@ -236,6 +238,7 @@ export default defineGkdApp({
           excludeSnapshotUrls: 'https://i.gkd.li/i/12567698', // 金币动画的快照
         },
         {
+          key: 0,
           preKeys: [1, 2],
           name: '从红包结算界面返回',
           activityIds: '.plugin.luckymoney.ui.LuckyMoney',
@@ -326,6 +329,7 @@ export default defineGkdApp({
       ],
       rules: [
         {
+          key: 0,
           actionDelay: 800, // 过早点击首次大概率跳不过
           matches: [
             '[text="广告"][visibleToUser=true]',
@@ -348,6 +352,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: '.ui.LauncherUI',
           matches: '[text="打开网页版文件传输助手"] + * > Button[text="打开"]',
           snapshotUrls: 'https://i.gkd.li/i/12793745',
@@ -429,6 +434,7 @@ export default defineGkdApp({
       desc: '点击"验证密码"',
       rules: [
         {
+          key: 0,
           activityIds: '.plugin.webview.ui.tools.MMWebViewUI',
           matches:
             'WebView[childCount=6] View[index=4] > [text="验证密码"][clickable=true]',
@@ -442,6 +448,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds:
             '.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity',
           matches:
@@ -521,6 +528,7 @@ export default defineGkdApp({
       desc: '点击[解锁]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.plugin.webwx.ui.WebWXUnlockUI',
           anyMatches: [
@@ -542,6 +550,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.plugin.webview.ui.tools.MMWebViewUI',
           matches:
@@ -590,6 +599,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.pluginsdk.permission.PermissionActivity',
           matches: ['[text="权限申请"]', '[text="取消"]'],
@@ -714,6 +724,7 @@ export default defineGkdApp({
       name: '功能类-自动点击[查看原视频]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.chatting.gallery.ImageGalleryUI',
           matches: '[text^="查看原视频"][visibleToUser=true]',
@@ -732,6 +743,7 @@ export default defineGkdApp({
       actionDelay: 300, // 过早触发有概率无效
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.plugin.appbrand.ui.AppBrandUI',
           excludeMatches: '[text="跳过"][visibleToUser=true]', // 防止提前触发
@@ -753,6 +765,7 @@ export default defineGkdApp({
       desc: '点击语音旁边的转文字',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.ui.LauncherUI',
@@ -774,6 +787,7 @@ export default defineGkdApp({
       name: '功能类-语音/视频通话呼入10秒后自动点击接听',
       rules: [
         {
+          key: 0,
           matchTime: 15000,
           actionDelay: 10000,
           activityIds: ['.plugin.voip.ui.VideoActivity', '.ui.LauncherUI'],
@@ -792,6 +806,7 @@ export default defineGkdApp({
       desc: '点击 长按语音条后弹出的菜单 中的转文字',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.ui.LauncherUI',
@@ -823,6 +838,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/21705413',
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '@[text="发送"] < LinearLayout < LinearLayout < LinearLayout - [vid="actionbar_up_indicator"][visibleToUser=true]',
@@ -836,6 +852,7 @@ export default defineGkdApp({
       name: '功能类-自动点击未读消息（头像右上角为数字）',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.LauncherUI',
           matches:
@@ -849,6 +866,7 @@ export default defineGkdApp({
       name: '功能类-自动点击未读消息（头像右上角为红点）',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.LauncherUI',
           matches:
@@ -863,6 +881,7 @@ export default defineGkdApp({
       desc: '点击允许',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.plugin.webview.ui.tools.MMWebViewUI',
           matches: [

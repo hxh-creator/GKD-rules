@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: [
             '[id="com.x2era.xcloud.app:id/tv_upgrade"]',

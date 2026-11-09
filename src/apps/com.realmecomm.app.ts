@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.android.realme2.home.view.MainActivity',
           matches: '[text="签到"][clickable=true][visibleToUser=true]',
           exampleUrls:

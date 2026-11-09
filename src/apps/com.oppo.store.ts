@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '@[text="下次再说"] -3 [text="发现新版本"]',
           snapshotUrls: 'https://i.gkd.li/i/13295202',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.oppo.store.MainActivity',
           matches:
             'ImageView[id="com.oppo.store:id/dialog_delete"][desc="关闭"]',

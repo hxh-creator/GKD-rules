@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.android.module.app.ui.test.activity.ActivityTestResult',

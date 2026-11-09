@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.cubic.autohome.MainActivity',
           matches: '[id="com.cubic.autohome:id/operate_show_exit_layout"]',
           snapshotUrls: 'https://i.gkd.li/i/12836324',

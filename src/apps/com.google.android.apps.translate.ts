@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.google.android.apps.translate.TranslateActivity',
           matches: ['[text="备份您的翻译历史记录"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/13495796',

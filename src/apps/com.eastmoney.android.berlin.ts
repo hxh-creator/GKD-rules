@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.eastmoney.android.module.launcher.internal.home.HomeActivity',
           matches: '[id="com.eastmoney.android.berlin:id/tv_update_next_time"]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.eastmoney.android.module.launcher.internal.home.HomeActivity',
@@ -44,6 +46,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.eastmoney.android.module.launcher.internal.home.HomeActivity',
           matches:

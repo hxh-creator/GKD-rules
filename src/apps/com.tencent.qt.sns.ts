@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[id="com.tencent.qt.sns:id/closebtn"]',
           snapshotUrls: 'https://i.gkd.li/i/13497978',
         },
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.gamehelper.ui.main.MainActivity',
           matches: [
             '[text="版本更新" || text="现在升级"][visibleToUser=true]',

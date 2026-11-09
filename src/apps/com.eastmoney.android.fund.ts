@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-自选页面广告',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
           matches:
@@ -22,6 +23,7 @@ export default defineGkdApp({
       name: '其他-自选页面缩写提示信息',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
           matches:
@@ -39,6 +41,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.centralis.activity.FundRootActivity',
           matches:
             '@FrameLayout[clickable=true] - * >2 [desc="立即升级"] <<n [id="com.eastmoney.android.fund:id/container"]',
@@ -52,6 +55,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
@@ -78,6 +82,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.centralis.activity.FundRootActivity',
           matches: '@[desc="下次再说"] <<n [vid="container"]',
           exampleUrls:

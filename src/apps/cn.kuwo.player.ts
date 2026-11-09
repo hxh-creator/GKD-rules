@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.kuwo.player.activities.MainActivity',
           matches: '[id="cn.kuwo.player:id/iv_business_personal_dia_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13974483',

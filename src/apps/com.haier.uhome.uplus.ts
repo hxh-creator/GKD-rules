@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.upgradeui.ui.UpgradeDialogActivity',
           matches: '@[text="取消"] + [text="立即更新"||text="立即安装"]',
           snapshotUrls: [

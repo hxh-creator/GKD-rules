@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[打卡],切换板块自动签到',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mihoyo.hyperion.main.HyperionMainActivity',
           matches:
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.popup.HomePopupDialogActivity',
           matches: '[vid="closeIv"]',
@@ -150,6 +152,7 @@ export default defineGkdApp({
       name: '权限提示-通知权限',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.HyperionMainActivity',
           matches: [

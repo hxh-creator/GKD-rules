@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="tv_skip"]',
           exampleUrls: 'https://e.gkd.li/81f951ce-39b0-4677-93a7-25b5a709b46d',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.view.CustomizedDialog',
           matches: '@[text="不再提示"] +2 [text="立即更新"]',
           snapshotUrls: 'https://i.gkd.li/i/12727241',
@@ -44,6 +46,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.cebbank.mobile.cemb.ui.activity.SplashActivity',
             'com.cebbank.mobile.cemb.ui.activity.HomeActivity',

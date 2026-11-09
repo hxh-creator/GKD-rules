@@ -57,7 +57,7 @@ export default defineGkdApp({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '@[text="以后再说"] + [text="马上评价"]',
+      rules: [{ key: 0, matches: '@[text="以后再说"] + [text="马上评价"]' }],
       snapshotUrls: 'https://i.gkd.li/i/12744951',
     },
   ],

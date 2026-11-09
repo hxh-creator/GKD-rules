@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.heytap.health.settings.me.upgrade.UpgradeActivity',
           matches: [
@@ -27,6 +28,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.heytap.health.main.MainActivity',
           matches:
@@ -42,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches: ['[text="您的健康周报已生成"]', '[text="关闭"]'],
@@ -54,6 +57,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches: '[vid="image_operation"] + [vid="close"]',
@@ -66,6 +70,7 @@ export default defineGkdApp({
       name: '其他-忽略[开启微信运动同步]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.heytap.health.main.MainActivity',
           matches: '[text^="开启微信运动同步"] + [text="忽略"]',
@@ -80,6 +85,7 @@ export default defineGkdApp({
       desc: '点击[暂不]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.sleep.SleepHistoryActivity',
           matches: [

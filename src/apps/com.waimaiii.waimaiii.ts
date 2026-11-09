@@ -13,6 +13,7 @@ export default defineGkdApp({
       activityIds: 'com.sangshen.ad_jg_flutter_sdk.SplashAdActivity',
       rules: [
         {
+          key: 0,
           matches:
             'View > View[childCount=2] > ImageView[clickable=true] + ImageView[id=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13346187',

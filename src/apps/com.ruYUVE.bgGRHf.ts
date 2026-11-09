@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           forcedTime: 10000, // 该软件开屏广告5秒后才出现跳过按钮
           matches: '[desc="关闭广告"]',

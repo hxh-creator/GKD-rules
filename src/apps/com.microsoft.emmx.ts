@@ -13,6 +13,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
           matches: '[text="允许通知"] + [text="不，谢谢"]',
           snapshotUrls: 'https://i.gkd.li/i/13646187',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击[确定]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
           matches: '[text="关闭所有标签页?"] + * > [text="确定"]',
@@ -39,6 +41,7 @@ export default defineGkdApp({
       name: '功能类-关闭标签页',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
           matches: '[text="关闭标签页"]',
@@ -54,6 +57,7 @@ export default defineGkdApp({
       desc: '点击[继续]',
       rules: [
         {
+          key: 0,
           activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
           matches:
             '[text="前往CSDN APP阅读全文"] < * > [desc="继续"][clickable=true]',

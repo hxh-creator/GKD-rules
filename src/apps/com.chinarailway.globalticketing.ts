@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.MobileTicket.ui.activity.MainActivity',
           matches: ['[text^="开启定位权限"]', '[vid="img_close"]'],
           exampleUrls: 'https://e.gkd.li/95c8443e-babc-4d96-a3cd-00692c2acf30',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.MobileTicket.ui.activity.MainActivity',
           matches: '[vid="iv_tip_close"][desc^="关闭公告"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/be03fa78-7c6f-4a05-8370-93a5de9a246e',

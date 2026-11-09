@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '@[clickable=true] > [text="跳过"]', // 全局规则无效，必须点击clickable=true的节点才能跳过
           snapshotUrls: 'https://i.gkd.li/i/14668997',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: [
             'com.heytap.upgrade.ui.UpgradeActivity',
@@ -47,6 +49,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',

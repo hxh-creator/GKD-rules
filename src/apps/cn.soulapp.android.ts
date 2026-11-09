@@ -33,6 +33,7 @@ export default defineGkdApp({
       name: '局部广告-广场页卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.soulapp.android.component.startup.main.MainActivity',
           matches:
@@ -50,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.component.chat.ConversationActivity',
             '.component.startup.main.MainActivity',
@@ -106,6 +108,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.component.startup.main.MainActivity',
           matches: '[text="消息通知显示消息内容"] +3 [vid="img_close"]',
           snapshotUrls: 'https://i.gkd.li/i/14332334',
@@ -142,6 +145,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: '.component.chat.ConversationActivity',
           matches: '[vid="cl_gift_normal"] > TextView[vid="tv_btn_close"]',
           snapshotUrls: 'https://i.gkd.li/i/19448971',
@@ -156,6 +160,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: '.component.startup.main.MainActivity',
           matches: '[vid="tslAdLayout"] [vid="tv_cancel"]',
           exampleUrls: 'https://e.gkd.li/f721ac73-f66c-45ca-8660-0c3e57845fd9',

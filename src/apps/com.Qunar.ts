@@ -14,6 +14,7 @@ export default defineGkdApp({
       ignoreGlobalGroupMatch: true,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '@[text^="关闭"][visibleToUser=true] - RelativeLayout > [vid="mery_splash_ad_resource"]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mqunar.atom.attemper.pupgrade.PUpgradeActivity',
           matches: '[text="残忍拒绝"][visibleToUser=true]',

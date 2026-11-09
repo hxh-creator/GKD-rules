@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.ui.other.activity.MainActivity',
             '.ui.main.fragment.MainFragment$7$1',

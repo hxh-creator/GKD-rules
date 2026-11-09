@@ -16,6 +16,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13255684',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[id="com.videogo:id/ad_closead_nointerest"]',
           snapshotUrls: 'https://i.gkd.li/i/13255697',

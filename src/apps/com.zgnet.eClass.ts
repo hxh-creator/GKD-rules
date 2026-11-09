@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: 'TextView[id$="tv_close_time"&&text^="关闭"]',
           snapshotUrls: 'https://i.gkd.li/i/12644260',
         },
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '功能类-退出确认弹窗',
       rules: [
         {
+          key: 0,
           matches:
             '[text*="确定要退出"] < LinearLayout +n LinearLayout > TextView[id$="tv_exit_sure"]',
           snapshotUrls: 'https://i.gkd.li/i/12645513',

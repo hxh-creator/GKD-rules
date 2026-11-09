@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dw.btime.MainHomeTabActivity',
           matches: '[id="com.dw.btime:id/iv_overlay_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12889448',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '局部广告-横幅广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.dw.btime.MainHomeTabActivity',
           matches: '[id="com.dw.btime:id/old_baby_close"][clickable=true]',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.base_library.dialog.DWBaseDialog',
           matches: '[id="com.dw.btime:id/iv_upgrade_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12911011',

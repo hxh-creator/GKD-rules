@@ -21,8 +21,7 @@ export default defineGkdSubscription({
   version: 0,
   author: 'hxh-creator',
   checkUpdateUrl: './hxh-creator_gkd.version.json5',
-  supportUri:
-    'https://github.com/hxh-creator/GKD_subscription/issues/new/choose',
+  supportUri: 'https://github.com/hxh-creator/GKD-rules/issues/new/choose',
   categories,
   globalGroups,
   apps: rawApps,

@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.NewHomeActivity',
           matches: '[vid="hintTextView2"] + [vid="confirmView"]',
           snapshotUrls: 'https://i.gkd.li/i/14032203',

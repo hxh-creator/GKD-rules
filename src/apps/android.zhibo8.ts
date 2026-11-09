@@ -60,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="pushsetting_close_iv"]',
           exampleUrls: 'https://e.gkd.li/e28aa1f2-8088-4f78-bee9-2d5832637671',

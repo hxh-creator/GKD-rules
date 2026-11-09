@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.huaxiaozhu.sdk.app.MainActivity',
           matches: '[text="稍后更新"]',
           exampleUrls:
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.huaxiaozhu.sdk.app.MainActivity',
           matches: '[vid="popClose"]',

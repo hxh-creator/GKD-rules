@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-自动签到',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '[text="签到"][visibleToUser=true]',

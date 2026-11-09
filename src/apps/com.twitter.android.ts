@@ -170,6 +170,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.twitter.app.main.MainActivity',
           matches: '[id="com.twitter.android:id/app_rating_button_never"]',
           snapshotUrls: 'https://i.gkd.li/i/13774150',
@@ -186,6 +187,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.twitter.app.main.MainActivity',
           matches:
             '@[clickable=true] > [visibleToUser=true][text="Not now"] <<n [vid="half_cover_recycler_view_holder"]',
@@ -198,6 +200,7 @@ export default defineGkdApp({
       name: '功能类-自动点击翻译',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.twitter.tweetdetail.TweetDetailActivity',
           matches: '[vid="translation_link"][text^="翻译"]',
@@ -215,6 +218,7 @@ export default defineGkdApp({
       name: '功能类-自动点击"显示更多帖子"',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.twitter.app.main.MainActivity',
           matches: '@FrameLayout[clickable=true] > [text="显示更多帖子"]',
@@ -229,6 +233,7 @@ export default defineGkdApp({
       name: '其他-关闭[开启个性化广告]弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.twitter.app.main.MainActivity',
           matches:

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.arcsoft.closeli.dhmain2.main.NewMainActivity',
           matches: '@[vid="iv_close"] - [vid="iv_ads"]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.arcsoft.closeli.dhmain2.main.NewMainActivity',
           matches:

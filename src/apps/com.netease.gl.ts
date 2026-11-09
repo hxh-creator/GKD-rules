@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.serviceupdate.widget.DialogUpdate',
           matches:
             '@[id="com.netease.gl:id/iv_close"] +2 LinearLayout >n [id="com.netease.gl:id/btn_update"]',
@@ -40,6 +41,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.compfeed.widget.CommonWebPopupDialog',
           matches: '@[id="com.netease.gl:id/iv_close"] + [text="开启推送"]',
           snapshotUrls: 'https://i.gkd.li/i/13072071',

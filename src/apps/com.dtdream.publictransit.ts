@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dtchuxing.main.MainActivity',
           matches: '[id="com.dtdream.publictransit:id/ifv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12830113',

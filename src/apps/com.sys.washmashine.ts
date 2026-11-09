@@ -14,6 +14,7 @@ export default defineGkdApp({
       ignoreGlobalGroupMatch: true,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '@[desc="skip_button"][clickable=true] - [text="跳过"]',
           exampleUrls: 'https://e.gkd.li/b0d7d8e3-fc68-4be8-aba0-c8100d4143fb',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.mvp.activity.SplashAy',
           matches:

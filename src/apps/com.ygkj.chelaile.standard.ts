@@ -75,6 +75,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'dev.xesam.chelaile.app.module.PanelHostActivity',
           matches:
             '[id="com.ygkj.chelaile.standard:id/cll_interstitial_close"][clickable=true]',
@@ -139,6 +140,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'dev.xesam.chelaile.app.module.PanelHostActivity',
           matches:
             '@FrameLayout[clickable=true][getChild(0).vid="fav_line_layout"] - LinearLayout >2 [text="我的收藏"][visibleToUser=true]',

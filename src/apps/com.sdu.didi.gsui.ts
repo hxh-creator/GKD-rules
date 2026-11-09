@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sdu.didi.gsui.main.MainActivity',
           matches: '[id="com.sdu.didi.gsui:id/main_dialog_banner_image_close"]',

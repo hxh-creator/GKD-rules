@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击允许',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.android.documentsui.picker.PickActivity',
           matches: [
@@ -25,6 +26,7 @@ export default defineGkdApp({
       name: '功能类-使用此文件夹',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.android.documentsui.picker.PickActivity',
           matches: '[text="使用此文件夹"]',
@@ -37,6 +39,7 @@ export default defineGkdApp({
       name: '功能类-自动选择排序方式[修改日期（从新到旧）]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.picker.PickActivity',
           matches:

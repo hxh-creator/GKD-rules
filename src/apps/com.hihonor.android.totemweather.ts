@@ -40,6 +40,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="不感兴趣"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/38517cb1-c930-40cb-8c95-a4e1ecd57323',

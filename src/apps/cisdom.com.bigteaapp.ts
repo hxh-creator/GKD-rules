@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '[text$="抽奖送大礼"] < WebView - [id="cisdom.com.bigteaapp:id/close"]',
           snapshotUrls: 'https://i.gkd.li/i/13228579',

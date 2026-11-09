@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.jd.jdlite.MainFrameActivity',
           matches: '@[desc="关闭页面"] - FrameLayout >n [text="极速版弹窗"]',
           snapshotUrls: 'https://i.gkd.li/i/12727396',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainFrameActivity',
           matches:
             '@ImageView[clickable=true] - LinearLayout > [text="开启消息通知"]',

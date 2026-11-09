@@ -35,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.sf.activity.MainActivity',
           matches: '[id="MonthReportDialogCloseBtn"] > ImageView',
           exampleUrls:

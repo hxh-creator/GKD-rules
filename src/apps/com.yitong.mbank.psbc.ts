@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.module.home.view.activity.MainActivity',
             '.module.app.view.customview.dialog.DialogUpdateApk',
@@ -34,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.yitong.mbank.psbc.module.home.view.activity.MainActivity',
           matches:
@@ -47,6 +49,7 @@ export default defineGkdApp({
       name: '局部广告-首页-浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,

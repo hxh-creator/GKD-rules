@@ -26,6 +26,7 @@ export default defineGkdApp({
       name: '功能类-开启[自动抵扣]开关',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.activity.scan.AfterPayUseAct',
           matches:

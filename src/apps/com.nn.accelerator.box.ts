@@ -68,6 +68,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: ['.activity.MainActivity', '.activity.WelcomeActivity'],
           matches: '[vid="iv_activity"] + [vid="iv_close"]',
@@ -88,6 +89,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.MainActivity',
           matches: ['[text*="打开通知"]', '[vid="iv_close"]'],

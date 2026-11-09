@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       desc: '关闭资讯通知后，总是弹窗让打开',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[id="com.huawei.browser:id/close_push_guide_window"]',
           exampleUrls:

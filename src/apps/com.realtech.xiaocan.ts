@@ -28,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.realtech.xiaocan.MainActivity',
           matches:
             '[id="android:id/content"] >5 View[childCount=6] > ImageView[index=5][clickable=true]',

@@ -40,6 +40,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[desc="了解更多"] - [desc="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/12775920',
         },

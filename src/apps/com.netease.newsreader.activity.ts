@@ -40,6 +40,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/12639751',
         },
         {
+          key: 0,
           preKeys: [1],
           name: '首页信息流广告-反馈理由',
           matches: '[text="不感兴趣"]',

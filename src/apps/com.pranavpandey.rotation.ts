@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.google.android.gms.ads.AdActivity',
           matches: '[desc="Interstitial close button"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/23497601',

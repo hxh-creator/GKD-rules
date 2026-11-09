@@ -46,6 +46,7 @@ export default defineGkdApp({
       desc: '点击右上角[关闭]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.oray.sunlogin.application.Main',
@@ -69,6 +70,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.application.Main',
           matches:
             '[text="立即更新"] <2 * > [id="com.oray.sunlogin:id/button_cancel"][text="以后再说"]',
@@ -94,6 +96,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           anyMatches: [
             '@[clickable=true] > [text="不感兴趣"][clickable=false][visibleToUser=true]',
@@ -112,6 +115,7 @@ export default defineGkdApp({
       name: '功能类-退出app提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '[text="是否确认退出向日葵？"] + LinearLayout > [vid="button_ok"]',
@@ -125,6 +129,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.application.Main',
           matches: '@[vid="close"][visibleToUser=true] - [vid="ll_remote_end"]',

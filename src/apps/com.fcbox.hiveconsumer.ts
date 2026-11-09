@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'kt.com.fcbox.hiveconsumer.app.business.main.MainActivity',
@@ -17,6 +18,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/22455763',
         },
         {
+          key: 1,
           fastQuery: true,
           activityIds: [
             'kt.com.fcbox.hiveconsumer.app.business.main.MainActivity',
@@ -35,6 +37,7 @@ export default defineGkdApp({
       name: '局部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'kt.com.fcbox.hiveconsumer.app.business.main.MainActivity',

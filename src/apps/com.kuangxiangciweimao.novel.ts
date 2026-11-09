@@ -50,6 +50,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.frame.MainFrameActivity',
           matches: 'Button[text="签到"]',
           snapshotUrls: 'https://i.gkd.li/i/16897712',

@@ -19,6 +19,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13479466',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '关闭原因"不感兴趣"',
           matches:
@@ -32,6 +33,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
           matches: '[text="反馈"] -2 @View > Image',

@@ -52,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.DownloadActivity',
           matches: 'TextView[text*="新版本"] +3 TextView[text="下次提醒"]',
           snapshotUrls: 'https://i.gkd.li/i/12620586',
@@ -66,6 +67,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           preKeys: [1, 2],
           name: '首页信息流广告-反馈理由',
           matches:
@@ -158,6 +160,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '[vid="notification_button_close"][visibleToUser=true]',

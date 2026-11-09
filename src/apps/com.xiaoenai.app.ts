@@ -37,6 +37,7 @@ export default defineGkdApp({
       name: '局部广告-信息流广告',
       rules: [
         {
+          key: 0,
           name: '字节广告SDK',
           fastQuery: true,
           activityIds:

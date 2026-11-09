@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.woaika.kashen.ui.WIKHomeActivity',
           matches: '[id="android:id/button2"][text="暂不"]',
           exampleUrls:
@@ -32,6 +33,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[vid="tvPermissionDescDialogConfirm"]',
           exampleUrls:
             'https://m.gkd.li/57941037/6faf1f01-5b77-414b-91d8-98dcb5673f7c',

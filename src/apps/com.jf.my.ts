@@ -42,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.jf.my.main.ui.dialog.HomeRedPackageDialog',
           matches: '[id="com.jf.my:id/iv_back"]',
           snapshotUrls: 'https://i.gkd.li/i/12840619',

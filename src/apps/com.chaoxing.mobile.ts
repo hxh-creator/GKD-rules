@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-提示没有网络时点击[重试/确定]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.player.course.CoursePlayerWithNoteActivity',
           matches: [
@@ -28,6 +29,7 @@ export default defineGkdApp({
       name: '功能类-提示非WIFI环境时点击[继续]，使用流量播放',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.player.course.CoursePlayerWithNoteActivity',
@@ -55,6 +57,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.ui.MainTabActivity',
           matches: '[id="com.chaoxing.mobile:id/vNotificationItemClose"]',
           snapshotUrls: 'https://i.gkd.li/i/13197374',
@@ -66,6 +69,7 @@ export default defineGkdApp({
       name: '功能类-电脑端登录自动确认',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.chaoxing.mobile.webapp.ui.WebAppViewerActivity',
           matches:

@@ -236,6 +236,7 @@ export default defineGkdApp({
       name: '功能类-扫码后自动点击[授权登录]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.module.login.LoginPermissionActivity',
           matches: '[text="授权登录"][clickable=true]',

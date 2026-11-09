@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: '.ui.base.MainActivity',
           matches: '[text="发现新版本"]',

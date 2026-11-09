@@ -14,6 +14,7 @@ export default defineGkdApp({
       ignoreGlobalGroupMatch: true,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="advert_countdown_view"]',
           exampleUrls:

@@ -77,6 +77,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '[id="cn.wps.moffice_eng:id/close_new_func_guide_dialog_imageView"]',
           snapshotUrls: 'https://i.gkd.li/i/12882371',
@@ -179,6 +180,7 @@ export default defineGkdApp({
       name: '评价提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.wps.moffice.main.local.HomeRootActivity',
           matches: [

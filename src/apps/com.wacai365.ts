@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.wacai365.HomeActivity',
             'com.wacai.android.wind.splash.WindDialogActivity',
@@ -35,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.wacai365.HomeActivity',
           matches: '[id^="com.wacai365:id/promote_banner_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13249666',

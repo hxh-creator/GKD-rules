@@ -53,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches:
             '@ImageView[clickable=true] - ViewGroup > [text="喜欢就给个好评吧"]',

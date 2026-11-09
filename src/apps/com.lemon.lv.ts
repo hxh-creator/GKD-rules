@@ -32,6 +32,7 @@ export default defineGkdApp({
       name: '局部广告-选择素材界面上方广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.vega.libcutsame.select.view.CutSameSelectMediaActivity',
@@ -47,6 +48,7 @@ export default defineGkdApp({
       desc: '自动点击[立即恢复]按钮',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.vega.main.MainActivity',
           matches: '[vid="tv_title_resume_design"] +2 [vid="tvResumeNow"]',

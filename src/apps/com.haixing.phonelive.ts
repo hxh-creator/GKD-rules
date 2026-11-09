@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.longya.live.activity.MainActivity',
           matches: ['[text*="权限授权"]', '[text="取消"]'],

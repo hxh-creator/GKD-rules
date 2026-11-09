@@ -35,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.kurogame.kjq.MainActivity',
           matches: '[vid="close"]',

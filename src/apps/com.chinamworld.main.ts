@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: [
             '[vid="ll_load"][visibleToUser=true]',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ccb.start.view.startdialog.StartDialogActivity',
           matches: [
@@ -51,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ccb.start.MainActivity',
           matches: '[text="知晓风险，继续使用"]',

@@ -31,6 +31,7 @@ export default defineGkdApp({
       name: '权限提示-通知权限',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.wps.moffice.main.local.HomeRootActivity',
           matches: [

@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '警告⚠️：会跳过有害文件警告，请谨慎开启',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
           matches: [

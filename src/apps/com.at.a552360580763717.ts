@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ft.movie.project_speed.MainActivity',
           matches:
             'View[childCount=29 || childCount=30] > View[childCount=2] > ImageView[clickable=true][visibleToUser=true][index=0]',

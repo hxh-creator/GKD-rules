@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.popupconfig.PopupConfigActivity',
           matches: '[vid="cancel_iv"]',

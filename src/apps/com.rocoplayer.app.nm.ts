@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.e4a.runtime.android.mainActivity',
           matches: '[text="温馨提示"] +2 [text="确定"]',
           snapshotUrls: 'https://i.gkd.li/i/14304132',

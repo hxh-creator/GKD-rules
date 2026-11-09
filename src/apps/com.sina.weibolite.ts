@@ -26,6 +26,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点击[不感兴趣]',
           matches:
@@ -47,6 +48,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.weico.international.activity.MainFragmentActivity',
           matches: '[id="com.sina.weibolite:id/ed_btn_negative"]',
           snapshotUrls: 'https://i.gkd.li/i/13727728',

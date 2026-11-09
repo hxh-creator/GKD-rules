@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '@[desc="取消"] + [desc="更新"]',
           snapshotUrls: 'https://i.gkd.li/i/14292907',
         },

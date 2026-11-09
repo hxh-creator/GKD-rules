@@ -53,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jingdong.app.reader.main.ui.JdMainActivity',
           matches: '[vid="mCloseBtn"][visibleToUser=true]',
@@ -66,6 +67,7 @@ export default defineGkdApp({
       name: '全屏广告-阅读页面弹窗广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.jd.read.engine.activity.EngineReaderActivity',
           matches: '[id$="ad_read_close"]',
           snapshotUrls: [

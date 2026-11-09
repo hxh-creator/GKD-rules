@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,

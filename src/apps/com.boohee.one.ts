@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.boohee.library.update.UpdateDialogActivity',
           matches:
             '@[id="com.boohee.one:id/tv_ignore"] + [id="com.boohee.one:id/tv_update"]',
@@ -23,8 +24,13 @@ export default defineGkdApp({
       key: 2,
       name: '全屏广告-发现页弹窗广告',
       activityIds: 'com.sensorsdata.sf.ui.view.DialogActivity',
-      rules:
-        'LinearLayout[childCount=2] > @ImageView[id=null][clickable=true] + ImageView',
+      rules: [
+        {
+          key: 0,
+          matches:
+            'LinearLayout[childCount=2] > @ImageView[id=null][clickable=true] + ImageView',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12716970',
     },
     {
@@ -36,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.app.account.ui.activity.MsgCategoryActivityV2',
           matches: '[id="com.boohee.one:id/img_close_push"]',
           snapshotUrls: 'https://i.gkd.li/i/12716950',

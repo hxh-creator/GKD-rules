@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dianping.main.guide.SplashActivity',
           matches:
             'FrameLayout[id="android:id/content"] >2 FrameLayout > ImageView + FrameLayout[id=null][desc="关闭"][clickable=true]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '[text="去开启"][clickable=true] +2 @FrameLayout[clickable=true] > ImageView',
           action: 'clickCenter', // clickNode无响应
@@ -39,8 +41,13 @@ export default defineGkdApp({
       name: '局部广告-关闭[签到开红包]',
       desc: '点击右下角悬浮图片右上角的x图标',
       activityIds: ['com.dianping.v1.NovaMainActivity'],
-      rules:
-        '[id="com.dianping.v1:id/float_image"] + [id="com.dianping.v1:id/close"][clickable=true]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '[id="com.dianping.v1:id/float_image"] + [id="com.dianping.v1:id/close"][clickable=true]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12727366',
     },
     {
@@ -98,6 +105,7 @@ export default defineGkdApp({
       name: '功能类-选择地图时自动点击[更多]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.dianping.nova.picasso.DPPicassoBoxActivity',
           matches: [

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.eaas.launcher.activities.main.MainActivity',
           matches: '@[clickable=true] + [vid="tv_title"][text="发现新版本"]',
           exampleUrls: 'https://e.gkd.li/3ebed425-8801-4d70-9bcf-5c9fa61890ca',

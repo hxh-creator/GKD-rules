@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.salmon.film.main.ui.MainActivity',
           matches: '[text="朕知道了"][clickable=true][visibleToUser=true]',

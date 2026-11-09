@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches: '[text^="跳过"][text.length<=10]',
           snapshotUrls: [
@@ -80,6 +81,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/16993406',
         },
         {
+          key: 3,
           preKeys: [0, 1, 2],
           activityIds: [
             'com.huawei.openalliance.ad.activity.FeedbackActivity',
@@ -108,6 +110,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.huawei.android.thememanager.HwThemeManagerActivity',
             'com.huawei.android.launcher.unihome.UniHomeLauncher',
@@ -127,7 +130,12 @@ export default defineGkdApp({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '@[text="取消"] < * - * >n [text="开启消息通知"]',
+      rules: [
+        {
+          key: 0,
+          matches: '@[text="取消"] < * - * >n [text="开启消息通知"]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12918192',
     },
   ],

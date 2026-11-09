@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivity',
           matches:
             '[id="com.xiaomi.mico:id/adImage"] + [id="com.xiaomi.mico:id/ivCloseAd"]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivity',
           matches: ['[text*="开启位置服务"]', '[text="取消"]'],
           snapshotUrls: 'https://i.gkd.li/i/15284753',

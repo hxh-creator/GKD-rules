@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击卡片广告左上角x',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.didi.sdk.app.MainActivity',
           matches:
@@ -26,6 +27,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.didi.sdk.app.MainActivity',
           matches: '[vid="iv_upgrade_btn_ignore"]',
@@ -41,6 +43,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,
@@ -58,6 +61,7 @@ export default defineGkdApp({
       desc: '点击[跳过]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.didi.sdk.app.MainActivity',
           matches: [
@@ -74,6 +78,7 @@ export default defineGkdApp({
       name: '其他-追加车型提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.didi.sdk.app.MainActivity',
           matches: [

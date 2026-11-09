@@ -14,6 +14,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           matches: '[id="com.fenbi.android.solar:id/tv_cancel"]',
           exampleUrls:
             'https://m.gkd.li/57941037/7864769f-542c-4f76-8b90-4d030b53651b',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           matches: '[id="com.fenbi.android.solar:id/v_firework_close"]',
           exampleUrls: 'https://e.gkd.li/874cdabf-8e49-4c6d-8fd0-48effd6e44e9',
           snapshotUrls: 'https://i.gkd.li/i/16759322',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.launcher.splash.SplashActivity',
           matches: '[vid="home_pop_close"][visibleToUser=true]',

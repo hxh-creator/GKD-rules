@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'cn.com.servyou.servyouzhuhai.activity.main.imps.MainActivity',
           matches: '[id="com.example.servyouappzhuhai:id/btn_dialog_negtive"]',

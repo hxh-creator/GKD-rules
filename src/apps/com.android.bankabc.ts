@@ -71,6 +71,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[text="允许获取位置信息"] +n * > [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/14208572',
@@ -86,6 +87,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[vid="iv_notification_reminder_dialog_close"]',
           snapshotUrls: 'https://i.gkd.li/i/14208621',

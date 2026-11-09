@@ -32,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.djcity.activities.homepage.MainActivity',
           matches:
             '[vid="main_container"] >7 View[childCount=7] > View[childCount=2] > @View[index=1][childCount=1][clickable=true] > ImageView[childCount=0] <<n [vid="main_container"]',
@@ -50,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.djcity.activities.homepage.MainActivity',
           matches: '@View[clickable=true] > [desc="好的"]',
           exampleUrls:

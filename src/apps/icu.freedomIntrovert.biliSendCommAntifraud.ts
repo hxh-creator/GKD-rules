@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-检查评论自动点击后台等待',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'icu.freedomIntrovert.biliSendCommAntifraud.ByXposedLaunchedActivity',

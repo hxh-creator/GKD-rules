@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[id="com.shaoniandream:id/countdown"]',
           exampleUrls: 'https://e.gkd.li/080e7f84-c8ac-48b3-ba82-c1dbb795f4f6',

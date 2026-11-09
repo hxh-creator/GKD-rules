@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sobo.app.MainActivity',
           matches:
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sobo.app.MainActivity',
           matches:

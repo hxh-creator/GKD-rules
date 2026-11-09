@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.CSMBPActivity',
           matches: '[id="com.csair.mbp:id/close_btn"]',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.csair.mbp.CSMBPActivity',
           matches: '[text="开启长辈版"] -2 [text="暂不开启"]',
           exampleUrls:

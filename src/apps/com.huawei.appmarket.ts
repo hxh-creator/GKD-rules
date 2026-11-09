@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[vid="clock_layout"]',
           snapshotUrls: 'https://i.gkd.li/i/15523957',
         },
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MarketActivity',
           matches: '@[text="以后再说"] + [text="立即更新"]',
           snapshotUrls: 'https://i.gkd.li/i/13228520',
@@ -42,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.huawei.appmarket.service.appmgr.view.activity.AppUpdateActivity',
           matches: '[text="查看更多"]',
@@ -60,6 +63,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.huawei.appgallery.upgraderecommendation.ui.',
           matches: '[text="直接进入" || text="进入主页"][visibleToUser=true]',
           exampleUrls:
@@ -78,6 +82,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.huawei.appmarket.MarketActivity',
           matches: '[vid="close_icon"]',
@@ -93,6 +98,7 @@ export default defineGkdApp({
       desc: '点击[以后再说]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.huawei.appgallery.jointmessage.jointmessage.impl.activity.NotificationSwitchDialogActivity',

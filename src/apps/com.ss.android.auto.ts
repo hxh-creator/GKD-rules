@@ -26,6 +26,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           // 不与旧版本合并，尽量使用[clickable=true]，保证速度避免误触
           preKeys: [0],
           name: '点击"不感兴趣"1',
@@ -33,6 +34,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13538627',
         },
         {
+          key: 2,
           preKeys: [0],
           name: '点击"不感兴趣"2',
           matches: '[text="不感兴趣"][clickable=true]',
@@ -51,6 +53,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.SplashActivity',
           matches:
             '@TextView[text="以后再说"] - FrameLayout >2 TextView[text$="升级"]',
@@ -65,6 +68,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.ss.android.auto.activity.SplashActivity',
             'com.ss.android.auto.activity.ConcernDetailActivity',
@@ -85,6 +89,7 @@ export default defineGkdApp({
       name: '局部广告-文章底部卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.ss.android.article.base.feature.detail2.view.NewDetailActivity',
@@ -101,6 +106,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.ss.android.article.base.feature.detail2.view.NewDetailActivity',
             'com.ss.android.auto.ugc.video.activity.UgcLongPostActivity',
@@ -124,6 +130,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: [
             '.activity.SplashActivity',
@@ -143,6 +150,7 @@ export default defineGkdApp({
       name: '局部广告-选车页卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.auto.activity.ConcernDetailActivity',
           matches: '@FrameLayout[clickable=true][id!=null] -2 [text="广告"]',
@@ -156,6 +164,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.auto.activity.ConcernDetailActivity',
           matches: 'FrameLayout[childCount=8] > TextView[text=""]',
@@ -171,6 +180,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: '.activity.SplashActivity',
           matches: '[text="去评价"]',

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mxbc.ohsa.modules.main.MainAbilityShellActivity',
           matches:

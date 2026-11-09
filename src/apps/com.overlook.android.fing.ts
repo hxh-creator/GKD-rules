@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.main.SplashActivity',
           matches: '[text="關閉"]',
           snapshotUrls: 'https://i.gkd.li/i/15521827',

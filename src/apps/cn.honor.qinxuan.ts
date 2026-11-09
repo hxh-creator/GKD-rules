@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.honor.qinxuan.MainActivity',
           matches: '[id="cn.honor.qinxuan:id/iv_close_dlg"]',
           snapshotUrls: 'https://i.gkd.li/i/13930613',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '@[vid="iv_close"] < * > [text="开启消息通知"]',
           snapshotUrls: 'https://i.gkd.li/i/14946137',
         },

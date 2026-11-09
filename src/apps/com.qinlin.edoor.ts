@@ -10,6 +10,7 @@ export default defineGkdApp({
       activityIds: 'com.qinlin.edoor.MainActivity',
       rules: [
         {
+          key: 0,
           matches: [
             '[id="com.qinlin.edoor:id/reaper_ad_source_layout"]',
             '[id="com.qinlin.edoor:id/close"]',
@@ -97,6 +98,7 @@ export default defineGkdApp({
       desc: '点击[好的]',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc^="开门成功"] > [desc="好 的"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/d8e9be78-a9d4-48f9-a6ee-9ed384a190b3',

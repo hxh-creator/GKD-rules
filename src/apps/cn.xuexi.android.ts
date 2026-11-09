@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.alibaba.android.rimet.biz.SplashActivity',
           matches: '@[text="取消"] + [text="立即升级"]',
           snapshotUrls: 'https://i.gkd.li/i/12715139',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.alibaba.android.rimet.biz.SplashActivity',
           matches:
             '[text^="开启消息通知"] +2 [id="cn.xuexi.android:id/layout_close"]',

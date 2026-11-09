@@ -134,6 +134,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点"不感兴趣"',
           matches:
@@ -168,6 +169,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds: 'com.xingin.lurker.appscore.ui.AppScoreDialogActivity',
           matches: '[text="您对小红书的评分如何?"]',
@@ -183,6 +185,7 @@ export default defineGkdApp({
       desc: '自动展开更多回复',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xingin.matrix.notedetail.NoteDetailActivity',
           matches:
@@ -196,6 +199,7 @@ export default defineGkdApp({
       name: '局部广告-你可能感兴趣的人',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xingin.xhs.index.v2.IndexActivityV2',
           matches: '[text="你可能感兴趣的人"] +2 Button[text="关闭"]',
@@ -208,6 +212,7 @@ export default defineGkdApp({
       name: '局部广告-关闭首页信息流中推荐博主',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xingin.xhs.index.v2.IndexActivityV2',
           matches:

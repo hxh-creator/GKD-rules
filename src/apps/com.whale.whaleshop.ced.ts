@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="我知道了"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/c74158b2-c8d9-4ab2-aeb8-e87289fa49e0',

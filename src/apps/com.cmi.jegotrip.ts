@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.BottomTabsActivity',
           matches: '[id="com.cmi.jegotrip:id/ig_ad_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13631904',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.cmi.jegotrip.ui.BottomTabsActivity',
           matches: [
             '[text="申请定位权限说明"]',
@@ -46,6 +48,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'pub.devrel.easypermissions.AppSettingsDialogHolderActivity',
           matches: ['[text="权限申请"]', '[text="取消"]'],

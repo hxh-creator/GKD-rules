@@ -42,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '@TextView[clickable=true][visibleToUser=true] - Image[text!=null] < View < View < View < WebView < WebView < [vid="webContainer"]',
@@ -58,6 +59,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '[text^="立即了解"] -3 @View[clickable=true] <<n [vid="webContainer"]',
@@ -71,6 +73,7 @@ export default defineGkdApp({
       desc: '关闭弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches:
@@ -87,6 +90,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.taobao.login4android.scan.QrScanActivity',
           matches: '[text="确认并登录"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/14414503', // 该页面不允许截图所以快照页面是黑屏，但不影响编写规则
@@ -99,6 +103,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.alicloud.databox.MainActivity',
           matches: ['[text="容量使用超限"]', '[vid="layout_close"]'],

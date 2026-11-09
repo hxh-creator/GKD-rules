@@ -13,6 +13,7 @@ export default defineGkdApp({
       activityIds: 'com.ddyc.lotterytool.module.main.MainActivity',
       rules: [
         {
+          key: 0,
           matches:
             '@ImageButton[clickable=true][childCount=0] < LinearLayout < FrameLayout < [parent=null]',
           snapshotUrls: 'https://i.gkd.li/i/13324555',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text^="开启推送通知"] +2 LinearLayout [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13325888',
         },

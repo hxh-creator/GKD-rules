@@ -34,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mvc.activity.HomepageActivity2',
           matches: '[id="com.fan.app:id/tv_nj_later"]',
           snapshotUrls: 'https://i.gkd.li/i/13601734',

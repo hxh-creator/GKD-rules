@@ -13,6 +13,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="青少年模式"] +3 [desc="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/14052188',

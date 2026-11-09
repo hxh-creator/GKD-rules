@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="tv_time"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/1cad6c38-5c76-4b5a-b350-bb9630221661',

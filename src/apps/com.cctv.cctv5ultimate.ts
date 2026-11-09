@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.cctv.cctv5ultimate.activity.MainActivity',
           matches: [
             '[text="广告"]',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.cctv.cctv5ultimate.videodetail.activity.VideoDetailActivity',

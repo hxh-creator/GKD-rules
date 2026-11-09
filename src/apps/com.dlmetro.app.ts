@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bwton.metro.tabindicator.business.MainTabActivity',
           matches: '[vid="iv_close"]',

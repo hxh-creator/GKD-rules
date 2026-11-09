@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           matches: '[text*="签到成功"][text.length<10]',
           snapshotUrls: [
@@ -29,6 +30,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           name: '收藏帖子后底部推荐关注卡片',
           fastQuery: true,
           activityIds:
@@ -45,6 +47,7 @@ export default defineGkdApp({
       name: '功能类-自动点击查看原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.module.bbs.post.ui.activitys.WebNewsPostPageActivity',

@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[id="com.picacomic.fregata:id/imageButton_popup_close"]',
           exampleUrls:
             'https://m.gkd.li/83610194/2a9a1179-3a50-4317-900a-42c8197517ed',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           matches:
             '[id="com.picacomic.fregata:id/button_dialog_announcement_positive"]',
           exampleUrls:
@@ -47,6 +49,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: 'com.picacomic.fregata.activities.MainActivity',
           matches: '[id="com.picacomic.fregata:id/imageButton_banner_close"]',
           exampleUrls:
@@ -93,6 +96,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: 'com.picacomic.fregata.activities.ComicViewerActivity',
           matches:
             'RelativeLayout > Button[text="確定"][id="com.picacomic.fregata:id/button_dialog_custom_positive"]',

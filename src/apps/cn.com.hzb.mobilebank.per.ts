@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.com.hzb.mobilebank.per.MainActivity',
           matches:
@@ -26,6 +27,7 @@ export default defineGkdApp({
       desc: '仅限财富版',
       rules: [
         {
+          key: 0,
           matchTime: 10000,
           actionMaximum: 1,
           resetMatch: 'app',

@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.WeiyunRootActivity',
           matches: '@LinearLayout -(1,2) [text="互动广告"][visibleToUser=true]',

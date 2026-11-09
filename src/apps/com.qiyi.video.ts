@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           // 需点击 clickable=true 的节点
           matches: '@[clickable=true] >(1,2) [text="关闭"]',
           snapshotUrls: [
@@ -30,6 +31,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             'org.qiyi.android.video.MainActivity',
             'org.qiyi.video.PhoneCloudRecordActivity',
@@ -60,6 +62,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'org.qiyi.android.video.MainActivity',
           matches: '[id="com.qiyi.video:id/cancel_btn"][text="暂时不要"]',
           snapshotUrls: 'https://i.gkd.li/i/12838152',
@@ -75,6 +78,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'org.qiyi.android.video.MainActivity',
             'org.qiyi.android.search.view.PhoneSearchActivity',

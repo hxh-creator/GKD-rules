@@ -33,6 +33,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'Pro.biz.home.ProMainActivity',
           matches:

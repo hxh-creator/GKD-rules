@@ -18,6 +18,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/21556785',
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '@ViewGroup[clickable=true] > [desc="关闭此广告"][visibleToUser=true]',

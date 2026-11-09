@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.guodongbaohe.app.activity.AdvertisementTwoActivity',
           matches: 'LinearLayout[id="com.guodongbaohe.app:id/close_dialog_lv"]',

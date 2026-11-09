@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dmzj.manhua.ui.LaunchInterceptorActivity',
           matches: '[id="com.dmzj.manhua:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13542503',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dmzj.manhua.ui.home.HomeTabsActivitys',
           matches: '[id="com.dmzj.manhua:id/ivAdClose"]',
           snapshotUrls: 'https://i.gkd.li/i/13542506',

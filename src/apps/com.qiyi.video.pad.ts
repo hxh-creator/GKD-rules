@@ -15,6 +15,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '@[clickable=true] >2 [text="关闭"]',
           exampleUrls: [
             'https://e.gkd.li/e731c9e7-b93e-4d3f-ae6c-887554b27d5a',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.iqiyi.video.activity.PlayerActivity',
           matches: '@[clickable=true] > [text^="关闭广告"][visibleToUser=true]',

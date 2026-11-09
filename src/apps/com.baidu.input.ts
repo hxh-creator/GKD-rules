@@ -13,6 +13,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: '.ImeAppMainActivity',
           matches: '[id="android:id/content"] >2 [vid="button_close"]',
           snapshotUrls: 'https://i.gkd.li/i/14179064',

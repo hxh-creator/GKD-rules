@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionDelay: 1000, // 过早点击可能导致应用闪退
           matches:
@@ -92,6 +93,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: ['.update', '.pages.main.MainFragmentActivity'],
           matches: '@[text="以后再说"] + [text="优先体验"]',
           snapshotUrls: [
@@ -106,6 +108,7 @@ export default defineGkdApp({
       name: '局部广告-首页右侧悬浮广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.dragon.read.pages.main.MainFragmentActivity',
@@ -271,6 +274,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 3,
           preKeys: [0, 1, 2],
           name: '点击[不感兴趣]/[关闭此广告]',
           matches: '[text="不感兴趣" || text="关闭此广告"]',
@@ -295,6 +299,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.pages.main.MainFragmentActivity',
           matches: '@ImageView[clickable=true] +3 * > [text="五星好评"]',
           snapshotUrls: 'https://i.gkd.li/i/14395093',
@@ -311,6 +316,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.widget.ConfirmDialogBuilder',
             '.pages.main.MainFragmentActivity',
@@ -346,6 +352,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           fastQuery: true,
           actionDelay: 500,
@@ -381,6 +388,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.reader.ui.ReaderActivity',
           matches: ['[text="点评此书"]', '[text="取消"][clickable=true]'],
           snapshotUrls: 'https://i.gkd.li/i/21589381',

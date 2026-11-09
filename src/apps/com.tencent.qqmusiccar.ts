@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '更新提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tencent.qqmusiccar.app.activity.AppStarterActivity',
           matches: [

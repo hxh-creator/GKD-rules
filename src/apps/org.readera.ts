@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击右上角的x',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           action: 'back',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches:
@@ -37,6 +39,7 @@ export default defineGkdApp({
       desc: '注意：此规则会关闭手动打开的高级版开通界面，但该界面有时会自动弹出',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.readera.MainActivity',
           matches:

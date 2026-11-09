@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           // 跳过节点位置与通知栏重合，需点击 clickable=true 的节点
           fastQuery: true,
           matches:

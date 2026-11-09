@@ -51,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.bx.game.dgg.MainActivity',
           matches:
             '@Button[desc="我知道了"][visibleToUser=true] < View <2 View < View < View < View < View < FrameLayout < [id="android:id/content"]',

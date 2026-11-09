@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchDelay: 3000, // 反馈3s后才能关闭
           matches: '[text="关闭广告"]',

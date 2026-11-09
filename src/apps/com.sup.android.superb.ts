@@ -12,6 +12,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds:
             'com.sup.superb.m_teenager.view.EnterTeenagerModeDialogActivity',
           matches: '[text$="青少年模式"] + [text="我知道了"]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text="开启推送通知"] +2 * > [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13691081',
         },
@@ -40,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sup.android.base.MainActivity',
           matches:
@@ -58,6 +61,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text="发现新版本"] +2 * > [text="我再想想"]',
           snapshotUrls: 'https://i.gkd.li/i/13858490',
         },
@@ -73,6 +77,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.sup.android.base.MainActivity',
             'com.sup.android.base.praise.PraiseDialogActivity',
@@ -94,6 +99,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sup.android.base.MainActivity',
           matches:
@@ -110,6 +116,7 @@ export default defineGkdApp({
       desc: '点击[关闭广告]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sup.android.base.MainActivity',
           matches: '[text="关闭广告"][clickable=true]',

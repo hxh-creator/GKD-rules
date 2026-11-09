@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '其他-进入飞行模式-提示弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.umetrip.android.msky.homepage.activity.UmeHomeActivity',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '局部广告-首页右侧悬浮广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.umetrip.android.msky.homepage.activity.UmeHomeActivity',
@@ -37,6 +39,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           actionMaximum: 1,

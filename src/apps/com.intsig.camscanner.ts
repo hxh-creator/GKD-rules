@@ -8,8 +8,13 @@ export default defineGkdApp({
       key: 1,
       name: '局部广告-主页面上方广告',
       activityIds: 'com.intsig.camscanner.mainmenu.mainactivity.MainActivity',
-      rules:
-        '[id="com.intsig.camscanner:id/card_ad_tag"] + [id="com.intsig.camscanner:id/card_close"]',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '[id="com.intsig.camscanner:id/card_ad_tag"] + [id="com.intsig.camscanner:id/card_close"]',
+        },
+      ],
       exampleUrls: 'https://e.gkd.li/772a24be-ca12-459f-8abf-e9573cde3f56',
       snapshotUrls: 'https://i.gkd.li/i/12668813',
     },
@@ -42,6 +47,7 @@ export default defineGkdApp({
       name: '其他-关闭[发现新截图]提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.mainmenu.mainactivity.MainActivity',
           matches:

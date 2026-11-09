@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '@View[desc^="关闭"][visibleToUser=true] <3 FrameLayout < FrameLayout < FrameLayout < [id="dxwt.questionnaire.ui:id/container"]',
           snapshotUrls: 'https://i.gkd.li/i/13255491',

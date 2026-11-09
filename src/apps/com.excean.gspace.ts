@@ -14,6 +14,7 @@ export default defineGkdApp({
       ignoreGlobalGroupMatch: true,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '@View[clickable=true][childCount=0] +2 LinearLayout >3 [text="广告"][visibleToUser=true]',

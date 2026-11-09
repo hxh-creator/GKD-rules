@@ -43,6 +43,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.upgrade.library.dialog.UpgradeDialogAct',
           matches: '@[vid="btn_dismiss"] -2 * >2 [text="发现新版本"]',
           snapshotUrls: [
@@ -61,6 +62,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text*="青少年模式"] + [vid="iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/14209309',
         },

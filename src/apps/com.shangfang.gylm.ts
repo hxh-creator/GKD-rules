@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.mvp.ui.home.activity.UpdateActivityV2',
           matches: '[id="com.shangfang.gylm:id/iv_upgrade_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13643599',

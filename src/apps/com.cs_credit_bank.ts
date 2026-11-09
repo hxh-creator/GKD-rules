@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mapass.example.activity.MainActivity_',
           matches: '@[vid="iv_close"] + [vid="iv_advert"][visibleToUser=true]',

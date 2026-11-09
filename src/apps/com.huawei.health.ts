@@ -42,6 +42,7 @@ export default defineGkdApp({
       name: '其他-个性化推荐弹窗',
       rules: [
         {
+          key: 0,
           activityIds: 'com.huawei.watchface.api.WebViewActivity',
           matches:
             '[text="开启个性化推荐"] +2 [text="开启"] + Button[clickable=true]',
@@ -54,6 +55,7 @@ export default defineGkdApp({
       name: '局部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.huawei.health.MainActivity',
           matches:
@@ -107,6 +109,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           activityIds:
             'com.huawei.hwversionmgr.activity.AppUpdateDialogActivity',

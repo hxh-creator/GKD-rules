@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.bw.zsch.MainActivityTab',
           matches: '[id="com.bw30.zsch:id/tv_cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/13068699',

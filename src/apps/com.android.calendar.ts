@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '注意⚠️：该广告需开启[智能服务]的对应规则才能关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.homepage.AllInOneActivity',
           matches: '[vid="close"][desc="关闭广告卡片"][visibleToUser=true]',

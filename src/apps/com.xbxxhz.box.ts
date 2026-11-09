@@ -49,6 +49,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mango.bridge.ui.update.AppUpdateTransAct',
           matches: '[vid="base_uav3_dlg_hide"][visibleToUser=true]',

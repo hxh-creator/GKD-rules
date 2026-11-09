@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.vmall.client.base.fragment.VmallWapActivity',
             'com.vmall.client.splash.fragment.SplashActivity',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.vmall.client.messageCenter.fragment.MessageCenterActivity',
             'com.vmall.client.base.fragment.VmallWapActivity',

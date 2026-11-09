@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点x取消提示',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.yuque.mobile.android.app.rn.activity.ReactNativeMainActivity',
           matches: 'TextView[text="了解更多"] + ViewGroup[clickable=true]',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       desc: '如果没有勾选原图, 则勾选',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.yuque.mobile.android.app.rn.activity.ReactNativeMainActivity',
           matches: 'ViewGroup[desc="原图未勾选"][clickable=true][childCount=2]',

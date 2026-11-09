@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: ['.activity.MainActivity', '.activity.SetActivity'],
           matches:
             '[id="net.csdn.csdnplus:id/update"] -2 [id="net.csdn.csdnplus:id/cancel"]',
@@ -58,6 +59,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches: '[id="net.csdn.csdnplus:id/tv_cancel"][text="残忍拒绝"]',
           snapshotUrls: 'https://i.gkd.li/i/13251085',
@@ -70,6 +72,7 @@ export default defineGkdApp({
       desc: '点击【x】',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'net.csdn.csdnplus.activity.MainActivity',
           matches:
@@ -88,6 +91,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches: [
             '[text="开启推送通知"]',

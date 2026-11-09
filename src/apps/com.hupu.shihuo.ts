@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text="去开启"] + [id="com.hupu.shihuo:id/ivClose"]',
           snapshotUrls: 'https://i.gkd.li/i/13704887',
         },
@@ -24,6 +25,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.shizhuang.duapp.modules.rn.mini.MiniReactActivity$MiniUITranslucentReactActivity',
           matches:
@@ -42,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.shizhi.shihuoapp.module.main.ui.main.MainActivity',
           matches: '[text="发现新版本"] +2 ViewGroup > [text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/14052208',

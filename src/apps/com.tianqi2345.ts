@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.biz2345.shell.activity.holder.CloudInterstitialActivity',
           matches:
@@ -29,6 +30,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tianqi2345.activity.NewMainActivity',
           matches:

@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           excludeMatches: '[vid="iv_search_back"][visibleToUser=true]',
           matches:
             '[text*="跳过"][text.length<10][width<500 && height<300][visibleToUser=true]',
@@ -88,6 +89,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ruanmei.ithome.ui.MainActivity',
           matches: '[vid="btn_dialog_upgrade_ignore"]',

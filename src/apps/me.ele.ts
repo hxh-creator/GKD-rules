@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.afollestad.materialdialogs.MaterialDialog',
             '.application.ui.Launcher.LauncherActivity',
@@ -136,6 +137,7 @@ export default defineGkdApp({
       name: '全屏广告-付款后弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'me.ele.component.pops2.TransparentAppWebActivity',
           matches:
@@ -149,6 +151,7 @@ export default defineGkdApp({
       name: '全屏广告-吃货卡续费弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'me.ele.component.webcontainer.view.AppUCWebActivity',
           matches:
@@ -212,6 +215,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.message.ui.PushMessageGuideActivity',
           matches:
             '@View[visibleToUser=true] < * <2 [id="me.ele:id/frame_bottom_bg"]',
@@ -227,6 +231,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'me.ele.foodchannel.page.WMChannelNativeActivity',
           matches: [

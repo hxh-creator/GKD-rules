@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.wanxiao.basebusiness.activity.SplashActivity',
           matches: '[id="com.newcapec.mobile.ncp:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12843377',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.wanxiao.ui.activity.IndexActivity',
           matches: '[id="com.newcapec.mobile.ncp:id/dialog_oppotion"]',
           snapshotUrls: 'https://i.gkd.li/i/12843399',

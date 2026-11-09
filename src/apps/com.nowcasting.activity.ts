@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.nowcasting.activity.WeatherActivity',
           matches: '[id="com.nowcasting.activity:id/iv_close"]',
@@ -92,6 +93,7 @@ export default defineGkdApp({
       name: '功能类-点击收起顶部工具栏',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.nowcasting.activity.WeatherActivity',
           matches:

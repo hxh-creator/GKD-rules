@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.sankuai.waimai.business.page.homepage.MainActivity',
           matches:
             '[id="com.sankuai.meituan.takeoutnew:id/wm_upgrade_force_cancel"]',
@@ -40,6 +41,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity',

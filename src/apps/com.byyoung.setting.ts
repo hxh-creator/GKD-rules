@@ -10,6 +10,7 @@ export default defineGkdApp({
       activityIds: 'com.byyoung.setting.Welcome.PermissionActivity',
       rules: [
         {
+          key: 0,
           matches: '[id="com.byyoung.setting:id/tv_name"][text*="忽略授权"]',
           snapshotUrls: 'https://i.gkd.li/i/12829909',
         },

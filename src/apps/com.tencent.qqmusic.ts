@@ -262,6 +262,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.AppStarterActivity',
           matches: '[text="抢先体验"] -2 [text="不再提醒"]',
           snapshotUrls: 'https://i.gkd.li/i/13178485',
@@ -277,6 +278,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.AppStarterActivity',
           matches: '@[vid="close_btn"] - * > [text*="好评"]',
           snapshotUrls: 'https://i.gkd.li/i/14881903',
@@ -311,6 +313,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.business.playernew.view.NewPlayerActivity',
           matches:

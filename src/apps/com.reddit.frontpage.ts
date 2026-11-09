@@ -11,6 +11,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.reddit.launch.main.MainActivity',
           matches:
             '[vid="sheet_container"] > [vid="cancel_button"][text="Not Now"][clickable=true]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.reddit.launch.main.MainActivity',
           matches: 'Button[text="Cancel"] + Button[text="Continue"]',
           snapshotUrls: 'https://i.gkd.li/i/13649992',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       name: '功能类-自动点击翻译',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.reddit.launch.main.MainActivity',
           matches:

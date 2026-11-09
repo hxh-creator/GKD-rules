@@ -135,6 +135,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.homepage.view.activity.HomePageActivity',
           matches: '[text="确认"] - [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13042207',
@@ -149,7 +150,12 @@ export default defineGkdApp({
       actionMaximum: 1,
       resetMatch: 'app',
       fastQuery: true,
-      rules: '[id="com.cainiao.wireless:id/gg_dialog_base_close"]',
+      rules: [
+        {
+          key: 0,
+          matches: '[id="com.cainiao.wireless:id/gg_dialog_base_close"]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/13068573',
     },
     {
@@ -158,7 +164,7 @@ export default defineGkdApp({
       fastQuery: true,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '@[text="取消"] + [text="好评"]',
+      rules: [{ key: 0, matches: '@[text="取消"] + [text="好评"]' }],
       snapshotUrls: [
         'https://i.gkd.li/i/13692761',
         'https://i.gkd.li/i/14969859',
@@ -170,6 +176,7 @@ export default defineGkdApp({
       desc: '点击[立即查看]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.cainiao.wireless.homepage.view.activity.HomePageActivity',
@@ -186,6 +193,7 @@ export default defineGkdApp({
       desc: '点击[展开]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
@@ -200,6 +208,7 @@ export default defineGkdApp({
       name: '其他-好友代取功能提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.cainiao.wireless.homepage.view.activity.HomePageActivity',

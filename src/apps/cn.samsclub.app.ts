@@ -36,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.samsclub.app.ui.MainActivity',
           matches: '[id="cn.samsclub.app:id/tips_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13609113',
@@ -51,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.samsclub.app.ui.MainActivity',
           matches: '[id="cn.samsclub.app:id/fragment_home_window_delete_iv"]',
           snapshotUrls: 'https://i.gkd.li/i/13609113',

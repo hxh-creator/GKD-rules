@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '@[vid="close"] - [text*="公告"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/6dde3a1f-0428-4110-918e-f4b5853d5c04',

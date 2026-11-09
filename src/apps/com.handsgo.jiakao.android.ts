@@ -72,6 +72,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.handsgo.jiakao.android.main.activity.MainActivity',
           matches: '[text="开启专属学习资料推送"] + [vid="closeIv"]',
           exampleUrls: 'https://e.gkd.li/9a9aad9b-052b-4e00-9926-d4a213f96372',

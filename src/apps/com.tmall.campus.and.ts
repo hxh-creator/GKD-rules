@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.tmall.campus.and.main.MainActivity',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.tmall.campus.scancode.activity.ToolsCaptureActivity',
@@ -49,6 +51,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.tmall.campus.and.main.MainActivity',
           matches: '[vid="iv_top_scan"]',
@@ -61,6 +64,7 @@ export default defineGkdApp({
       name: '权限提示-通知权限',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.main.MainActivity',

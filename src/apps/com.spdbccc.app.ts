@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.sp.splash.activity.SplashActivity',
           matches: [
@@ -41,6 +42,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/18275682',
         },
         {
+          key: 0,
           preKeys: [1],
           matches: '[vid="iv_kfc_image_close"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/bb770917-9fbb-4910-9c9e-8bf58437bb1e',
@@ -53,6 +55,7 @@ export default defineGkdApp({
       name: '局部广告-悬浮广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.sp.main.MainActivity',
           matches: '[vid="ll_quolity_float_close"][visibleToUser=true]',

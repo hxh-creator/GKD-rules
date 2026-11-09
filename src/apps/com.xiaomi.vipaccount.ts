@@ -11,6 +11,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'miuix.appcompat.app.AlertDialog',
           matches:
             '@[text="稍后安装"] < LinearLayout - ScrollView >(4) [text="发现新版本"]',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '局部广告-评论区卡片广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.vipaccount.newbrowser.NormalWebActivity',
           matches: '[text="closeGray"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12642459',
@@ -34,6 +36,7 @@ export default defineGkdApp({
       name: '全屏广告-签到弹窗',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.vipaccount.newbrowser.NormalWebActivity',
           matches: '[text="签到赢权益"] +n Image[text*="cancel_circle"]',
           snapshotUrls: 'https://i.gkd.li/i/13328271',
@@ -49,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.xiaomi.vipaccount.ui.home.page.HomeFrameActivity',
             'com.xiaomi.vipaccount.newbrowser.NormalWebActivity',

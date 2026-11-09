@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.root.view.RootActivity',
           matches: '@[clickable=true][text="关闭广告"] <<n [vid="chart_wbv"]',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.root.view.RootActivity',
           matches: '[vid="friday_fl_layout"] > [vid="friday_iv_close"]',

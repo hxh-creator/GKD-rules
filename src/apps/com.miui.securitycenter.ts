@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-USB安装应用,自动点击[继续安装]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.miui.permcenter.install.AdbInstallActivity',
           matches: '[text="继续安装"]',
@@ -22,6 +23,7 @@ export default defineGkdApp({
       desc: '关闭"允许联网及定位"后，每次打开手机管家都会出现',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.miui.securityscan.MainActivity',
@@ -44,6 +46,7 @@ export default defineGkdApp({
       desc: '退出时忽略[体检优化分数]/忽略[存储空间预警]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.miui.securityscan.MainActivity',
           matches: [
@@ -65,6 +68,7 @@ export default defineGkdApp({
       desc: '点击[知道了]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '@[text="知道了"] + [text="省电模式"]',
           snapshotUrls: 'https://i.gkd.li/i/14468423',
@@ -133,6 +137,7 @@ export default defineGkdApp({
       desc: '允许应用通过分享获取手机文件',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.miui.wakepath.ui.ConfirmStartActivity',
           matches: ['[text="分享文件"]', '[text="允许"]'],
@@ -147,6 +152,7 @@ export default defineGkdApp({
       desc: '点击[确定]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.miui.simlock.activity.SuccessDialogActivity',
@@ -167,6 +173,7 @@ export default defineGkdApp({
       desc: '点击确定',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.miui.powercenter.legacypowerrank.PowerDetailActivity',
@@ -183,6 +190,7 @@ export default defineGkdApp({
       name: '功能类-风险提示-仍然支付',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity',

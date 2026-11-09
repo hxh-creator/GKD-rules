@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-删除时勾选[同时从云端删除]',
       rules: [
         {
+          key: 0,
           activityIds: 'com.miui.gallery.activity.InternalPhotoPageActivity',
           matches: '[text="同时从云端删除"][checked=false]',
           snapshotUrls: 'https://i.gkd.li/i/15804289',
@@ -20,6 +21,7 @@ export default defineGkdApp({
       name: '功能类-流量同步自动点击[继续同步]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.BackupDetailActivity',
           matches: [
@@ -35,6 +37,7 @@ export default defineGkdApp({
       name: '其他-图片保存成功弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.ExternalPhotoPageActivity',
           matches: ['[text="图片已经保存到相册"]', '[text="确定"]'],

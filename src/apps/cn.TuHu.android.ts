@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.TuHu.Activity.tuhutab.TuHuTabActivity',
           matches:
             '@[id="cn.TuHu.android:id/imgClose"] - [id="cn.TuHu.android:id/rlContent"] > [id="cn.TuHu.android:id/img_jump"]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.TuHu.Activity.tuhutab.TuHuTabActivity',
           matches: '[id="cn.TuHu.android:id/imgClose"]',
           snapshotUrls: [

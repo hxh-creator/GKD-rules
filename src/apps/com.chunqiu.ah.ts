@@ -127,6 +127,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.androlua.LuaActivity',
           matches: '[text="不再提示"][clickable=true][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/13852447',

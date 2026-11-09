@@ -11,6 +11,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             '.ThemeResourceProxyTabActivity',
             '.module.detail.view.ThemeDetailActivity',
@@ -36,6 +37,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           activityIds: [
             'com.android.thememanager.ThemeResourceTabActivity',
@@ -58,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.android.thememanager.ThemeResourceTabActivity',

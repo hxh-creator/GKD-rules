@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.MainActivity',
           matches: '@[text="暂不更新"] + [text="立即更新"]',
           snapshotUrls: 'https://i.gkd.li/i/12701217',
@@ -23,6 +24,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.ecitic.bank.mobile.ui.MainActivity',
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.MainActivity',
           matches: '@[text="取消"] + [text="立即开启"]',
           snapshotUrls: 'https://i.gkd.li/i/13399102',
@@ -56,6 +59,7 @@ export default defineGkdApp({
       name: '局部广告-理财产品悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ecitic.bank.mobile.ui.MainActivity',
           matches:
             '@[clickable=true] +2 [visibleToUser=true][text="恭喜您关注到宝藏基金"] <<n [vid="cordova_view"]',

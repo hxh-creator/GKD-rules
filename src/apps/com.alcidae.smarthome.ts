@@ -20,6 +20,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/18291310',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[vid="ibtn_close"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/02d8846c-6753-4efe-b944-ea024f7485ad',
@@ -37,6 +38,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.danale.video.mainpage.main.MainActivity',
           matches: [
             '[text*="开启通知"][visibleToUser=true]',

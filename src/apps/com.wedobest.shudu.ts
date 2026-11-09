@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: 'x掉',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.GameAct',
           matches:

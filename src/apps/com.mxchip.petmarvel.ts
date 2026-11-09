@@ -38,6 +38,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mxchip.petmarvel.device.panel.DevicePanelActivity',
           matches:
             'View[childCount=19] > View[index=1] > Image[clickable=true]',
@@ -54,6 +55,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mxchip.petmarvel.MainActivity',
           matches: '[vid="iv_close"]',

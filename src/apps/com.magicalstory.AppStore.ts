@@ -73,6 +73,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivity',
           matches: '[text="隐藏"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/17892865',
@@ -88,6 +89,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.cretin.www.cretinautoupdatelibrary.activity.UpdateType10Activity',
           matches:
@@ -105,6 +107,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches:

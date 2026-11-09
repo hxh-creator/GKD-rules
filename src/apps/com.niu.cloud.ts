@@ -15,6 +15,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.MainActivityNew',
           matches: [
             '[text="发现新固件"][visibleToUser=true]',
@@ -34,6 +35,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.MainActivityNew',
           matches: '[vid="closeDialogIv"][visibleToUser=true]',

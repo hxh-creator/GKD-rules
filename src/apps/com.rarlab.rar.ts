@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[放弃]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.rarlab.rar.MainActivity',
           matches:

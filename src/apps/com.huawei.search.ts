@@ -35,6 +35,7 @@ export default defineGkdApp({
       desc: '点击x掉',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.HomeActivity',
           matches: '[vid="btn_full_mode_cancel"][clickable=true]',

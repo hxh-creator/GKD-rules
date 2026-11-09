@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.SearchActivityTransparent',
           matches: '[vid="ad_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13897834',

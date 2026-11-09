@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-自动折叠思考过程',
       rules: [
         {
+          key: 0,
           activityIds: 'com.deepseek.chat.MainActivity',
           matches:
             '@[clickable=true] > [text="正在思考" || text^="已思考"] + View[desc="折叠"]',

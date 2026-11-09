@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-关闭顶部[打开淘宝]横幅',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.taobao.htao.android.detail.DetailActivity',
           matches:
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: [
             '[vid="change_country_layout"]',
             '[vid="uik_mdButtonClose"]',

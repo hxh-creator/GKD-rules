@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.HomeActivity',
           matches: '[text="系统公告"] +2 [text="确定"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/45886cda-e54a-4a1f-b136-949b59704f0c',

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '@[desc="Cancel"][visibleToUser=true] + [desc="Update"]',
           exampleUrls: 'https://e.gkd.li/b0a0c338-16b1-4892-9cd6-92b4f485fda8',

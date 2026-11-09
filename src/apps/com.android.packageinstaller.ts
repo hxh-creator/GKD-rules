@@ -72,6 +72,7 @@ export default defineGkdApp({
       name: '功能类-授权本次安装',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           position: {
             left: 'width * 0.4609',
@@ -90,6 +91,7 @@ export default defineGkdApp({
       name: '功能类-自动继续安装高危风险应用',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.PackageInterceptActivity',
           matches: [
@@ -117,6 +119,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '@LinearLayout[clickable=true][id=null] > [text="继续安装"]',
           snapshotUrls: 'https://i.gkd.li/i/22870985',

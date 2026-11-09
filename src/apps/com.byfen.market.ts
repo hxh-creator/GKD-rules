@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.byfen.market.ui.activity.MainActivity',
           matches: '[vid="idIvClose"][clickable=true]',
           exampleUrls:
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.MainActivity',
           matches: '[text="忽略更新"][clickable=true][visibleToUser=true]',
           exampleUrls:

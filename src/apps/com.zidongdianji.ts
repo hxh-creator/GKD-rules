@@ -60,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.autoclicker.clicker.MainActivity',
           matches: '[vid="img_native_ad_default_close"][visibleToUser=true]',

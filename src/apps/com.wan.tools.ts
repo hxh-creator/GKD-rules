@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.one.downloadtools.ui.activity.HomeActivity',
           matches:
             'LinearLayout[childCount=2] > @[text="取消"] + [text="确认"]',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       name: '功能类-自动识别解析链接',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.one.downloadtools.ui.activity.HomeActivity',
           matches: '[text="识别解析"]',
@@ -41,6 +43,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.one.downloadtools.ui.activity.HomeActivity',
           matches: ['[text^="开通会员"]', '[text="暂不"]'],
           snapshotUrls: 'https://i.gkd.li/i/13392112',

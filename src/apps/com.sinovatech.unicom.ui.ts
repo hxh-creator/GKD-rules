@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.sinovatech.unicom.basic.ui.activity.MainActivity',
             'com.sinovatech.unicom.basic.ui.activity.WelcomeClient',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.sinovatech.unicom.basic.ui.activity.MainActivity',
           matches:
             '[id="com.sinovatech.unicom.ui:id/custom_dialog_cancel_button"]',
@@ -81,6 +83,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sinovatech.unicom.basic.ui.activity.MainActivity',
           matches: '[vid="home_xuanfu_close" || vid="home_drag_view_close"]',

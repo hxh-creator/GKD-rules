@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[vid="activate_button"]',
           snapshotUrls: 'https://i.gkd.li/i/14293734',
         },
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.chan.cwallpaper.module.main.MainActivity',
           matches: '[vid="ivClose"]',
           exampleUrls:

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.common.MainActivity',
           matches:
             '@[id="com.steampy.app:id/imgClose"] - RelativeLayout [id="com.steampy.app:id/tv_update"]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       matchTime: 10000,
       rules: [
         {
+          key: 0,
           activityIds: '.activity.common.MainActivity',
           matches: '[vid="coupon_right"]',
           exampleUrls: [

@@ -59,6 +59,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13387116',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点击[不喜欢广告主]',
           matches: '@LinearLayout[clickable=true] > [text="不喜欢广告主"]',

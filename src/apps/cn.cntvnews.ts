@@ -30,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.torch.open.homeimpl.HomeActivity',
           matches: '[text="是否开启个性化推荐？"] +3 * > [text="取消"]',
           exampleUrls:

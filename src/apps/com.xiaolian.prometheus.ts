@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaolian.home.ui.HomeActivity',
           matches: '@[vid="close_rel"] - * > [text="发现新版本"]',
           snapshotUrls: 'https://i.gkd.li/i/14292788',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaolian.home.ui.HomeActivity',
           matches: '@[vid="close_img"] + [text="关注"]',
           snapshotUrls: 'https://i.gkd.li/i/14292789',

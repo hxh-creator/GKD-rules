@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-首页-底部广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.hm.health.activity.ChannelMainTabActivity',
           matches: 'ImageView[id="com.xiaomi.hm.health:id/close_icon"]',

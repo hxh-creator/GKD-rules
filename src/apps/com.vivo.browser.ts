@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-免流提示',
       rules: [
         {
+          key: 0,
           activityIds: 'com.vivo.browser.pendant.PendantActivity',
           matches:
             '[id="com.vivo.browser:id/dialog_button_right"][text="继续浏览"]',

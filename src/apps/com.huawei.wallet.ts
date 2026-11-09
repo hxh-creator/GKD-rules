@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '[text="开启钱包扩展服务"] +2 [id="com.huawei.wallet:id/linear_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13441814',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.huawei.petalpay.userapp.function.withhold.view.activity.PetalPayGuideSmallFreePwdActivity',
@@ -48,6 +50,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/16833449',
         },
         {
+          key: 1,
           preKeys: [0],
           activityIds: 'com.huawei.openalliance.ad.activity.FeedbackActivity',
           matches: '[text="直接关闭"]',
@@ -61,6 +64,7 @@ export default defineGkdApp({
       name: '功能类-支付成功后点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.huawei.nfc.carrera.ui.swipe.SwipeResultActivity',
           matches: '[vid="btn_completed"][visibleToUser=true]',
@@ -75,6 +79,7 @@ export default defineGkdApp({
       desc: '点击取消',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.huawei.nfc.carrera.ui.swipe.SetDefaultPayServiceActivity',

@@ -30,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           position: {
             left: 'width * 0.8893',
@@ -79,6 +80,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.base.UPDialog',
           matches:
             '[text="开启消息通知"] < * + [id="com.unionpay:id/view_alert_cancel"][visibleToUser=true]',
@@ -94,6 +96,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.unionpay.cordova.UPActivityCordovaWeb',
           matches:
             'WebView[text="天天签到"] TextView[text="炫耀一下"] + TextView[clickable=true]',
@@ -107,6 +110,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.unionpay.cordova.UPActivityCordovaWeb',
           matches:

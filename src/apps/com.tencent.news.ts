@@ -50,6 +50,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.SplashActivity',
           matches: '[text="开启通知"] + [text="先不了"]',
           snapshotUrls: 'https://i.gkd.li/i/12755824',

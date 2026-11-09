@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.picc.aasipods.module.versionupdate.controller.VersionUpdateActivity',
           matches: '[id="com.cloudpower.netsale.activity:id/tvw_cancel"]',

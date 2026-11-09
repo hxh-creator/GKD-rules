@@ -39,6 +39,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.crgt.ilife.ui.main.MainPageView',
           matches: '[vid="iv_close"]',
           exampleUrls: 'https://e.gkd.li/43ccfd78-67d7-4dba-a25f-a2f5d62f9c40',

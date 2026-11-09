@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.app.MainActivity',
           matches: '[vid="dlg_main_ad_close"][visibleToUser=true]',

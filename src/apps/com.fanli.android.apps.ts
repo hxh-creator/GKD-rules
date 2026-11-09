@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.fanli.android.module.webview.ui.activity.TransparentBrowserInnerActivity',

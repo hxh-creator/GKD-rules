@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.pwrd.dls.marble.other.notification.NotificationDialogActivity',
           matches: '[vid="v_open"] + [vid="v_not"]',
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.pwrd.dls.marble.moudle.homepage.HomePageActivity',
           matches: ['[vid="iv_board"]', '[vid="iv_close"]'],
           snapshotUrls: 'https://i.gkd.li/i/13997954',

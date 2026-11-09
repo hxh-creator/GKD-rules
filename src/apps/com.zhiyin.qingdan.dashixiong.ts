@@ -76,6 +76,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc^="必读通告"] +n [desc="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/12843280',
@@ -88,6 +89,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.zhiyin.qingdan.dashixiong.MainActivity',
           matches:

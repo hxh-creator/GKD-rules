@@ -32,6 +32,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 0,
           preKeys: [1, 2],
           matches: '@[clickable=true] > [text="不感兴趣"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/e182591a-492d-49ec-8820-20bea10495d9',
@@ -51,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ifeng.news2.activity.IfengTabMainActivity',
           matches:
             '[text*="请求您的位置"] + [id="com.ifeng.news2:id/permission_cancel"]',

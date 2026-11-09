@@ -11,6 +11,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.github.kr328.clash.ProxyActivity',
           matches: '[vid="url_test_view"][visibleToUser=true]',

@@ -65,6 +65,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/22377327',
         },
         {
+          key: 2,
           preKeys: [1],
           matches: '[text="仍然安装"]',
           exampleUrls: 'https://e.gkd.li/45246cef-1ef5-49bf-8b7f-09377bde823a',

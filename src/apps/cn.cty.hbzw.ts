@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           position: {
             left: 'width * 0.8676',
             top: 'width * -1.9094',

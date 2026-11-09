@@ -36,6 +36,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: [
             '[text*="通知"][visibleToUser=true]',
@@ -54,6 +55,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             'FrameLayout[childCount=1] >3 FrameLayout[childCount=3] > ImageView[clickable=true][childCount=0]',
@@ -67,6 +69,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '@ImageView[clickable=true] - [text="关注你的好友"]',

@@ -74,6 +74,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.client.ui.MenuActivity',
           matches:
@@ -92,6 +93,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.client.ui.MenuActivity',
           matches: '[vid="btn_push_notice_close_dialog"]',
           snapshotUrls: 'https://i.gkd.li/i/14882447',

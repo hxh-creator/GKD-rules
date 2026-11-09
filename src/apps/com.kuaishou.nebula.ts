@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="splash_skip_text"]',
           exampleUrls: 'https://e.gkd.li/5d393b9b-c327-4429-9759-8c18a097453a',
@@ -42,6 +43,7 @@ export default defineGkdApp({
       name: '全屏广告-红包弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.yxcorp.gifshow.HomeActivity',
           matches:
@@ -62,6 +64,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.yxcorp.gifshow.HomeActivity',
           matches: '[vid="close_icon"][visibleToUser=true]',
@@ -84,6 +87,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/23431963',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="确定"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/89294dbb-4398-4561-91b7-4943ec7c98c7',
@@ -97,6 +101,7 @@ export default defineGkdApp({
       desc: 'x掉',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.yxcorp.gifshow.HomeActivity',
           matches: '@[vid="close"][clickable=true] +2 * > [text*="给个好评吧"]',

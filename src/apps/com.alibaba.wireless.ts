@@ -39,6 +39,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionMaximum: 1,
           resetMatch: 'app',

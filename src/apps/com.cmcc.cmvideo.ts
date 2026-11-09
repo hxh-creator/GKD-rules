@@ -9,7 +9,12 @@ export default defineGkdApp({
       name: '局部广告-右下角小广告',
       fastQuery: true,
       activityIds: 'com.cmcc.cmvideo.main.application.CompatibleMainActivity',
-      rules: '[id="com.cmcc.cmvideo:id/iv_right_bottom_close"]',
+      rules: [
+        {
+          key: 0,
+          matches: '[id="com.cmcc.cmvideo:id/iv_right_bottom_close"]',
+        },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/12498315',
     },
     {
@@ -21,6 +26,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[id="com.cmcc.cmvideo:id/btn_update_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13276116',
         },
@@ -35,6 +41,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13276127',
         },
@@ -49,6 +56,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matchRoot: true,
           activityIds:
             'com.cmcc.cmvideo.main.application.CompatibleMainActivity',

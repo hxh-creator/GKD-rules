@@ -32,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '[id="com.m4399.gamecenter:id/image"] + [id="com.m4399.gamecenter:id/close"]',

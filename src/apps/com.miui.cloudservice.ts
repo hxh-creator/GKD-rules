@@ -39,6 +39,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.MiCloudMainActivity',
           matches: '@[text="以后再说"] + [text="立即升级"]',
           exampleUrls:
@@ -52,6 +53,7 @@ export default defineGkdApp({
       name: '权限提示-通知权限',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionMaximum: 1,
           resetMatch: 'app',

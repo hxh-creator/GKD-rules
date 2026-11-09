@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.meituan.android.upgrade.UpgradeDialogActivity',
             'com.meituan.android.pt.homepage.activity.MainActivity',
@@ -231,6 +232,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
           matches: '@[vid="iv_close" || text="跳过"] -(1,2) [text^="开启通知"]',
           snapshotUrls: [
@@ -246,6 +248,7 @@ export default defineGkdApp({
       desc: '点击左上角返回',
       rules: [
         {
+          key: 0,
           matchTime: 10000,
           fastQuery: true,
           activityIds: 'com.meituan.android.base.knb.KNBWebViewActivity',
@@ -314,6 +317,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity',

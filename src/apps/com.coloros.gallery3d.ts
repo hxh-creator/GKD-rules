@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.app.MainActivity',
           matches: '[text="更新"] -2 [text="取消"]',
           exampleUrls:
@@ -31,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.coloros.gallery3d.app.MainActivity',
           matches:
             '[text="开启相册自动同步，保障相册数据安全"] + [text="忽略"]',

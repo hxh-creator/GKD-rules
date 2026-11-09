@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           position: {
             left: 'width * 0.9402',
             top: 'width * 0.0590',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.qihoo.main.flutter.SmartHomeFlutterActivity',
           matches: '[vid="sh_app_upgrade_dialog_close"][visibleToUser=true]',

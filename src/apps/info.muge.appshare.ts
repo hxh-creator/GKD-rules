@@ -95,6 +95,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 2,
           preKeys: [0, 1],
           fastQuery: true,
           activityIds: ['.view.main.MainActivity', '.MainActivity'],
@@ -163,6 +164,7 @@ export default defineGkdApp({
         },
 
         {
+          key: 4,
           preKeys: [0, 1, 2, 3],
           fastQuery: true,
           activityIds: [
@@ -235,6 +237,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'info.muge.appshare.view.main.MainActivity',
           matches: '[vid="tvSure"][clickable=true]',
           exampleUrls:
@@ -249,6 +252,7 @@ export default defineGkdApp({
       desc: '下载文件页面',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'info.muge.appshare.view.browser.DownloadBrowserActivity',
@@ -267,6 +271,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'info.muge.appshare.view.main.MainActivity',
           matches: '@[vid="tvCancel"] + [vid="tvUpdate"][visibleToUser=true]',

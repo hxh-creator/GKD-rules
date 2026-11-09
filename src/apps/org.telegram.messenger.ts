@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           fastQuery: true,
           activityIds: 'org.telegram.ui.LaunchActivity',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.telegram.ui.LaunchActivity',
           matches: '@ImageView[clickable=true] - * >2 [text^="添加您的生日"]',
@@ -38,6 +40,7 @@ export default defineGkdApp({
       name: '局部广告-拍卖提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'org.telegram.ui.LaunchActivity',
           matches:
@@ -52,6 +55,7 @@ export default defineGkdApp({
       desc: '此规则覆盖生日提示、拍卖提示以及部分广告',
       rules: [
         {
+          key: 0,
           activityIds: 'org.telegram.ui.LaunchActivity',
           matches:
             '@ImageView[desc=null][clickable=true][width<140 && height<140][left>540] - LinearLayout[!(getChild(0).getChild(0).text=null)] < FrameLayout -2 FrameLayout >2 [text="Telegram"]',

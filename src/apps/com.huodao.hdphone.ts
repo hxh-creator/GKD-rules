@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[vid="iv_adv"] + [vid="dialog_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13927567',
         },
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.huodao.hdphone.mvp.view.main.NewMainActivity',
           matches: '[vid="iv_recycle_close"]',

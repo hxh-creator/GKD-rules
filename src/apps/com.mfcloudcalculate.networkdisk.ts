@@ -197,6 +197,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '@View[clickable=true] - [desc="立即更新"]',
           exampleUrls: 'https://e.gkd.li/02cf5d37-8808-4abb-abf9-81f7ba8a8375',
@@ -219,6 +220,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/20521452',
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '@View[desc="确认登录"][visibleToUser=true] <5 View < View < View < View < FrameLayout < FrameLayout < [id="android:id/content"]',
@@ -236,6 +238,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '@ImageView[childCount=0][clickable=true][visibleToUser=true][width<100 && height<100] +2 [desc="开启相册自动备份"]',
@@ -315,6 +318,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/25128309',
         },
         {
+          key: 7,
           preKeys: [0, 1, 2, 3, 4, 5, 6],
           fastQuery: true,
           activityIds: '.MainActivity',

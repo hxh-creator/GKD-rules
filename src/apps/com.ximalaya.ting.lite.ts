@@ -27,6 +27,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
           matches: '[id="com.ximalaya.ting.lite:id/main_iv_novel_back"]',
           snapshotUrls: 'https://i.gkd.li/i/13229127',
@@ -43,6 +44,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
           matches: '[id="com.ximalaya.ting.lite:id/main_login_guide_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13256447',
@@ -58,6 +60,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.ximalaya.ting.android.host.activity.WelComeActivity',
           matches:

@@ -32,6 +32,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.market.ui.UpdateListActivity',
           matches: '[id="com.xiaomi.market:id/iv_close_tip"]',
@@ -98,6 +99,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.market.business_ui.main.MarketTabActivity',
           matches: '[id="com.xiaomi.market:id/close_float_recommend"]',
           snapshotUrls: 'https://i.gkd.li/i/13624971',
@@ -111,6 +113,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.xiaomi.market.ui.UpdateListActivity',
@@ -134,6 +137,7 @@ export default defineGkdApp({
       name: '功能类-移动数据更新弹窗点击继续',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.market.ui.UpdateListActivity',
           matches:

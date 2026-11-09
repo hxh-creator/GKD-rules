@@ -52,6 +52,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.homepage.Homepage',
           matches: '@ImageView[id="com.duowan.kiwi:id/upgrade_cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/13440833',
@@ -85,6 +86,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.homepage.Homepage',
           matches: '[text^="您的设备已经被ROOT"] + LinearLayout [text="确认"]',
           snapshotUrls: 'https://i.gkd.li/i/13536744',

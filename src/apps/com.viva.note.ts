@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.mobads.sdk.api.MobRewardVideoActivity',
           matches: '[desc="不再显示"]',
           snapshotUrls: 'https://i.gkd.li/i/12888361',

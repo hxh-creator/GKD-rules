@@ -171,6 +171,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches: '[vid="iv_float_window_close"]',
@@ -238,6 +239,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds:
             'com.xunmeng.pinduoduo.app_album.album.MultiImageSelectorActivity',
           matches: '@[text="原图"][checked=false] + [text="发送"]',
@@ -280,6 +282,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.HomeActivity',
           matches:
             '[text="青少年模式"] < FrameLayout +5 ViewGroup [text="我知道了"]',
@@ -333,6 +336,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches: ['[text="个性化推荐未开启"]', '[text="取消"]'],
           exampleUrls: 'https://e.gkd.li/816070f2-035d-4702-87e3-441cca8b5430',
@@ -345,6 +349,7 @@ export default defineGkdApp({
       name: '其他-登录提现页面点击[跳过]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.login.LoginActivity',
           matches: ['[text="已获得现金"]', '[text="跳过"]'],
@@ -358,6 +363,7 @@ export default defineGkdApp({
       name: '功能类-关闭截图后的弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'back', // 点击取消会导致 MIUI 截图悬浮窗收起
           activityIds: '.activity.NewPageActivity',

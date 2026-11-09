@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: '.module.main.MainActivity',
           matches:
             '[id="com.shark.jizhang:id/float_btn"] >2 [id="com.shark.jizhang:id/close_view"]',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.module.main.MainActivity',
           matches:
             '[id="com.shark.jizhang:id/sdv_image"] + [id="com.shark.jizhang:id/close_view"]',

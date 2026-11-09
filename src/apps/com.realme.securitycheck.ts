@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.realme.securitycheck.SecurityCheckActivity',
           matches: '[vid="ad_contain"] >5 [vid="close"][clickable=true]',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '功能类-关闭安装应用后的安全检测',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.SecurityCheckActivity',
           matches: '[vid="finish"][visibleToUser=true]',

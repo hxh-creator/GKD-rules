@@ -102,6 +102,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 0,
           preKeys: [1, 2, 3],
           fastQuery: true,
           activityIds: [

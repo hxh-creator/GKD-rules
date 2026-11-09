@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.mobile.businesshall.ui.common.RecommendPopupActivity',

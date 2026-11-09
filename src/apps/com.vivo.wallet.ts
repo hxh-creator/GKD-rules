@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.bookkeep.activity.BookKeepMainActivity',
           matches: '@[clickable=true] > [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13440881',

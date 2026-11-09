@@ -132,6 +132,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.activity.main.activity.MainActivity',
             '.activity.init.InitActivity',
@@ -153,6 +154,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.main.activity.MainActivity',
           matches:
             '[text="开启推送通知"] - [id="com.zmzx.college.search:id/siv_dialog_close"]',
@@ -169,6 +171,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.camerasdk.ZybCameraSDKActivity',
           matches:
             '[id="com.zmzx.college.search:id/iv_logo"] + [id="com.zmzx.college.search:id/siv_close"]',
@@ -184,6 +187,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'back',
           activityIds:

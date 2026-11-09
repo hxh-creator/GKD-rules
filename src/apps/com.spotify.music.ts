@@ -10,6 +10,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: '.SpotifyMainActivity',
           matches: '[vid="ad_tag"] + [vid="close_button"][clickable=true]',
           exampleUrls: 'https://e.gkd.li/539c0135-9b5b-44c2-baec-4eb9953f8e69',

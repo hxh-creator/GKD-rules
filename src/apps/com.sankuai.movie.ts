@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '@ImageView[clickable=true][visibleToUser=true] - * > [text="开启通知"]',
           snapshotUrls: 'https://i.gkd.li/i/18455375',

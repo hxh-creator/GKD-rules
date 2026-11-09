@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dd.antss.ui.activity.LaunchActivity',
           matches: '[text="公告"] +2 [text="我知道了"]',
           snapshotUrls: 'https://i.gkd.li/i/13713449',

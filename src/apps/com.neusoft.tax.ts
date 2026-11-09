@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           position: {
             left: 'width * 0.2528',
             top: 'width * 0.0842',

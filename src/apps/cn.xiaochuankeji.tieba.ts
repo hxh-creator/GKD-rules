@@ -54,6 +54,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.home.setting.SettingActivity',
           matches:
             '[id="cn.xiaochuankeji.tieba:id/btn_ok"][text^="马上升级"] + [id="cn.xiaochuankeji.tieba:id/btn_cancel"][text="取消"]',
@@ -77,6 +78,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 0,
           preKeys: [1],
           matches: '@[clickable=true] >2 [text="不感兴趣"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/21334232',

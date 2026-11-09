@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[id="tv.danmaku.bilibilihd:id/count_down"]',
           snapshotUrls: 'https://i.gkd.li/i/13031261',
         },
@@ -44,6 +45,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/17726295',
         },
         {
+          key: 2,
           preKeys: [0, 1],
           activityIds: [
             'tv.danmaku.bili.MainActivityV2',

@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击不允许',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.permission.ui.GrantPermissionsActivity',
           matches: [

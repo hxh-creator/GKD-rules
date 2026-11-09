@@ -147,6 +147,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/24541094',
         },
         {
+          key: 6,
           preKeys: [0, 1, 2, 3, 4, 5],
           activityIds: [
             '.tblauncher.MainTabActivity',
@@ -189,6 +190,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           activityIds: '.UpdateDialog',
           matches: '[text="稍后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/16908501',
@@ -357,6 +359,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.pb.pb.main.PbActivity',
           matches: '@ImageView[clickable=true] -2 [text="进入话题查看更多"]',
@@ -372,6 +375,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           forcedTime: 10000,
           activityIds: [
             '.tblauncher.MainTabActivity',

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.main.MainActivity',
           matches: '[id="com.icbc:id/tv_time"][text*="跳过"][text.length<=6]',
           snapshotUrls: 'https://i.gkd.li/i/13330431',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: [
             '[text^="觉得“中国工商银行”好用吗"]',
@@ -43,6 +45,7 @@ export default defineGkdApp({
       name: '局部广告-右下角浮标广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.activity.web.ICBCWebView',
@@ -64,6 +67,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.main.MainActivity',
           matches:

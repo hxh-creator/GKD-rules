@@ -56,6 +56,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: '.home.view.HomeActivity',
           matches:
             '[id="com.baidu.youavideo:id/tv_upgrade"] < LinearLayout +2 [id="com.baidu.youavideo:id/img_close"]',
@@ -69,6 +70,7 @@ export default defineGkdApp({
       desc: '关闭广告悬浮窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.home.view.HomeActivity',
           matches: '[id="com.baidu.youavideo:id/img_operation_close"]',
@@ -86,6 +88,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: '.home.view.HomeActivity',
           matches: '[id="com.baidu.youavideo:id/tv_next_time"]',
           snapshotUrls: 'https://i.gkd.li/i/12970094',
@@ -152,6 +155,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.app.ui.HomeActivity',
           matches:
             '[id="com.baidu.youavideo:id/dialog_open_guide_notification_root"] > [id="com.baidu.youavideo:id/img_close"]',
@@ -164,6 +168,7 @@ export default defineGkdApp({
       name: '局部广告-照片页底部浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.baidu.youavideo.home.view.HomeActivity',
           matches:
@@ -177,6 +182,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: '[vid="riv_banner"] + [vid="iv_close"][visibleToUser=true]',
           snapshotUrls: [

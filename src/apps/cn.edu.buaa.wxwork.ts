@@ -12,6 +12,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.tencent.wework.common.web.JsWebActivity',
             'com.tencent.wework.launch.WwMainActivity',

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.baidu.newbridge.fast.MainFastActivity',
           matches: '[id="com.baidu.xin.aiqicha:id/update_cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/12755738',

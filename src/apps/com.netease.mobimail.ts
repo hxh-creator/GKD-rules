@@ -49,6 +49,7 @@ export default defineGkdApp({
       name: '局部广告-邮件列表页面广告条目',
       rules: [
         {
+          key: 0,
           activityIds: 'com.netease.mail.biz.main.MainITabActivity',
           matches:
             '[id="com.netease.mobimail:id/ad_vip" || id="com.netease.mobimail:id/ll_delete"]',

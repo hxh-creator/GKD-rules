@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击右上角的x',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.android.bluetooth.ble.app.fastconnect.MiuiFastConnectActivity',

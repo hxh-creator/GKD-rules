@@ -15,6 +15,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches:
             '[vid="tv_tiaoguo" || vid="iv_tg_ad" || vid="tv_skip"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/d7520bc7-588b-4654-b6aa-d2736ac200bf',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       name: '局部广告-首页-推荐-卡片广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.donews.nga.activitys.MainActivity',
           matches: '[id="gov.pianzong.androidnga:id/iv_close_ad"]',
           snapshotUrls: 'https://i.gkd.li/i/12482727',
@@ -70,6 +72,7 @@ export default defineGkdApp({
       name: '局部广告-社区-顶部广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.donews.nga.activitys.MainActivity',
           matches: '[id="gov.pianzong.androidnga:id/iv_close_community_ad"]',
           snapshotUrls: ['https://i.gkd.li/i/12706132'],
@@ -85,6 +88,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.donews.nga.activitys.MainActivity',
           matches:
@@ -104,6 +108,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           position: {
             left: 'width * 0.9629',
             top: 'width * 0.0472',
@@ -126,6 +131,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.donews.nga.activitys.MainActivity',
           matches: '[vid="iv_close_notification_guide"][visibleToUser=true]',

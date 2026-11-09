@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           matches: '[text^="关闭"][text.length=4]',
           snapshotUrls: 'https://i.gkd.li/i/13214974',
         },
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击[默默拒绝]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainActivity',
           matches: '@[clickable=true] > [text="默默拒绝"]',

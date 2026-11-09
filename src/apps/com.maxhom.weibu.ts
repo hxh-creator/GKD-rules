@@ -77,6 +77,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.maxhom.weibu.tool.home.activity.ToolBottleActivity',
             'com.maxhom.weibu.tool.msg.MyBottleActivity',

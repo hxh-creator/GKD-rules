@@ -150,6 +150,7 @@ export default defineGkdApp({
       name: '局部广告-底部话题推荐弹窗',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.article.news.activity.MainActivity',
           name: '话题谈论',
           matches:
@@ -173,6 +174,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13402468',
         },
         {
+          key: 1,
           preKeys: [0],
           name: '等待30s点击"关闭"',
           actionDelay: 30000,
@@ -188,6 +190,7 @@ export default defineGkdApp({
       desc: '点击X',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ss.android.article.news.activity.MainActivity',
           matches: 'FrameLayout[childCount=8] > FlattenUIImage[index=7]',
           snapshotUrls: 'https://i.gkd.li/i/13828331',
@@ -202,6 +205,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.article.news.activity.MainActivity',
           matches: '@[desc="关闭"] + [text^="关联"]',
@@ -219,6 +223,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ss.android.article.news.activity.MainActivity',
           matches: '[text^="下次打开APP默认进入"]',

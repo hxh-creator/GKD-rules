@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '通知提示-公告',
       rules: [
         {
+          key: 0,
           activityIds: 'top.cycdm.cycapp.MainActivity',
           matches:
             '[text="我知道了"] < @[clickable=true] -n * > [text="重要通知"]',
@@ -21,6 +22,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
           matches:

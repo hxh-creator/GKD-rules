@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.StartupActivity',
           matches: '[text^="腾讯会议新版本"] +3 * > [text="下次安装"]',
           snapshotUrls: 'https://i.gkd.li/i/14332625',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '评价提示-通话质量评价',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.wemeet.sdk.meeting.aftermeeting.AfterMeetingFeedbackMeetingExperienceActivity',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.wemeet.sdk.meeting.premeeting.home.HomeActivity',
@@ -54,6 +57,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.wemeet.sdk.meeting.aftermeeting.AfterMeetingPictureActivity',

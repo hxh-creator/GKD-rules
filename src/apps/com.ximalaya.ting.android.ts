@@ -51,6 +51,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '@[clickable=true] > [text="屏蔽" || text="直接关闭" || text="不喜欢此内容"]',
@@ -73,6 +74,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.host.activity.MainActivity',
           matches: [
             '[text*="青少年模式"][id="com.ximalaya.ting.android:id/host_btn_set"]',
@@ -91,6 +93,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
           matches:
             '[text="你可能感兴趣的专辑"] + [id="com.ximalaya.ting.android:id/main_iv_close"]',
@@ -103,6 +106,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
           matches:
@@ -120,6 +124,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.host.activity.MainActivity',
           matches: [
             '[text*="通知权限"][visibleToUser=true]',
@@ -140,6 +145,7 @@ export default defineGkdApp({
       desc: '关闭[开免流送会员]弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.host.activity.MainActivity',
           matches: '[vid="host_iv_close"][visibleToUser=true]',

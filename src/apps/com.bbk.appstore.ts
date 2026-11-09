@@ -33,6 +33,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.upgrade.UpgradeNecessaryActivity',
           matches: '[text="跳过，进入首页"]',

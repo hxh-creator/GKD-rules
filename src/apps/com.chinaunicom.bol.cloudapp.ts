@@ -14,6 +14,7 @@ export default defineGkdApp({
       desc: '点击取消',
       rules: [
         {
+          key: 0,
           matches: '[vid="update_button_cancel"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/13998612',
         },

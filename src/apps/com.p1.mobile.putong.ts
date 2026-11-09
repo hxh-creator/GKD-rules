@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.core.newui.main.NewMainAct',
           matches:
             '@[vid="buttonDefaultNeutral"][clickable=true] > [text="取消"]',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.core.ui.seepage.likers.FakeLikersAct',
           matches: '[text="打开通知"] + [text="暂不设置"]',
           exampleUrls:

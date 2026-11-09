@@ -115,6 +115,7 @@ export default defineGkdApp({
           excludeSnapshotUrls: 'https://i.gkd.li/i/24875801',
         },
         {
+          key: 0,
           preKeys: [1],
           name: '执行返回操作',
           activityIds: '.biz.post.ShowAnswerActivity',
@@ -141,6 +142,7 @@ export default defineGkdApp({
       name: '功能类-自动点击查看原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.common.image.GalleryActivity',
           matches: '[vid="iv_item_bottom_ll"][visibleToUser=true]',
@@ -250,6 +252,7 @@ export default defineGkdApp({
       desc: '我们导师再也不卡壳啦',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionMaximum: 1,
           activityIds: '.openclass.biz.video.detail.VideoDetailActivity',
@@ -264,6 +267,7 @@ export default defineGkdApp({
       desc: '显著提高讲师效率',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionCd: 300,
           actionMaximum: 2,
@@ -279,6 +283,7 @@ export default defineGkdApp({
       desc: '导师讲到冒烟不带停',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           actionCd: 300,
           actionMaximum: 3,

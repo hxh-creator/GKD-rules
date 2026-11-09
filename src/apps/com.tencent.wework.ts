@@ -70,6 +70,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           fastQuery: true,
           activityIds: 'com.tencent.wework.launch.WwMainActivity',
@@ -84,6 +85,7 @@ export default defineGkdApp({
       name: '权限提示-悬浮窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.tencent.wework.common.controller.DialogActivityUtil',

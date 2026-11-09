@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.unionpay.smartDG.activity.UPMainActivity',
           matches:
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.yd.saas.base.inner.interstitial.YdInterstitialActivity',

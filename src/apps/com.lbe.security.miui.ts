@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
           matches: '[text="仅在使用中允许"]',
@@ -30,6 +31,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: ['[text$="发送通知"]', '[text="拒绝"]'],
           exampleUrls:

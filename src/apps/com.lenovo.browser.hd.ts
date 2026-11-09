@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.zui.launcher.drawer.NormalLauncher',
           matches:
             '[text="发现新版本"] - * > [id="com.lenovo.browser.hd:id/fl_close"]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.zui.launcher.drawer.NormalLauncher',
           matches:
             '[text="开启消息通知"] +n * > [id="com.lenovo.browser.hd:id/tv_cancle"]',

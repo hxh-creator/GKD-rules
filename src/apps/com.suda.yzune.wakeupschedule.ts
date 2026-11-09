@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '评价提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.suda.yzune.wakeupschedule.schedule.ScheduleActivity',
@@ -22,6 +23,7 @@ export default defineGkdApp({
       name: '更新提示',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.suda.yzune.wakeupschedule.schedule.ScheduleActivity',

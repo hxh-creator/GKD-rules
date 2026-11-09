@@ -169,6 +169,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             '.lut.act.LutMainActivity',
             'com.xyhui.start.PUMainActivity',
@@ -188,6 +189,7 @@ export default defineGkdApp({
       name: '权限提示-通知权限',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.pu.activity.act.ActivityApplyResult',
           matches: ['[text^="打开系统消息通知"]', '[text="取消"]'],
@@ -235,6 +237,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/23303538',
         },
         {
+          key: 3,
           preKeys: [2],
           name: '进入部落详情',
           fastQuery: true,

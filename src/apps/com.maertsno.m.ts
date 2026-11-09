@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'co.notix.interstitial.InterstitialActivity',
           matches: '[vid="tv_button"]',

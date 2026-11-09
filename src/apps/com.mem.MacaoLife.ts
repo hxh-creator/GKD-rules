@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.mem.life.ui.launch.LaunchActivity',
           matches: '[id="com.mem.MacaoLife:id/cancel"]',
           snapshotUrls: 'https://i.gkd.li/i/13350665',
@@ -24,6 +25,7 @@ export default defineGkdApp({
       name: '局部广告-浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mem.life.ui.home.HomeActivity',
           matches: '[id="com.mem.MacaoLife:id/close"]',

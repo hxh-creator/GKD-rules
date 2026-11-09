@@ -161,6 +161,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainTabActivity',
           matches: '@[text="不了，谢谢"] +4 [text="喜欢，给好评"]',
           snapshotUrls: 'https://i.gkd.li/i/13620220',
@@ -172,6 +173,7 @@ export default defineGkdApp({
       name: '功能类-自动点击查看原图',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sina.weibo.photoalbum.imageviewer.ImageViewer',
           matches: '@LinearLayout >3 [vid="tv_dialog_item"][text^="原图"]',
@@ -225,6 +227,7 @@ export default defineGkdApp({
       desc: '点击[一键签到]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.sina.weibo.supergroup.generic.GenericChannelActivity',
@@ -243,6 +246,7 @@ export default defineGkdApp({
       desc: '点击[取消]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.MainTabActivity',
           matches: ['[text^="猪手超话自动签到失败"]', '[text="取消"]'],
@@ -256,6 +260,7 @@ export default defineGkdApp({
       name: '功能类-关闭点赞时的验证',
       rules: [
         {
+          key: 0,
           activityIds: '.geetest.GeetCheckActivityForNet',
           matches:
             'Button[text^="关闭验证"][clickable=true][visibleToUser=true]',
@@ -270,6 +275,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.flowbusiness.commonpage.FlowCommonPageActivity',
           matches: '@[clickable=true] >2 [text="关注的人"][visibleToUser=true]',
@@ -297,6 +303,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matchRoot: true,
           matches: '[text$="不感兴趣"][clickable=true]',
@@ -329,6 +336,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text$="不感兴趣"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/4d35d427-f6ab-42bf-a369-65c5b602fcdf',

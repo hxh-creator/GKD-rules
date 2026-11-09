@@ -13,6 +13,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.zui.launcher.drawer.NormalLauncher',
           matches:
             '@[id="com.lenovo.leos.appstore:id/dialog_cancel"] + [text$="版本更新"]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activities.NotificationGuideActivity',
           matches: ['[text$="打开应用中心通知"]', '[text="知道了"]'],
           snapshotUrls: 'https://i.gkd.li/i/13401991',

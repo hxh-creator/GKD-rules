@@ -95,6 +95,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           name: '点击[允许]',
           matches: '[text="允许"][visibleToUser=true]',
@@ -114,6 +115,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           position: {
             left: 'width * 0.3511',
@@ -134,6 +136,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.miui.packageInstaller.ui.InstallPrepareAlertActivity',
@@ -193,6 +196,7 @@ export default defineGkdApp({
       name: '功能类-自动勾选[已了解此应用存在风险]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.miui.packageInstaller.NewInstallerPrepareActivity',
           matches:

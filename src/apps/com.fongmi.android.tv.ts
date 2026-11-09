@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.ui.activity.MainActivity',
           matches:
             '[id="com.fongmi.android.tv:id/buttonPanel"] >2 [text="取消"]',

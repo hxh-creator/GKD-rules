@@ -108,6 +108,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.kugou.android.app.MediaActivity',
           matches: '@ImageView - * > [text="立即升级"]',
           snapshotUrls: 'https://i.gkd.li/i/14622566',
@@ -186,6 +187,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/25020531',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="关闭这条广告"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/25020623',

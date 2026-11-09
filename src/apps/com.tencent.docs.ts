@@ -32,6 +32,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.DocsFlutterActivity',
           matches: '@[desc="暂不更新"] + [desc="现在更新"]',
           snapshotUrls: 'https://i.gkd.li/i/13198091',
@@ -43,6 +44,7 @@ export default defineGkdApp({
       name: '局部广告-卡片广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.docs.DocsFlutterActivity',
           matches: '@ImageView[clickable=true] - [desc="限时购买"]',
           snapshotUrls: 'https://i.gkd.li/i/13198097',
@@ -54,6 +56,7 @@ export default defineGkdApp({
       name: '全屏广告-弹窗广告',
       rules: [
         {
+          key: 0,
           actionDelay: 200,
           activityIds: 'com.tencent.docs.DocsFlutterActivity',
           matches:

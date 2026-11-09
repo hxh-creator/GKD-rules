@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.widget.MyAlertDialog',
             '.login.MainGroupActivity',
@@ -41,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             '.login.StartActivity',
             'com.example.advertisement_business.advertisement.AdvertisementActivity',
@@ -59,6 +61,7 @@ export default defineGkdApp({
       desc: '点击[已绑定，不再提示]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches: [
             '[text="课程提醒"][visibleToUser=true]',
@@ -74,6 +77,7 @@ export default defineGkdApp({
       name: '通知提示-AI分析',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.able.wisdomtree.course.course.studycourse.activity.StudyCourseVideoActivity',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtc.widget.phone.popup.activity.CustomActivity',
           matches: '[id="com.okii.watch.global:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13630943',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xtc.widget.phone.popup.activity.CustomActivity13',
           matches: '[id="com.okii.watch.global:id/photo_sensitive_close"]',
           exampleUrls:

@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '通知提示-公告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'io.dcloud.PandoraEntryActivity',
           matches: [

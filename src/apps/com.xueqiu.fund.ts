@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xueqiu.fund.commonlib.FundHomeActivityV2',
           matches: '[id="com.xueqiu.fund:id/image_cancel"]',

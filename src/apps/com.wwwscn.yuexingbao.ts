@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '扫码成功后点击[确认并解锁]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.ui.qrcode.ScanResultActivity',
           matches: ['[text="扫码成功"]', '[text="确认并解锁"]'],

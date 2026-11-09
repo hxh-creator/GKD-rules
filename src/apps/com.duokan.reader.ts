@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.duokan.reader.DkMainActivity',
           matches: '[id="com.duokan.reader:id/store_feed_layer_close"]',
           snapshotUrls: 'https://i.gkd.li/i/13248773',
@@ -40,6 +41,7 @@ export default defineGkdApp({
       desc: '小说页面下方出现的条形广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.duokan.reader.DkMainActivity',
           matches:
@@ -80,6 +82,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.DkMainActivity',
           matches:
             '[id="com.duokan.reader:id/general__common_dialog_view__button_frame"] >2 [text="以后再说"]',

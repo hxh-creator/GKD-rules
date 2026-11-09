@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bankcomm.module.biz.home.MainActivity',
           matches: '[vid="popup_close"]',
@@ -29,6 +30,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.bankcomm.module.biz.webcontainer.BCMHtml5Activity',
           matches:
             '[id = "com.bankcomm.Bankcomm:id/tvNotNow" && text = "暂不更新"]',
@@ -45,6 +47,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bankcomm.module.biz.home.MainActivity',
           matches: '[text="继续使用"]',

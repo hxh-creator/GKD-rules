@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.core.tramp.SplashActivity',
           matches: '[id="com.cnki.client:id/update_undo"]',
           snapshotUrls: 'https://i.gkd.li/i/12854857',

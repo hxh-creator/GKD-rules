@@ -35,6 +35,7 @@ export default defineGkdApp({
       name: '局部广告-首页-浮窗广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.wm.dmall.MainActivity',
           anyMatches: [
@@ -55,6 +56,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: [
             '[id="com.wm.dmall:id/update_confirm_btn"]',

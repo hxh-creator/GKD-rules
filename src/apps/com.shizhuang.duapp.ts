@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '关闭截屏时app弹出的分享弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.shizhuang.duapp.modules.product_detail.detailv4.ui.ProductDetailActivityV4',

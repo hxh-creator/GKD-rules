@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[不发送]/[拒绝]',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.google.android.finsky.protectdialogs.activity.PlayProtectDialogsActivity',
           matches:
@@ -64,6 +65,7 @@ export default defineGkdApp({
       desc: '点击[以后再说]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.google.android.finsky.billing.acquire.SheetUiBuilderHostActivity',
@@ -80,6 +82,7 @@ export default defineGkdApp({
       name: '通知提示-隐私政策更新',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.google.android.finsky.activities.MainActivity',
           matches: [

@@ -27,6 +27,7 @@ export default defineGkdApp({
           excludeSnapshotUrls: 'https://i.gkd.li/i/21202513', // 虚假跳过按钮
         },
         {
+          key: 2,
           preKeys: [0], // 处理开屏广告的第二段
           fastQuery: true,
           matches:

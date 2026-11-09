@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches:
             '@[text="取消"] < [id="com.coloros.phonemanager:id/buttonPanel"] > [text="更新"]',
           snapshotUrls: 'https://i.gkd.li/i/13194979',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.coloros.phonemanager.clear.ClearMainActivity',
           matches: '[vid="ad_close"][clickable=true]',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       desc: '点击忽略',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.oplus.phonemanager.virusdetect.VirusDialogActivity',
           matches: [

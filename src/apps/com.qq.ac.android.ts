@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-漫画阅读页面-左侧悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.qq.ac.android.reader.comic.ComicReaderActivity',
           matches:
             '[id="com.qq.ac.android:id/operation_ad_view"] > [id="com.qq.ac.android:id/btn_close"]',

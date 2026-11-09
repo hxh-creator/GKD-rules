@@ -39,6 +39,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[desc="我知道了"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/971c3631-a9cc-4aec-992e-6cf1166eea1b',

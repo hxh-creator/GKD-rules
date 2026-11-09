@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[我已知晓，并承诺本人使用]',
       rules: [
         {
+          key: 0,
           activityIds: 'io.dcloud.PandoraEntryActivity',
           matches: '[text="我已知晓，并承诺本人使用"]',
           exampleUrls:

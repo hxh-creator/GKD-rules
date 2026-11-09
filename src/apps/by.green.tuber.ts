@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-关闭底部播放横条',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             'ImageButton[desc="预览缩略图"] +2 LinearLayout > ImageButton + ImageButton[visibleToUser=true][clickable=true]',

@@ -42,6 +42,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.app.mainv2.view.MainActivity',
           matches: [
@@ -65,6 +66,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.app.mainv2.view.MainActivity',
           matches: [

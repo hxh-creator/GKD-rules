@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.activity.MainActivity',
           matches: '[text="以后再说"]',
           exampleUrls:
@@ -28,6 +29,7 @@ export default defineGkdApp({
       desc: '5秒后点击关闭广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.bokecc.dance.player.DancePlayActivity',
           matches: '[text="关闭广告"][clickable=true][visibleToUser=true]',
@@ -80,6 +82,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.activity.MainActivity',
           matches: ['[text="广告"]', '[vid="iv_close"]'],

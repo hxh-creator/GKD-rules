@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'ctrip.android.publicproduct.home.view.CtripHomeActivity',
           matches:

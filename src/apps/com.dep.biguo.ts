@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.dialog',
           matches: '@[text="取消"] +2 [text="立即更新"]',
           snapshotUrls: 'https://i.gkd.li/i/12708751',
@@ -26,6 +27,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dep.biguo.dialog',
           matches:
             '[id="com.dep.biguo:id/imageView"] + [id="com.dep.biguo:id/closeView"]',
@@ -40,6 +42,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.dep.biguo.mvp.ui.activity.MainActivity',
           matches: '[text*="定位权限"] +2 [text="拒绝"]',
           snapshotUrls: 'https://i.gkd.li/i/12708770',

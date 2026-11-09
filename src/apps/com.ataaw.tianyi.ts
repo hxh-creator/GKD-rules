@@ -11,7 +11,10 @@ export default defineGkdApp({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: ['[vid="version"]', '[vid="ignore"]'],
+      rules: [
+        { key: 0, matches: '[vid="version"]' },
+        { key: 1, matches: '[vid="ignore"]' },
+      ],
       snapshotUrls: 'https://i.gkd.li/i/13867468',
     },
   ],

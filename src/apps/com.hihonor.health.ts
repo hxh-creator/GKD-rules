@@ -26,6 +26,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.hihonor.health.main.MainActivity',
           matches: '[vid="btn_close"][desc="关闭弹窗"]',

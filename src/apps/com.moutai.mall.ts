@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.moutai.mall.MainActivity',
             'com.moutai.mall.module.splash.SplashActivity',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '@[id="com.moutai.mall:id/vClose"] - LinearLayout > [text*="开通消息通知"]',

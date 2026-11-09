@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds:
             'com.vdian.android.wdb.main.ui.activity.MainTabsActivity',
           matches:

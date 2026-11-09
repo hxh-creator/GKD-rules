@@ -39,6 +39,7 @@ export default defineGkdApp({
       activityIds: 'com.yxcorp.gifshow.HomeActivity',
       rules: [
         {
+          key: 0,
           matches:
             '[id="com.smile.gifmaker:id/pendant_mask_bg"] + [id="com.smile.gifmaker:id/pendant_close"][visibleToUser=true]',
           snapshotUrls: [
@@ -85,6 +86,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.yxcorp.gifshow.HomeActivity',
           matches: '@[vid="close"] +2 * > [text="喜欢就给个好评吧"]',
           exampleUrls:
@@ -98,6 +100,7 @@ export default defineGkdApp({
       name: '全屏广告-直播间广告',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           action: 'back',
           activityIds:
@@ -127,6 +130,7 @@ export default defineGkdApp({
           ],
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '@[clickable=true] > [text="重复出现"]',
           exampleUrls: 'https://e.gkd.li/a93df9c1-7abe-4bd0-9d7b-ca6cce5f2286',

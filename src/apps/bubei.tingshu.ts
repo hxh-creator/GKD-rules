@@ -28,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.home.ui.HomeActivity',
           matches: '[text="暂不升级"]',
           snapshotUrls: 'https://i.gkd.li/i/13545953',

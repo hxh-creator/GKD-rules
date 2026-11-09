@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '全屏广告',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches:
             '@Image[childCount=0][text.length>0] < View[childCount=1] - View[childCount=1] > [text="Customize Now"][visibleToUser=true]',

@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.luckin.client.main.FirstActivity',
           matches:
             '@ImageView[id="com.lucky.luckyclient:id/dismiss_btn"] - LinearLayout > ImageView[id="com.lucky.luckyclient:id/update_btn"]',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       desc: '关闭超值换购弹窗',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.lucky.luckyclient.preview2.OrderPreviewActivity2',
           matches:
@@ -39,6 +41,7 @@ export default defineGkdApp({
       desc: '按下返回键关闭优惠卷领取提示',
       rules: [
         {
+          key: 0,
           activityIds: 'com.luckin.client.main.FirstActivity',
           action: 'back',
           matches: '[id="com.lucky.luckyclient:id/webcontent"]',

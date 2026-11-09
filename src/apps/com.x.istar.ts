@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.x.istar.view.main.MainActivity',
           matches: '[text="关闭广告"][vid="btn_negative"]',

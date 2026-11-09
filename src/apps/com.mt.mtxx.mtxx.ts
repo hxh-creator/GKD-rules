@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[text="升级新版客户端"] - [text="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13238352',
         },
@@ -27,6 +28,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.mt.mtxx.mtxx.MainActivity',
           matches: '[vid="iv_close"][clickable=true][visibleToUser=true]',

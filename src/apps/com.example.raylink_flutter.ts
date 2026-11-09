@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '[desc="立即升级"] + [desc="以后再说"]',
           snapshotUrls: 'https://i.gkd.li/i/13659530',
@@ -44,6 +45,7 @@ export default defineGkdApp({
       name: '通知提示-首页反诈骗提示',
       rules: [
         {
+          key: 0,
           activityIds: 'com.remote.cn.MainActivity',
           matches:
             '[desc="允许远程本设备"] +2 View[childCount=1][index=parent.childCount.minus(1)] > ImageView[clickable=true][width<80 && height<80]',

@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.main.activity.MainActivity',
           matches: '[vid="upgrade_dialog_cancel"][!(text="退出应用")]',
           snapshotUrls: 'https://i.gkd.li/i/13840408',

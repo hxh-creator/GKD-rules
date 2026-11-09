@@ -14,6 +14,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches: '[vid="skip"][visibleToUser=true]',
           snapshotUrls: [
@@ -29,6 +30,7 @@ export default defineGkdApp({
       desc: '点击[是]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.sec.android.app.samsungapps.SearchResultActivity',
           matches:
@@ -45,6 +47,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.detail.activity.ContentDetailActivity',
           matches:

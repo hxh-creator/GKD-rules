@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.fitness.baseui.common.CommonBaseActivity',
           matches: [
             '[text="评分"][visibleToUser=true]',
@@ -33,6 +34,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xiaomi.fitness.main.MainActivity',
           matches:
             '[text="开启后台无限制"] + [id="com.mi.health:id/close_icon"]',
@@ -74,6 +76,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: [
             '[text="下载并安装" || text="立即更新"]',
             '[text="放弃更新" || text="取消"]',
@@ -90,6 +93,7 @@ export default defineGkdApp({
       name: '通知提示-公告栏',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.fitness.main.MainActivity',
           matches:
@@ -103,6 +107,7 @@ export default defineGkdApp({
       name: '权限提示-麦克风',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.xiaomi.fitness.baseui.common.CommonBaseActivity',
           matches:

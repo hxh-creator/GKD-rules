@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'back',
           matches: '[text^="发现新版本"]',
           snapshotUrls: 'https://i.gkd.li/i/15526571',

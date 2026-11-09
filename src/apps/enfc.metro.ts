@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击跳过',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'enfc.metro.session.web.rn.RPReactActivity',
           matches: '@View[clickable=true] - * [text="扭动手机"]',

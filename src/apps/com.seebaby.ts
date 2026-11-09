@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.login.ui.activity.LauncherActivity',
           matches: '@[id="com.seebaby:id/btn_later"] + [text$="新版本"]',
           snapshotUrls: 'https://i.gkd.li/i/12705351',
@@ -55,6 +56,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             'com.ranfeng.adranfengsdk.biz.activity.InterstitialActivity',

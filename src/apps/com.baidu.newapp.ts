@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.update.UpdateAlertActivity',
           matches: '[text="立即更新"] + [text="暂不升级"]',
           snapshotUrls: 'https://i.gkd.li/i/13360280',

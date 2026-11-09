@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.lphtsccft.zhangle.startup.SplashScreenActivity',
             'com.lphtsccft.zhangle.main.MainActivity',
@@ -50,6 +51,7 @@ export default defineGkdApp({
       name: '局部广告-右侧悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.lphtsccft.zhangle.main.MainActivity',
           matches: '[id="com.lphtsccft:id/home_float_close"]',
           snapshotUrls: 'https://i.gkd.li/i/12892821',

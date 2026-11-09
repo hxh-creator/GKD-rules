@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '点击[不]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.MainActivity',

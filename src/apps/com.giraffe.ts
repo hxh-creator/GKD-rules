@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.speed.shadowsocks.ui.main.MainActivity',
           matches: '[id="com.giraffe:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/14000409',

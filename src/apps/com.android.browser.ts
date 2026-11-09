@@ -10,6 +10,7 @@ export default defineGkdApp({
       activityIds: ['com.android.browser.BrowserActivity'],
       rules: [
         {
+          key: 0,
           matches:
             '@ImageView[id!=null][clickable=true] -2 [text="个性推荐获得更丰富内容"]',
           snapshotUrls: 'https://i.gkd.li/i/12829403',
@@ -51,6 +52,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.android.browser.BrowserActivity',
           matches: '[id="bnp_close_icon"][visibleToUser=true]',
           exampleUrls:
@@ -78,6 +80,7 @@ export default defineGkdApp({
           excludeSnapshotUrls: 'https://i.gkd.li/i/19718162',
         },
         {
+          key: 1,
           preKeys: [0],
           matches:
             '[vid="reading__close_ad_view__subtitle_tv"][visibleToUser=true]',

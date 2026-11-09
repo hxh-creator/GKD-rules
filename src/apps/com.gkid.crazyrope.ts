@@ -12,6 +12,7 @@ export default defineGkdApp({
       activityIds: 'com.gkid.crazyrope.ui.member.MemberDiscountsActivity',
       rules: [
         {
+          key: 0,
           matches: '[id="com.gkid.crazyrope:id/btn_close"][text="暂不需要"]',
           snapshotUrls: 'https://i.gkd.li/i/12916419',
         },
@@ -31,6 +32,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13262845',
         },
         {
+          key: 1,
           preKeys: [0],
           matches: '[text="关闭广告"]',
           exampleUrls: 'https://e.gkd.li/3d27d844-b552-4a0c-800b-3dc5790fb8c0',

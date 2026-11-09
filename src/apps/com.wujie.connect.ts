@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[vid="no_update_tv"]',
           snapshotUrls: 'https://i.gkd.li/i/14296122',
         },

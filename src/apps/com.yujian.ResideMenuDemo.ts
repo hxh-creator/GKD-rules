@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.yujian.MainActivity',
           matches:
             'TextView[id="com.yujian.ResideMenuDemo:id/btn_selectOther"]',

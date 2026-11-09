@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: '.MainActivity',
           matches: '@[text="下次再说"] + [text="立即升级"]',
           snapshotUrls: 'https://i.gkd.li/i/14332463',

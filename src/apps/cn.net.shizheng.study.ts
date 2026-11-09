@@ -12,6 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'cn.dingwei.cloud_classroom.MainActivity',
           matches:
             'View[childCount=2] > ImageView[id=""] + Button[id=""][clickable=true]',

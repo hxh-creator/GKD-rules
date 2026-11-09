@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '局部广告-悬浮广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.mocmna.activity.MainActivity',
           matches:
             'ViewGroup[childCount=2] > @ImageView[id!=null][clickable=true][childCount=0] + ImageView[childCount=0]',
@@ -25,6 +26,7 @@ export default defineGkdApp({
       name: '局部广告-信息流内嵌广告',
       rules: [
         {
+          key: 0,
           activityIds: 'com.tencent.mocmna.activity.MainActivity',
           matches:
             '@ImageView[clickable=true][childCount=0][index=parent.childCount.minus(1)] -5 [text="下载"]',

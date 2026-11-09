@@ -50,6 +50,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.sgcc.wsgw.rnbundle.activity.HomeReactActivity',
           matches: '@ImageView < ViewGroup -3 [text="有新版本啦!"]',
           snapshotUrls: 'https://i.gkd.li/i/13501638',

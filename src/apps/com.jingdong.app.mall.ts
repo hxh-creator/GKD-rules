@@ -38,6 +38,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jingdong.app.mall.MainFrameActivity',
           matches: '[id="com.jd.lib.cart.feature:id/iv_egg_close"]',
@@ -216,7 +217,7 @@ export default defineGkdApp({
       name: '功能类-京东账号登录授权',
       desc: '自动点击"确认登录"',
       activityIds: 'com.jingdong.app.mall.WebActivity',
-      rules: '[text="京东登录"] > [desc="确认登录"]',
+      rules: [{ key: 0, matches: '[text="京东登录"] > [desc="确认登录"]' }],
       snapshotUrls: 'https://i.gkd.li/i/12901734',
     },
     {
@@ -225,7 +226,7 @@ export default defineGkdApp({
       desc: '自动点击右上角"x"',
       activityIds:
         'com.jd.lib.settlement.fillorder.activity.NewFillOrderActivity',
-      rules: 'ImageView[clickable=true && desc="关闭"]',
+      rules: [{ key: 0, matches: 'ImageView[clickable=true && desc="关闭"]' }],
       snapshotUrls: 'https://i.gkd.li/i/13191146',
     },
     {
@@ -235,6 +236,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: 'com.jd.lib.cart.ShoppingCartNewActivity',
           matches: '@ImageView - ViewGroup >2 TextView[text="查看订单"]',
           snapshotUrls: 'https://i.gkd.li/i/13446362',
@@ -247,6 +249,7 @@ export default defineGkdApp({
       desc: '点击[继续逛]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'com.jd.lib.productdetail.ProductDetailActivity',
           matches: '[text="继续逛"]',
@@ -259,6 +262,7 @@ export default defineGkdApp({
       name: '功能类-支付订单后点击[完成]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             '.bundle.cashierfinish.view.CashierUserContentCompleteActivity',
@@ -276,6 +280,7 @@ export default defineGkdApp({
       resetMatch: 'activity',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds:
             'com.wangyin.payment.jdpaysdk.counter.ui.pay.CounterActivity',
@@ -292,6 +297,7 @@ export default defineGkdApp({
       desc: '订单已完成-点击全部订单信息',
       rules: [
         {
+          key: 0,
           actionMaximum: 1,
           resetMatch: 'match',
           fastQuery: true,

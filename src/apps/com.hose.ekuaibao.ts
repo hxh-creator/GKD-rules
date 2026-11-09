@@ -10,7 +10,7 @@ export default defineGkdApp({
       actionMaximum: 2,
       resetMatch: 'app',
       name: '局部广告-首页横幅广告',
-      rules: '[text="不感兴趣"][visibleToUser=true]',
+      rules: [{ key: 0, matches: '[text="不感兴趣"][visibleToUser=true]' }],
       snapshotUrls: [
         'https://i.gkd.li/i/12649616',
         'https://i.gkd.li/i/18455642',

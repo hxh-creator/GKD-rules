@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '功能类-流量模式点击[继续下载]',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: 'cn.nubia.neostore.WifiLimitActivity',
           matches: '[text="继续下载"][visibleToUser=true]',

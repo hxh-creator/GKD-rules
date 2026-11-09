@@ -13,6 +13,7 @@ export default defineGkdApp({
       priorityTime: 10000,
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matches:
             '[vid="tv_main_splash_skip" || vid="tv_skip"][visibleToUser=true]',

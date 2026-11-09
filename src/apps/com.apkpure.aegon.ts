@@ -14,6 +14,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           activityIds: 'com.apkpure.aegon.main.activity.MainTabActivity',
           matches:
             '@RelativeLayout[clickable=true][visibleToUser=true] - [text="精选必备好应用"] <2 RelativeLayout < LinearLayout < [id="android:id/content"]',
@@ -27,6 +28,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
+          key: 0,
           activityIds: [
             'com.apkpure.aegon.main.activity.MainTabActivity',
             'com.apkpure.aegon.main.activity.AppManagerActivity',
@@ -58,6 +60,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13466329',
         },
         {
+          key: 1,
           name: '点击关闭',
           preKeys: 0,
           matches:
@@ -75,6 +78,7 @@ export default defineGkdApp({
       desc: '下次添加',
       rules: [
         {
+          key: 0,
           activityIds: 'com.apkpure.aegon.main.activity.MainTabActivity',
           matches: '[id="com.apkpure.aegon:id/arg"][text="下次添加"]',
           snapshotUrls: 'https://i.gkd.li/i/13416401',
@@ -87,6 +91,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           matchTime: 10000,
           activityIds: '.main.activity.MainTabActivity',
@@ -135,6 +140,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: '.main.activity.MainTabActivity',
           matches:
@@ -172,6 +178,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           fastQuery: true,
           activityIds: [
             '.main.activity.MainTabActivity',

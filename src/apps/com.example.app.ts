@@ -13,6 +13,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           action: 'clickCenter', // clickNode 无响应
           activityIds: '.MainActivity',
           matches: '@Button[clickable=true] - [text^="看完等待"]',
