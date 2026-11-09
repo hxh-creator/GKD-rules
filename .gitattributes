@@ -1,0 +1,9 @@
+# 统一换行符为 LF, 避免跨平台 CRLF/LF 混淆
+* text=auto eol=lf
+
+# 二进制文件
+*.webp binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
