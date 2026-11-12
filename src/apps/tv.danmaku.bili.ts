@@ -397,7 +397,8 @@ export default defineGkdApp({
           anyMatches: [
             '@[vid="more" || vid="more_layout" || id="tv.danmaku.bili.adbiz:id/more" || id="tv.danmaku.bili.adbiz:id/more_layout"] <<n [vid="ad_tint_frame" || id="tv.danmaku.bili.adbiz:id/ad_tint_frame" || id="tv.danmaku.bili.adbiz:id/ad_tint_frame"][visibleToUser=true]', // 广告、推广
             '@[vid="more"] -(3,5) [vid="live_lottie_layout"][visibleToUser=true]', // 直播
-            '[!(vid="duration" || vid="second_to_last_line_area") || text="课堂"] <3 ViewGroup[getChild(0).vid="cover"] > [vid="more"][visibleToUser=true]', // 纪录片、课堂推广、游戏
+            // 不能按“无时长 + 首个子节点为 cover”判断推广卡: 普通 PGC/综艺推荐卡
+            // 也符合该结构, 点击其 more 会弹出“添加至稍后再看/不感兴趣”。
           ],
           exampleUrls: [
             'https://e.gkd.li/219c40c4-debf-40d8-889a-7eb39c87126c',
